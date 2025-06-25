@@ -10,9 +10,20 @@ export default function SpurlyLandingPage() {
           <Image
             src="/SpurlyBanner.png"
             alt="Spurly Banner"
-            width={800}
-            height={400}
-            className="w-full h-auto rounded-lg shadow-lg"
+            width={600}
+            height={233}
+            className="w-full h-auto"
+            priority
+          />
+        </div>
+
+        <div className="mb-12">
+          <Image
+            src="/SpurlyTagLine.png"
+            alt="Spurly Tag Line"
+            width={508}
+            height={46}
+            className="w-full h-auto"
             priority
           />
         </div>
@@ -20,7 +31,7 @@ export default function SpurlyLandingPage() {
         {/* Main Information Section */}
         <div className="mb-12">
           <p className="text-lg mb-6" style={{ color: '#102A43' }}>
-            spurly helps you find your own words, just faster. spurly is a contextually 
+            Spurly helps you find your own words, just faster. spurly is a contextually 
             informed AI messaging assistant, primarily designed to suggest messages for 
             text conversations. Here, &ldquo;contextually informed&rdquo; includes a wide range of 
             information. Examples include:
@@ -60,10 +71,10 @@ export default function SpurlyLandingPage() {
           <div className="grid md:grid-cols-2 gap-6">
             <div className="rounded-lg overflow-hidden shadow-lg">
               <Image
-                src="/SpurlyMainView.png"
+                src="/SpurlyContextView.png"
                 alt="Spurly Main View"
-                width={400}
-                height={800}
+                width={250}
+                height={542}
                 className="w-full h-auto"
               />
             </div>
@@ -71,8 +82,8 @@ export default function SpurlyLandingPage() {
               <Image
                 src="/SpurlySpurView.png"
                 alt="Spurly Spur View"
-                width={400}
-                height={800}
+                width={250}
+                height={542}
                 className="w-full h-auto"
               />
             </div>
