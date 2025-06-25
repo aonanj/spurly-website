@@ -81,24 +81,24 @@ export default function SpurlyLandingPage() {
         <br />
         <div className="flex flex-wrap justify-center items-center gap-8 mb-12">
           {/* Context View Image */}
-          <div className="relative w-full max-w-[250px] h-[542px]">
+          <div className="relative w-full max-w-[250px] h-[542px] border-2 border-[#627D98] rounded-lg shadow-md p-2 bg-white">
             <Image
               src="/SpurlyContextView.png"
               alt="Spurly Main View"
               width={250}
               height={542}
-              className="w-full h-auto"
+              className="w-full h-auto rounded-md"
             />
           </div>
 
           {/* Spur View Image */}
-          <div className="relative w-full max-w-[250px] h-[542px]">
+          <div className="relative w-full max-w-[250px] h-[542px] border-2 border-[#627D98] rounded-lg shadow-md p-2 bg-white">
             <Image
               src="/SpurlySpurView.png"
               alt="Spurly Spur View"
               width={250}
               height={542}
-              className="w-full h-auto"
+              className="w-full h-auto rounded-md"
             />
           </div>
         </div>
