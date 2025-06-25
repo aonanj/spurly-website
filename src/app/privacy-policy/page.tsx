@@ -2,15 +2,15 @@ import Image from 'next/image'
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Spurly – Privacy Policy',
-  description: 'Privacy Policy for Spurly mobile application by Phaethon Order LLC',
+  title: 'spurly – privacy policy',
+  description: 'privacy policy for spurly by phaethon order llc',
 }
 
 export default function PrivacyPolicy() {
   const currentYear = new Date().getFullYear()
 
   return (
-    <div className="min-h-screen flex flex-col bg-background text-[#102A43]">
+    <div className="min-h-screen flex flex-col bg-[#F0F4F8] text-[#102A43]">
       {/* Header */}
       <header className="bg-[#BCCCDC] py-8 px-4 text-center">
         <div className="relative w-full max-w-[450px] h-[174px] mx-auto">
@@ -207,7 +207,7 @@ export default function PrivacyPolicy() {
           className="object-contain mb-3 animate-bounce-gentle"
         />
         <span className="text-sm text-center">
-          &copy; {currentYear} spurly. phaethon order llc. all rights reserved.
+          &copy; {currentYear} phaethon order llc. all rights reserved.
         </span>
       </footer>
     </div>

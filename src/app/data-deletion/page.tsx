@@ -2,8 +2,8 @@
 import Image from 'next/image'
 
 export const metadata = {
-  title: 'Spurly – Privacy Policy',
-  description: 'Spurly Data Deletion Policy and Procedure'
+  title: 'spurly – data deletion policy and procedure',
+  description: 'data deletion policy and procedure for spurly by phaethon order llc',
 }
 
 export default function DataDeletionPage() {
@@ -41,7 +41,7 @@ export default function DataDeletionPage() {
         <ol className="list-decimal pl-6 mb-4 space-y-2">
           <li>
             Send an email to{' '}
-            <a href="mailto:admin@spurly.io" className="text-[#9BC7FF] hover:underline">
+            <a href="mailto:admin@spurly.io" className="text-[#9BC7FF] hover:text-[#3A506B] transition-colors hover:underline">
               admin@spurly.io
             </a>
             .
@@ -105,7 +105,7 @@ export default function DataDeletionPage() {
           <p className="font-bold mb-2">Contact Us</p>
           <p>
             For questions or concerns regarding this Policy, please contact us at{' '}
-            <a href="mailto:admin@spurly.io" className="text-[#9BC8FF] hover:underline">
+            <a href="mailto:admin@spurly.io" className="text-[#9BC7FF] hover:text-[#3A506B] transition-colors hover:underline">
               admin@spurly.io
             </a>
             .
@@ -124,7 +124,7 @@ export default function DataDeletionPage() {
           />
         </div>
         <span className="text-sm">
-          © {currentYear} spurly. phaethon order llc. all rights reserved.
+          © {currentYear} phaethon order llc. all rights reserved.
         </span>
       </footer>
     </div>

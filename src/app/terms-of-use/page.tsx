@@ -1,4 +1,6 @@
 import Image from 'next/image'
+import { Metadata } from 'next'
+
 
 export default function TermsOfUse() {
   const currentYear = new Date().getFullYear()
@@ -257,7 +259,7 @@ export default function TermsOfUse() {
           className="object-contain mb-2"
         />
         <span className="text-[#3A506B] text-center">
-          &copy; {currentYear} spurly. phaethon order llc. all rights reserved.
+          &copy; {currentYear} phaethon order llc. all rights reserved.
         </span>
       </footer>
     </div>
@@ -266,6 +268,6 @@ export default function TermsOfUse() {
 
 // Add metadata for SEO
 export const metadata = {
-  title: 'Spurly – Terms of Use',
-  description: 'Terms of Use for Spurly, a lifestyle application by Phaethon Order LLC',
+  title: 'spurly – terms of use',
+  description: 'terms of use for spurly, a lifestyle application by phaethon order llc',
 }
