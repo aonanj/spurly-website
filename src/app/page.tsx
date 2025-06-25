@@ -53,25 +53,25 @@ export default function SpurlyLandingPage() {
             <li className="flex items-start">
               <span className="mr-3 text-[#617D98]">•</span>
               <span className="text-[#617D98]">
-                a screenshot of a conversation (spurly can suggest responses)
+                screenshots of conversations (spurly can suggest responses)
               </span>
             </li>
             <li className="flex items-start">
               <span className="mr-3 text-[#617D98]">•</span>
               <span className="text-[#617D98]">
-                your own messaging history (spurly can learn your unique voice)
+                profile pics of a connection (spurly can infer personality traits and tailor suggestions to those)
               </span>
             </li>
             <li className="flex items-start">
               <span className="mr-3 text-[#617D98]">•</span>
               <span className="text-[#617D98]">
-                your calendar (spurly can help you schedule things)
+                screenshots of profiles (spurly can extract profile bios, prompt responses, etc., and use those to suggest messages)
               </span>
             </li>
             <li className="flex items-start">
               <span className="mr-3 text-[#617D98]">•</span>
               <span className="text-[#617D98]">
-                your contact list (spurly can help you manage your relationships)
+                anything you want to add about yourself (spurly can customize suggestions based on your preferences)
               </span>
             </li>
           </ul>
