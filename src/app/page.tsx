@@ -1,42 +1,102 @@
-import Image from "next/image";
+import Image from 'next/image'
+import Link from 'next/link'
 
-export default function Home() {
+export default function SpurlyLandingPage() {
   return (
-    <main className="min-h-screen bg-slate-900 text-white flex flex-col items-center justify-center px-6">
-      <div className="w-full max-w-4xl text-center py-20">
-        <h1 className="text-4xl sm:text-5xl font-extrabold mb-6 text-slate-100">
-          Spurly
-        </h1>
-        <p className="text-lg sm:text-xl text-slate-300 mb-10">
-          spurly helps you find your own words, just faster. spurly is a contextually informed AI messaging assistant, primarily designed to suggest messages for text conversations. Here, "contextually informed" includes a wide range of information. Examples include:
-          <ul>
-            <li>a screenshot of a conversation (spurly can suggest responses)</li>
-            <li>profile pics (spurly can infer personality traits to customize responses)</li>
-            <li>profile bio (spurly can incorporate relevant info in suggested responses)</li>
-            <li>info about you (spurly can personalize suggest responses to you)</li>
-          </ul>
-        </p>
-        <div className="mb-10">
+    <div className="min-h-screen" style={{ backgroundColor: '#BCCCDC' }}>
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        {/* Banner Image */}
+        <div className="mb-12">
           <Image
-            src="/spurlyMainView.png"
-            alt="App screenshot"
+            src="/SpurlyBanner.png"
+            alt="Spurly Banner"
             width={800}
-            height={450}
-            className="rounded-xl border border-slate-700 shadow-md"
+            height={400}
+            className="w-full h-auto rounded-lg shadow-lg"
+            priority
           />
         </div>
-        <a
-          href="https://testflight.apple.com/join/1ZkXa9s6"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-block bg-blue-500 hover:bg-blue-600 text-white text-lg font-semibold px-6 py-3 rounded-xl shadow-lg transition"
-        >
-          Join the TestFlight Beta
-        </a>
+
+        {/* Main Information Section */}
+        <div className="mb-12">
+          <p className="text-lg mb-6" style={{ color: '#102A43' }}>
+            spurly helps you find your own words, just faster. spurly is a contextually 
+            informed AI messaging assistant, primarily designed to suggest messages for 
+            text conversations. Here, "contextually informed" includes a wide range of 
+            information. Examples include:
+          </p>
+
+          {/* Features List */}
+          <ul className="space-y-4 ml-6">
+            <li className="flex items-start">
+              <span className="mr-3" style={{ color: '#627D98' }}>•</span>
+              <span style={{ color: '#627D98' }}>
+                a screenshot of a conversation (spurly can suggest responses)
+              </span>
+            </li>
+            <li className="flex items-start">
+              <span className="mr-3" style={{ color: '#627D98' }}>•</span>
+              <span style={{ color: '#627D98' }}>
+                profile pics (spurly can infer personality traits to customize responses)
+              </span>
+            </li>
+            <li className="flex items-start">
+              <span className="mr-3" style={{ color: '#627D98' }}>•</span>
+              <span style={{ color: '#627D98' }}>
+                profile bio (spurly can incorporate relevant info in suggested responses)
+              </span>
+            </li>
+            <li className="flex items-start">
+              <span className="mr-3" style={{ color: '#627D98' }}>•</span>
+              <span style={{ color: '#627D98' }}>
+                info about you (spurly can personalize suggested responses to you)
+              </span>
+            </li>
+          </ul>
+        </div>
+
+        {/* Screenshots Section */}
+        <div className="mb-12">
+          <div className="grid md:grid-cols-2 gap-6">
+            <div className="rounded-lg overflow-hidden shadow-lg">
+              <Image
+                src="/SpurlyMainView.png"
+                alt="Spurly Main View"
+                width={400}
+                height={800}
+                className="w-full h-auto"
+              />
+            </div>
+            <div className="rounded-lg overflow-hidden shadow-lg">
+              <Image
+                src="/SpurlySpurView.png"
+                alt="Spurly Spur View"
+                width={400}
+                height={800}
+                className="w-full h-auto"
+              />
+            </div>
+          </div>
+        </div>
+
+        {/* TestFlight Link */}
+        <div className="text-center mb-16">
+          <Link
+            href="https://testflight.apple.com/join/1ZkXa9s6"
+            className="inline-block px-8 py-4 rounded-full font-semibold text-white transition-all hover:scale-105 shadow-lg"
+            style={{ backgroundColor: '#102A43' }}
+          >
+            Join the TestFlight Beta
+          </Link>
+        </div>
+
+        {/* Footer */}
+        <footer className="text-center py-8 border-t" style={{ borderColor: '#627D98' }}>
+          <p style={{ color: '#627D98' }}>
+            copyright 2025. phaethon order llc. all rights reserved.
+          </p>
+        </footer>
       </div>
-      <footer className="text-sm text-slate-500 pt-10">
-        &copy; {new Date().getFullYear()} phaethon order llc. all rights reserved.
-      </footer>
-    </main>
-  );
+    </div>
+  )
 }
