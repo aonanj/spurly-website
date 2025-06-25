@@ -22,7 +22,7 @@ export default function SpurlyLandingPage() {
           <p className="text-lg mb-6" style={{ color: '#102A43' }}>
             spurly helps you find your own words, just faster. spurly is a contextually 
             informed AI messaging assistant, primarily designed to suggest messages for 
-            text conversations. Here, "contextually informed" includes a wide range of 
+            text conversations. Here, &ldquo;contextually informed&rdquo; includes a wide range of 
             information. Examples include:
           </p>
 
