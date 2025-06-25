@@ -1,0 +1,271 @@
+import Image from 'next/image'
+
+export default function TermsOfUse() {
+  const currentYear = new Date().getFullYear()
+
+  return (
+    <div className="min-h-screen flex flex-col bg-[#F0F4F8]">
+      {/* Header */}
+      <header className="bg-[#BCCCDC] py-8 px-4 text-center">
+        <div className="max-w-[450px] mx-auto">
+          <Image
+            src="/SpurlyBanner.png"
+            alt="Spurly banner logo"
+            width={450}
+            height={174}
+            className="w-full h-auto object-contain"
+            priority
+          />
+        </div>
+      </header>
+
+      {/* Main Content */}
+      <main className="flex-1 p-8 max-w-4xl w-full mx-auto">
+        <h2 className="text-[#3A506B] text-center text-3xl font-bold mb-6">
+          SPURLY TERMS OF USE
+        </h2>
+
+        <p className="text-[#102A43]/80 mb-4">
+          <strong>Effective Date:</strong> June 4, 2025
+        </p>
+
+        <p className="text-[#3A506B] mb-4">
+          Welcome to Spurly, a lifestyle application developed and operated by Phaethon Order LLC 
+          ("Company," "we," "us," or "our"). These Terms of Use ("Terms") govern your use of the 
+          Spurly mobile application and related services (collectively, the "Service").
+        </p>
+
+        <p className="text-[#3A506B] mb-4">
+          By downloading, installing, or using Spurly, you agree to be bound by these Terms. 
+          If you do not agree to these Terms, do not use the Service.
+        </p>
+
+        <h3 className="text-[#3A506B] text-xl font-semibold mt-6 mb-3">1. ACCEPTANCE OF TERMS</h3>
+        <p className="text-[#3A506B] mb-4">
+          By accessing or using Spurly, you acknowledge that you have read, understood, and agree 
+          to be bound by these Terms and our Privacy Policy. These Terms constitute a legally 
+          binding agreement between you and Phaethon Order LLC.
+        </p>
+
+        <h3 className="text-[#3A506B] text-xl font-semibold mt-6 mb-3">2. DESCRIPTION OF SERVICE</h3>
+        <p className="text-[#3A506B] mb-4">
+          Spurly is a lifestyle application designed for entertainment purposes only. The Service 
+          uses artificial intelligence (AI) and large language models (LLMs) to generate message 
+          suggestions that users may choose to use in dating applications or other contexts.
+        </p>
+        <p className="text-[#3A506B] mb-4">
+          <strong>IMPORTANT:</strong> Spurly is intended solely for entertainment and is not 
+          intended to provide professional advice of any kind, including but not limited to 
+          relationship counseling, dating advice, or therapeutic guidance.
+        </p>
+
+        <h3 className="text-[#3A506B] text-xl font-semibold mt-6 mb-3">3. ELIGIBILITY</h3>
+        <p className="text-[#3A506B] mb-4">
+          You must be at least 18 years old to use Spurly. By using the Service, you represent 
+          and warrant that you are at least 18 years of age and have the legal capacity to enter 
+          into these Terms.
+        </p>
+
+        <h3 className="text-[#3A506B] text-xl font-semibold mt-6 mb-3">4. USER ACCOUNTS AND DATA</h3>
+        
+        <h4 className="text-[#3A506B] font-semibold mt-4 mb-2">4.1 Account Creation</h4>
+        <p className="text-[#3A506B] mb-4">
+          You may be required to create an account to use certain features of Spurly. You are 
+          responsible for maintaining the confidentiality of your account credentials and for 
+          all activities that occur under your account.
+        </p>
+
+        <h4 className="text-[#3A506B] font-semibold mt-4 mb-2">4.2 Data Storage and Security</h4>
+        <p className="text-[#3A506B] mb-4">
+          We store user data using Google Firebase Firestore, which provides industry-standard 
+          security measures. However, no method of transmission over the internet or electronic 
+          storage is 100% secure.
+        </p>
+
+        <h4 className="text-[#3A506B] font-semibold mt-4 mb-2">4.3 Data Transmission to Third Parties</h4>
+        <p className="text-[#3A506B] mb-4">
+          By using Spurly, you acknowledge and agree that some user data may be transmitted to 
+          third-party LLM providers to generate message suggestions. Once data is transmitted 
+          outside of our direct control, Phaethon Order LLC cannot be held liable for the 
+          handling, storage, or security of such data by third parties.
+        </p>
+
+        <h3 className="text-[#3A506B] text-xl font-semibold mt-6 mb-3">5. ACCEPTABLE USE</h3>
+        <p className="text-[#3A506B] mb-4">You agree to use Spurly only for lawful purposes and in accordance with these Terms. You agree NOT to:</p>
+        <ul className="text-[#3A506B] list-disc pl-6 mb-4 space-y-1">
+          <li>Use the Service for any illegal, harmful, or fraudulent purpose</li>
+          <li>Attempt to gain unauthorized access to the Service or its related systems</li>
+          <li>Transmit any harmful, offensive, or inappropriate content through the Service</li>
+          <li>Use the Service to harass, abuse, or harm others</li>
+          <li>Violate any applicable laws or regulations while using the Service</li>
+          <li>Attempt to reverse engineer, decompile, or disassemble the Service</li>
+          <li>Use the Service for any commercial, for-profit, or trade purposes</li>
+        </ul>
+
+        <h3 className="text-[#3A506B] text-xl font-semibold mt-6 mb-3">6. GENERATED CONTENT AND SUGGESTIONS</h3>
+
+        <h4 className="text-[#3A506B] font-semibold mt-4 mb-2">6.1 AI-Generated Content</h4>
+        <p className="text-[#3A506B] mb-4">
+          All message suggestions generated by Spurly are produced by artificial intelligence 
+          and should be considered entertainment only. The Company does not endorse, guarantee, 
+          or take responsibility for any AI-generated content.
+        </p>
+
+        <h4 className="text-[#3A506B] font-semibold mt-4 mb-2">6.2 User Responsibility</h4>
+        <p className="text-[#3A506B] mb-4">
+          You are solely responsible for how you use any suggestions generated by Spurly. 
+          The Company is not liable for any consequences arising from your use of generated 
+          content, including but not limited to:
+        </p>
+        <ul className="text-[#3A506B] list-disc pl-6 mb-4 space-y-1">
+          <li>Relationship outcomes</li>
+          <li>Social interactions</li>
+          <li>Third-party reactions</li>
+          <li>Personal or professional consequences</li>
+        </ul>
+
+        <h4 className="text-[#3A506B] font-semibold mt-4 mb-2">6.3 No Guarantees</h4>
+        <p className="text-[#3A506B] mb-4">
+          We make no representations or warranties about the effectiveness, appropriateness, 
+          or success of using AI-generated suggestions in any context.
+        </p>
+
+        <h3 className="text-[#3A506B] text-xl font-semibold mt-6 mb-3">7. INTELLECTUAL PROPERTY</h3>
+        <p className="text-[#3A506B] mb-4">
+          The Spurly application, including its design, functionality, and underlying technology, 
+          is owned by Phaethon Order LLC and is protected by intellectual property laws. You are 
+          granted a limited, non-exclusive, non-transferable license to use the Service for 
+          personal, non-commercial purposes.
+        </p>
+
+        <h3 className="text-[#3A506B] text-xl font-semibold mt-6 mb-3">8. PRIVACY</h3>
+        <p className="text-[#3A506B] mb-4">
+          Your privacy is important to us. Please review our Privacy Policy, which explains how 
+          we collect, use, and protect your information. By using Spurly, you consent to the 
+          collection and use of your information as described in our Privacy Policy.
+        </p>
+
+        <h3 className="text-[#3A506B] text-xl font-semibold mt-6 mb-3">9. DISCLAIMERS</h3>
+
+        <h4 className="text-[#3A506B] font-semibold mt-4 mb-2">9.1 Entertainment Purposes Only</h4>
+        <p className="text-[#3A506B] mb-4 uppercase">
+          SPURLY IS PROVIDED FOR ENTERTAINMENT PURPOSES ONLY. THE SERVICE IS NOT INTENDED TO 
+          PROVIDE PROFESSIONAL ADVICE, INCLUDING BUT NOT LIMITED TO RELATIONSHIP, DATING, 
+          THERAPEUTIC, OR COUNSELING ADVICE.
+        </p>
+
+        <h4 className="text-[#3A506B] font-semibold mt-4 mb-2">9.2 No Warranties</h4>
+        <p className="text-[#3A506B] mb-4 uppercase">
+          THE SERVICE IS PROVIDED "AS IS" AND "AS AVAILABLE" WITHOUT WARRANTIES OF ANY KIND, 
+          EITHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO IMPLIED WARRANTIES OF 
+          MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR NON-INFRINGEMENT.
+        </p>
+
+        <h4 className="text-[#3A506B] font-semibold mt-4 mb-2">9.3 Third-Party Services</h4>
+        <p className="text-[#3A506B] mb-4">
+          We are not responsible for the availability, content, or practices of any third-party 
+          services, including dating applications where you may choose to use generated suggestions.
+        </p>
+
+        <h3 className="text-[#3A506B] text-xl font-semibold mt-6 mb-3">10. LIMITATION OF LIABILITY</h3>
+        <p className="text-[#3A506B] mb-4 uppercase">
+          TO THE MAXIMUM EXTENT PERMITTED BY LAW, PHAETHON ORDER LLC AND ITS MEMBER(S) SHALL 
+          NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE 
+          DAMAGES, INCLUDING BUT NOT LIMITED TO LOSS OF PROFITS, DATA, OR USE, ARISING OUT 
+          OF OR RELATING TO YOUR USE OF SPURLY.
+        </p>
+        <p className="text-[#3A506B] mb-4 uppercase">
+          IN NO EVENT SHALL OUR TOTAL LIABILITY TO YOU EXCEED THE AMOUNT YOU HAVE PAID TO US 
+          FOR THE SERVICE IN THE TWELVE (12) MONTHS PRECEDING THE CLAIM.
+        </p>
+
+        <h3 className="text-[#3A506B] text-xl font-semibold mt-6 mb-3">11. INDEMNIFICATION</h3>
+        <p className="text-[#3A506B] mb-4">
+          You agree to indemnify, defend, and hold harmless Phaethon Order LLC and its officers, 
+          directors, managers, members, employees, and agents from and against any claims, damages, 
+          losses, costs, and expenses (including reasonable attorneys' fees) arising out of or 
+          relating to your use of the Service or violation of these Terms.
+        </p>
+
+        <h3 className="text-[#3A506B] text-xl font-semibold mt-6 mb-3">12. DATA TRANSMISSION DISCLAIMER</h3>
+        <p className="text-[#3A506B] mb-4">You acknowledge and agree that:</p>
+        <ul className="text-[#3A506B] list-disc pl-6 mb-4 space-y-1">
+          <li>Some user data may be transmitted to third-party LLM providers.</li>
+          <li>We cannot control how third parties handle your data once transmitted.</li>
+          <li>Neither Phaethon Order LLC nor its Member(s) shall be liable for any data handling by third parties.</li>
+          <li>You use the Service at your own risk regarding data transmission.</li>
+        </ul>
+
+        <h3 className="text-[#3A506B] text-xl font-semibold mt-6 mb-3">13. TERMINATION</h3>
+        <p className="text-[#3A506B] mb-4">
+          We may terminate or suspend your access to Spurly at any time, with or without cause 
+          or notice. Upon termination, your right to use the Service will cease immediately.
+        </p>
+
+        <h3 className="text-[#3A506B] text-xl font-semibold mt-6 mb-3">14. MODIFICATIONS TO TERMS</h3>
+        <p className="text-[#3A506B] mb-4">
+          We reserve the right to modify these Terms at any time. We will notify you of any 
+          material changes by posting the updated Terms within the app or by other reasonable 
+          means. Your continued use of the Service after such changes constitutes acceptance 
+          of the modified Terms.
+        </p>
+
+        <h3 className="text-[#3A506B] text-xl font-semibold mt-6 mb-3">15. GOVERNING LAW</h3>
+        <p className="text-[#3A506B] mb-4">
+          These Terms shall be governed by and construed in accordance with the applicable laws 
+          of the State of California and applicable federal laws, without regard to conflict of 
+          law principles.
+        </p>
+        <p className="text-[#3A506B] mb-4">We reserve the right to change venue.</p>
+
+        <h3 className="text-[#3A506B] text-xl font-semibold mt-6 mb-3">16. SEVERABILITY</h3>
+        <p className="text-[#3A506B] mb-4">
+          If any provision of these Terms is found to be unenforceable or invalid, that provision 
+          will be limited or eliminated to the minimum extent necessary so that these Terms will 
+          otherwise remain in full force and effect.
+        </p>
+
+        <h3 className="text-[#3A506B] text-xl font-semibold mt-6 mb-3">17. ENTIRE AGREEMENT</h3>
+        <p className="text-[#3A506B] mb-4">
+          These Terms, together with our Privacy Policy, constitute the entire agreement between 
+          you and Phaethon Order LLC regarding the use of Spurly.
+        </p>
+
+        <h3 className="text-[#3A506B] text-xl font-semibold mt-6 mb-3">18. CONTACT INFORMATION</h3>
+        <p className="text-[#3A506B] mb-4">If you have any questions about these Terms, please contact us at:</p>
+        <p className="text-[#3A506B] mb-4">
+          <strong>Phaethon Order LLC</strong><br />
+          <a href="mailto:admin@spurly.io" className="text-[#9BC7FF] hover:text-[#3A506B] transition-colors hover:underline">
+            admin@spurly.io
+          </a>
+        </p>
+
+        <hr className="my-6 border-gray-300" />
+
+        <p className="text-[#3A506B] mb-4">
+          <strong>Last Updated:</strong> June 4, 2025
+        </p>
+      </main>
+
+      {/* Footer */}
+      <footer className="bg-[#BCCCDC] flex flex-col items-center justify-center p-4 text-[#627D98]">
+        <Image
+          src="/SpurlyAppIcon.png"
+          alt="Spurly app logo"
+          width={64}
+          height={64}
+          className="object-contain mb-2"
+        />
+        <span className="text-[#3A506B] text-center">
+          &copy; {currentYear} spurly. phaethon order llc. all rights reserved.
+        </span>
+      </footer>
+    </div>
+  )
+}
+
+// Add metadata for SEO
+export const metadata = {
+  title: 'Spurly – Terms of Use',
+  description: 'Terms of Use for Spurly, a lifestyle application by Phaethon Order LLC',
+}
