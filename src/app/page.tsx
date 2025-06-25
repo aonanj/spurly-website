@@ -24,7 +24,7 @@ export default function SpurlyLandingPage() {
             priority
           />
         </div>
-
+        <br />
         <div className="relative w-full max-w-[350px] h-[32px] mx-auto bg-[#BCCCDC]">
           <Image
             src="/SpurlyTagLine.png"
