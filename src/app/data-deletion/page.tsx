@@ -46,7 +46,7 @@ export default function DataDeletionPage() {
             </a>
             .
           </li>
-          <li>Use the subject line: "Data Deletion Request".</li>
+          <li>Use the subject line: &ldquo;Data Deletion Request&rdquo;.</li>
           <li>
             In the body of the email, please include your name and email address 
             associated with your spurly account.

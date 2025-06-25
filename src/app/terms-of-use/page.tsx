@@ -31,8 +31,8 @@ export default function TermsOfUse() {
 
         <p className="text-[#3A506B] mb-4">
           Welcome to Spurly, a lifestyle application developed and operated by Phaethon Order LLC 
-          ("Company," "we," "us," or "our"). These Terms of Use ("Terms") govern your use of the 
-          Spurly mobile application and related services (collectively, the "Service").
+          (&ldquo;Company&rdquo;, &ldquo;we&rdquo;, &ldquo;us&rdquo;, or &ldquo;our&rdquo;). These Terms of Use (&ldquo;Terms&rdquo;) govern your use of the 
+          Spurly mobile application and related services (collectively, the &ldquo;Service&rdquo;).
         </p>
 
         <p className="text-[#3A506B] mb-4">
@@ -156,7 +156,7 @@ export default function TermsOfUse() {
 
         <h4 className="text-[#3A506B] font-semibold mt-4 mb-2">9.2 No Warranties</h4>
         <p className="text-[#3A506B] mb-4 uppercase">
-          THE SERVICE IS PROVIDED "AS IS" AND "AS AVAILABLE" WITHOUT WARRANTIES OF ANY KIND, 
+          THE SERVICE IS PROVIDED &ldquo;AS IS&rdquo; AND &ldquo;AS AVAILABLE&rdquo; WITHOUT WARRANTIES OF ANY KIND, 
           EITHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO IMPLIED WARRANTIES OF 
           MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR NON-INFRINGEMENT.
         </p>
@@ -183,7 +183,7 @@ export default function TermsOfUse() {
         <p className="text-[#3A506B] mb-4">
           You agree to indemnify, defend, and hold harmless Phaethon Order LLC and its officers, 
           directors, managers, members, employees, and agents from and against any claims, damages, 
-          losses, costs, and expenses (including reasonable attorneys' fees) arising out of or 
+          losses, costs, and expenses (including reasonable attorneys&apos; fees) arising out of or 
           relating to your use of the Service or violation of these Terms.
         </p>
 
