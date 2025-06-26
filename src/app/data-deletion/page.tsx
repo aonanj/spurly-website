@@ -49,12 +49,18 @@ export default function DataDeletionPage() {
           </li>
           <li>Use the subject line: &ldquo;Data Deletion Request&rdquo;.</li>
           <li>
-            In the body of the email, please include your name and email address 
-            associated with your spurly account.
+            In the body of the email, please include:
+            <ol className="list-[lower-alpha] pl-6 mt-2 space-y-1 text-sm">
+              <li>The email address associated with your spurly account</li>
+              <li>An explicit statement requesting the deletion of your data, such as "please delete the account associated with this email address and all related data from spurly."</li>
+            </ol>
           </li>
           <li>
             If you use a third-party provider to sign on to spurly, please identify 
             that provider: Apple, Google, or Facebook.
+            <ol className="list-[lower-alpha] pl-6 mt-2 space-y-1 text-sm">
+              <li>IMPORTANT: If you sign in with Apple and use Hide My Email, you must provide the Apple-generated random email address, which is the email address associated with your spurly account. Failure to provide the exact email address associated with your spurly account will prevent deletion of your data.</li>
+            </ol>
           </li>
         </ol>
 
@@ -66,7 +72,7 @@ export default function DataDeletionPage() {
           </p>
           
           <p>
-            Failure to follow these instructions or provide accurate and complete 
+            Failure to follow these instructions or to provide accurate and complete 
             information allowing us to identify your account may prevent the deletion 
             of your data as requested.
           </p>
@@ -74,7 +80,7 @@ export default function DataDeletionPage() {
           <p>
             We are not responsible for informing you of any omission, error, or other 
             failure to follow these instructions that could prevent the deletion of 
-            your data.
+            your data. If you do not receive a confirmation email within 30 days, please submit your request again, ensuring that the email address associated with your spurly account is correct. 
           </p>
         </div>
 
@@ -83,15 +89,14 @@ export default function DataDeletionPage() {
           <p className="mb-4">
             When you joined spurly, you acknowledged that some or all of the data we 
             collected from you would be shared with one or more third-party service 
-            providers.
+            providers for the purpose of generating personalized content (spurly does not collect or share any personal information for any other purpose, such as advertising or marketing).
           </p>
           <p className="mb-4">
-            These service providers include Apple, Facebook, Google, and OpenAI. A 
-            request to delete your data from spurly will not affect the data stored 
-            with those other service provides.
+            These service providers include Apple (if used for sign in or subscription), Facebook (only if used for sign in), Google (for authentication and secure storage), and OpenAI (for AI functionality through one or more of its gpt models). We have no control of, access to, or information about your data at these third-party service providers. Accordingly, a request to delete your data from spurly will not affect your data stored 
+            with those other service providers (if any). Please contact those providers directly if you wish to delete your data with them.
           </p>
           <p>
-            We are not responsible for contact any third-party providers on your 
+            We are not responsible for contacting any third-party providers on your 
             behalf. Please submit requests to delete your data directly to those 
             providers.
           </p>
