@@ -52,7 +52,7 @@ export default function DataDeletionPage() {
             In the body of the email, please include:
             <ol className="list-[lower-alpha] pl-6 mt-2 space-y-1 text-sm">
               <li>The email address associated with your spurly account</li>
-              <li>An explicit statement requesting the deletion of your data, such as "please delete the account associated with this email address and all related data from spurly."</li>
+              <li>An explicit statement requesting the deletion of your data, such as &ldquo;please delete the account associated with this email address and all related data from spurly.&rdquo;</li>
             </ol>
           </li>
           <li>
