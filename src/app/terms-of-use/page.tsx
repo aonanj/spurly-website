@@ -281,7 +281,7 @@ export default function TermsOfUse() {
             className="object-contain mb-2"
           />
           <span className="text-[#3A506B] text-center">
-            &copy; {currentYear} phaethon order llc. all rights reserved.
+            &copy; {currentYear} Phaethon Order LLC. All rights reserved.
           </span>
         </footer>
     </div>
@@ -290,6 +290,6 @@ export default function TermsOfUse() {
 
 // Add metadata for SEO
 export const metadata = {
-  title: 'spurly – terms of use',
-  description: 'terms of use for spurly, a lifestyle application by phaethon order llc',
+  title: 'Spurly – Terms of Use',
+  description: 'Terms of Use for Spurly, a lifestyle application by Phaethon Order LLC',
 }

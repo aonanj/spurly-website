@@ -3,8 +3,8 @@ import Link from 'next/link'
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'spurly - contextually informed AI messaging assistant',
-  description: 'find your own words, faster. with spurly. spurly is a contextually informed AI messaging assistant designed to suggest messages.',
+  title: 'Spurly - Contextually informed AI messaging assistant',
+  description: 'Find your own words, faster. with Spurly. Spurly is a contextually informed AI messaging assistant designed to suggest messages.',
   keywords: ['AI', 'messaging', 'assistant', 'text', 'conversation', 'contextual'],
 }
 
@@ -53,25 +53,25 @@ export default function SpurlyLandingPage() {
             <li className="flex items-start">
               <span className="mr-3 text-[#617D98]">•</span>
               <span className="text-[#617D98]">
-                screenshots of conversations (spurly can suggest responses)
+                Screenshots of conversations (Spurly can suggest responses)
               </span>
             </li>
             <li className="flex items-start">
               <span className="mr-3 text-[#617D98]">•</span>
               <span className="text-[#617D98]">
-                profile pics of a connection (spurly can infer personality traits and tailor suggestions to those)
+                Profile pics of a connection (Spurly can infer personality traits and tailor suggestions to those)
               </span>
             </li>
             <li className="flex items-start">
               <span className="mr-3 text-[#617D98]">•</span>
               <span className="text-[#617D98]">
-                screenshots of profiles (spurly can extract profile bios, prompt responses, etc., and use those to suggest messages)
+                Screenshots of profiles (Spurly can extract profile bios, prompt responses, etc., and use those to suggest messages)
               </span>
             </li>
             <li className="flex items-start">
               <span className="mr-3 text-[#617D98]">•</span>
               <span className="text-[#617D98]">
-                anything you want to add about yourself (spurly can customize suggestions based on your preferences)
+                Anything you want to add about yourself (Spurly can customize suggestions based on your preferences)
               </span>
             </li>
           </ul>
@@ -129,7 +129,7 @@ export default function SpurlyLandingPage() {
             className="object-contain mb-2"
           />
           <span className="text-[#3A506B] text-center">
-            &copy; {currentYear} phaethon order llc. all rights reserved.
+            &copy; {currentYear} Phaethon Order LLC. All rights reserved.
           </span>
         </footer>
       </div>
