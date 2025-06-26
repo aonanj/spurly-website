@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
@@ -198,18 +199,22 @@ export default function PrivacyPolicy() {
       </main>
 
       {/* Footer */}
-      <footer className="bg-[#BCCCDC] flex flex-col items-center justify-center p-6 text-[#102A43]">
-        <Image
-          src="/SpurlyAppIcon.png"
-          alt="Spurly app logo"
-          width={64}
-          height={64}
-          className="object-contain mb-3 animate-bounce-gentle"
-        />
-        <span className="text-sm text-center">
-          &copy; {currentYear} phaethon order llc. all rights reserved.
-        </span>
-      </footer>
+      <footer className="bg-[#BCCCDC] flex flex-col items-center justify-center p-4 text-[#627D98]">
+          <div className="mb-4">
+            <Link href="/terms-of-use" className="mx-2 text-[#FFFFFF] hover:text-[#3A506B] transition-colors hover:underline">Terms of Use</Link>
+            <Link href="/data-deletion" className="mx-2 text-[#FFFFFF] hover:text-[#3A506B] transition-colors hover:underline">Data Deletion</Link>
+          </div>
+          <Image
+            src="/SpurlyAppIcon.png"
+            alt="Spurly app logo"
+            width={64}
+            height={64}
+            className="object-contain mb-2"
+          />
+          <span className="text-[#3A506B] text-center">
+            &copy; {currentYear} phaethon order llc. all rights reserved.
+          </span>
+        </footer>
     </div>
   )
 }

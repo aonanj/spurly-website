@@ -1,5 +1,6 @@
 // app/data-deletion/page.js (or pages/data-deletion.js if using Pages Router)
 import Image from 'next/image'
+import Link from 'next/link'
 
 export const metadata = {
   title: 'spurly – data deletion policy and procedure',
@@ -114,19 +115,22 @@ export default function DataDeletionPage() {
       </main>
 
       {/* Footer */}
-      <footer className="bg-[#BCCCDC] flex flex-col items-center justify-center p-4 text-[#102A43]">
-        <div className="relative w-16 h-16 mb-2">
+      <footer className="bg-[#BCCCDC] flex flex-col items-center justify-center p-4 text-[#627D98]">
+          <div className="mb-4">
+            <Link href="/privacy-policy" className="mx-2 text-[#FFFFFF] hover:text-[#3A506B] transition-colors hover:underline">Privacy Policy</Link>
+            <Link href="/terms-of-use" className="mx-2 text-[#FFFFFF] hover:text-[#3A506B] transition-colors hover:underline">Terms of Use</Link>
+          </div>
           <Image
             src="/SpurlyAppIcon.png"
             alt="Spurly app logo"
-            fill
-            className="object-contain"
+            width={64}
+            height={64}
+            className="object-contain mb-2"
           />
-        </div>
-        <span className="text-sm">
-          © {currentYear} phaethon order llc. all rights reserved.
-        </span>
-      </footer>
+          <span className="text-[#3A506B] text-center">
+            &copy; {currentYear} phaethon order llc. all rights reserved.
+          </span>
+        </footer>
     </div>
   )
 }
