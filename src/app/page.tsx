@@ -1,15 +1,58 @@
+'use client'
+
 import Image from 'next/image'
 import Link from 'next/link'
-import { Metadata } from 'next'
-
-export const metadata: Metadata = {
-  title: 'Spurly - Contextually informed AI messaging assistant',
-  description: 'Find your own words, faster. with Spurly. Spurly is a contextually informed AI messaging assistant designed to suggest messages.',
-  keywords: ['AI', 'messaging', 'assistant', 'text', 'conversation', 'contextual'],
-}
+import { useState } from 'react'
 
 export default function SpurlyLandingPage() {
   const currentYear = new Date().getFullYear()
+  const [currentSlide, setCurrentSlide] = useState(0)
+
+  const screenshots = [
+    {
+      src: '/SpurlyScreenShot-1.png',
+      alt: 'Spurly Context View',
+      description: 'Add context about your conversation with screenshots, photos, and personal notes'
+    },
+    {
+      src: '/SpurlyScreenShot-2.png',
+      alt: 'Spurly Message Suggestions',
+      description: 'Get AI-powered message suggestions tailored to your conversation style'
+    },
+    {
+      src: '/SpurlyScreenShot-3.png',
+      alt: 'Spurly Profile Analysis',
+      description: 'Analyze profile pictures and bios to understand personality traits'
+    },
+    {
+      src: '/SpurlyScreenShot-4.png',
+      alt: 'Spurly Conversation History',
+      description: 'Upload conversation screenshots for contextually aware responses'
+    },
+    {
+      src: '/SpurlyScreenShot-5.png',
+      alt: 'Spurly Personalization',
+      description: 'Customize suggestions based on your preferences and communication style'
+    },
+    {
+      src: '/SpurlyScreenShot-6.png',
+      alt: 'Spurly Quick Actions',
+      description: 'Access quick actions and frequently used responses with one tap'
+    }
+  ]
+
+  const nextSlide = () => {
+    setCurrentSlide((prev) => (prev + 1) % screenshots.length)
+  }
+
+  const prevSlide = () => {
+    setCurrentSlide((prev) => (prev - 1 + screenshots.length) % screenshots.length)
+  }
+
+  const goToSlide = (index: number) => {
+    setCurrentSlide(index)
+  }
+
   return (
     <div className="min-h-screen flex flex-col bg-[#F0F4F8] text-[#102A43]">
       {/* Header */}
@@ -35,103 +78,143 @@ export default function SpurlyLandingPage() {
             priority
           />
         </div>
-        </header>
+      </header>
 
-        {/* Title */}
+      {/* Main Information Section */}
+      <main className="flex-1 p-8 max-w-4xl w-full mx-auto">
+        <p className="text-lg mb-6 text-[#102A43]/80">
+          Spurly helps you find your own words, just faster. Spurly is a contextually 
+          informed AI messaging assistant, designed to suggest messages - &ldquo;"Spurs"&rdquo; - for texting, DMs, and in-app chats. With Spurly, &ldquo;contextually informed&rdquo; can be as broad or as specific as you want it to be. Spurly is unique and stands out from other, generic AI  messaging assistants, in the different types of info it can use, alone or in combination, to suggest Spurs that can be highly individualized. Everyone is different, which is why you connect with different people in different ways. Spurly is expertly designed to help you get there faster - less guessing, more connecting - so you don't have to miss another connection simply because you couldn't find the right words fast enough. For example, Spurly can get context information from:
+        </p>
 
-        {/* Main Information Section */}
-        <main className="flex-1 p-8 max-w-4xl w-full mx-auto">
-          <p className="text-lg mb-6 text-[#102A43]/80">
-            Spurly helps you find your own words, just faster. Spurly is a contextually 
-            informed AI messaging assistant, designed to suggest messages for 
-            text conversations. Here, &ldquo;contextually informed&rdquo; includes a wide range of 
-            information. Examples include:
-          </p>
+        {/* Features List */}
+        <ul className="space-y-4 ml-6">
+          <li className="flex items-start">
+            <span className="mr-3 text-[#617D98]">•</span>
+            <span className="text-[#617D98]">
+              Screenshots of conversations - Spurly can suggest what to say next, and in that help your conversations flow naturally and organically.
+            </span>
+          </li>
+          <li className="flex items-start">
+            <span className="mr-3 text-[#617D98]">•</span>
+            <span className="text-[#617D98]">
+              Profile pics of a connection - Spurly can infer personality traits to find the tone, style, and context that works best with those traits. 
+            </span>
+          </li>
+          <li className="flex items-start">
+            <span className="mr-3 text-[#617D98]">•</span>
+            <span className="text-[#617D98]">
+              Screenshots of profiles - Spurly can examine those for text and other features that help generate Spurs your connections will want to respond to first. 
+            </span>
+          </li>
+          <li className="flex items-start">
+            <span className="mr-3 text-[#617D98]">•</span>
+            <span className="text-[#617D98]">
+              Anything you want to add about yourself - Tell Spurly a little about yourself, and you'll get Spurs that fit you specifically so you can be comfortable and confident when you're with your connection in person. 
+            </span>
+          </li>
+        </ul>
+        <p className="text-lg mb-6 text-[#102A43]/80">
+          Whether you're looking for chill, fun dates with a lot of people or you want to focus on connecting with just one, Spurly helps with both of those goals and everything in between.
+        </p>
 
-          {/* Features List */}
-          <ul className="space-y-4 ml-6">
-            <li className="flex items-start">
-              <span className="mr-3 text-[#617D98]">•</span>
-              <span className="text-[#617D98]">
-                Screenshots of conversations (Spurly can suggest responses)
-              </span>
-            </li>
-            <li className="flex items-start">
-              <span className="mr-3 text-[#617D98]">•</span>
-              <span className="text-[#617D98]">
-                Profile pics of a connection (Spurly can infer personality traits and tailor suggestions to those)
-              </span>
-            </li>
-            <li className="flex items-start">
-              <span className="mr-3 text-[#617D98]">•</span>
-              <span className="text-[#617D98]">
-                Screenshots of profiles (Spurly can extract profile bios, prompt responses, etc., and use those to suggest messages)
-              </span>
-            </li>
-            <li className="flex items-start">
-              <span className="mr-3 text-[#617D98]">•</span>
-              <span className="text-[#617D98]">
-                Anything you want to add about yourself (Spurly can customize suggestions based on your preferences)
-              </span>
-            </li>
-          </ul>
+        {/* Features List */}
+        <ul className="space-y-4 ml-6">
+          <li className="flex items-start">
+            <span className="mr-3 text-[#617D98]">•</span>
+            <span className="text-[#617D98]">
+              Control how much freedom Spurly has when suggesting Spurs: turn Spurly's creativity down if you're feeling a little reserved, or turn it all the way up to get Spurs that can be pretty wild. 
+            </span>
+          </li>
+          <li className="flex items-start">
+            <span className="mr-3 text-[#617D98]">•</span>
+            <span className="text-[#617D98]">
+              Tell Spurly to see what's going on in the world to get Spurs that are working with the latest trends and topics, so your messages stand out from the same &ldquo;how was your weekend?&rdquo; ones that everyone else is sending. 
+            </span>
+          </li>
+        </ul>
         
-        {/* Image Showcase */}
-        <br />
-        <br />
-        <div className="flex flex-wrap justify-center items-center gap-8 mb-12">
-          {/* Context View Image */}
-          <div className="relative w-full max-w-[250px] h-[542px] border-2 border-[#627D98] rounded-lg shadow-md p-2 bg-white">
-            <Image
-              src="/SpurlyContextView.png"
-              alt="Spurly Main View"
-              width={250}
-              height={542}
-              className="w-full h-auto rounded-md"
-            />
-          </div>
+        {/* Image Carousel */}
+        <div className="my-12">
+          <div className="relative max-w-lg mx-auto">
+            {/* Carousel Container */}
+            <div className="relative h-[600px] bg-white rounded-lg shadow-lg p-4 border-2 border-[#627D98]">
+              {/* Image */}
+              <div className="relative h-[480px] mb-4">
+                <Image
+                  src={screenshots[currentSlide].src}
+                  alt={screenshots[currentSlide].alt}
+                  fill
+                  className="object-contain rounded-md"
+                />
+              </div>
+              
+              {/* Description */}
+              <p className="text-center text-[#617D98] px-4 h-[60px] flex items-center justify-center">
+                {screenshots[currentSlide].description}
+              </p>
 
-          {/* Spur View Image */}
-          <div className="relative w-full max-w-[250px] h-[542px] border-2 border-[#627D98] rounded-lg shadow-md p-2 bg-white">
-            <Image
-              src="/SpurlySpurView.png"
-              alt="Spurly Spur View"
-              width={250}
-              height={542}
-              className="w-full h-auto rounded-md"
-            />
+              {/* Navigation Buttons */}
+              <button
+                onClick={prevSlide}
+                className="absolute left-2 top-1/2 -translate-y-1/2 bg-[#BCCCDC] text-[#102A43] rounded-full w-10 h-10 flex items-center justify-center hover:bg-[#BCCCDC]/70 transition-colors shadow-md"
+                aria-label="Previous screenshot"
+              >
+                ‹
+              </button>
+              <button
+                onClick={nextSlide}
+                className="absolute right-2 top-1/2 -translate-y-1/2 bg-[#BCCCDC] text-[#102A43] rounded-full w-10 h-10 flex items-center justify-center hover:bg-[#BCCCDC]/70 transition-colors shadow-md"
+                aria-label="Next screenshot"
+              >
+                ›
+              </button>
+            </div>
+
+            {/* Dots Indicator */}
+            <div className="flex justify-center mt-4 space-x-2">
+              {screenshots.map((_, index) => (
+                <button
+                  key={index}
+                  onClick={() => goToSlide(index)}
+                  className={`w-2 h-2 rounded-full transition-colors ${
+                    index === currentSlide ? 'bg-[#102A43]' : 'bg-[#BCCCDC]'
+                  }`}
+                  aria-label={`Go to screenshot ${index + 1}`}
+                />
+              ))}
+            </div>
           </div>
         </div>
 
         {/* App Store Link */}
         <div className="text-center mb-12">
-          <Link href="https://apps.apple.com/us/app/spurly/id6479989 Spurly" passHref>
+          <Link href="https://apps.apple.com/us/app/spurly/id6479989" passHref>
             <div className="inline-block bg-[#BCCCDC] text-[#102A43] font-bold py-3 px-6 rounded-lg shadow-lg hover:bg-[#BCCCDC]/70 hover:text-[#102A43]/70 hover:underline transition-colors">
               Download on the App Store
             </div>
           </Link>
         </div>
-        </main>
+      </main>
 
-        {/* Additional Information Section */}
-        {/* Footer */}
-        <footer className="bg-[#BCCCDC] flex flex-col items-center justify-center p-4 text-[#627D98]">
-          <div className="mb-4">
-            <Link href="/privacy-policy" className="mx-2 text-[#FFFFFF] hover:text-[#3A506B] transition-colors hover:underline">Privacy Policy</Link>
-            <Link href="/terms-of-use" className="mx-2 text-[#FFFFFF] hover:text-[#3A506B] transition-colors hover:underline">Terms of Use</Link>
-            <Link href="/data-deletion" className="mx-2 text-[#FFFFFF] hover:text-[#3A506B] transition-colors hover:underline">Data Deletion</Link>
-          </div>
-          <Image
-            src="/SpurlyAppIcon.png"
-            alt="Spurly app logo"
-            width={64}
-            height={64}
-            className="object-contain mb-2"
-          />
-          <span className="text-[#3A506B] text-center">
-            &copy; {currentYear} Phaethon Order LLC. All rights reserved.
-          </span>
-        </footer>
-      </div>
+      {/* Footer */}
+      <footer className="bg-[#BCCCDC] flex flex-col items-center justify-center p-4 text-[#627D98]">
+        <div className="mb-4">
+          <Link href="/privacy-policy" className="mx-2 text-[#FFFFFF] hover:text-[#3A506B] transition-colors hover:underline">Privacy Policy</Link>
+          <Link href="/terms-of-use" className="mx-2 text-[#FFFFFF] hover:text-[#3A506B] transition-colors hover:underline">Terms of Use</Link>
+          <Link href="/data-deletion" className="mx-2 text-[#FFFFFF] hover:text-[#3A506B] transition-colors hover:underline">Data Deletion</Link>
+        </div>
+        <Image
+          src="/SpurlyAppIcon.png"
+          alt="Spurly app logo"
+          width={64}
+          height={64}
+          className="object-contain mb-2"
+        />
+        <span className="text-[#3A506B] text-center">
+          &copy; {currentYear} Phaethon Order LLC. All rights reserved.
+        </span>
+      </footer>
+    </div>
   );
 }

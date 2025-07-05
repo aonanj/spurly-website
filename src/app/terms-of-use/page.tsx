@@ -220,7 +220,7 @@ export default function TermsOfUse() {
 
           <h4 className="text-[#3A506B] text-base font-semibold mt-4 mb-2">16.1 Agreement to Arbitrate</h4>
           <p className="text-[#3A506B] mb-4">
-            Your use of the Service constitutes your acknowledgement and agreement that any dispute, claim, or controversy arising out of or relating in any way to your access or use of the Services, these Terms of Use, or the interpretation, breach, termination, enforcement, or validity thereof (collectively, “Disputes”) may be resolved exclusively through final and binding arbitration, rather than in court, at the discretion of Phaethon Order LLC. We retain the right to seek injunctive or equitable relief in a court of competent jurisdiction to prevent (or enjoin) the actual or threatened infringement, misappropriation, or violation of our intellectual property rights.
+            Your use of the Service constitutes your acknowledgement and agreement that any dispute, claim, or controversy arising out of or relating in any way to your access or use of the Services, these Terms of Use, or the interpretation, breach, termination, enforcement, or validity thereof (collectively, “Disputes”) may be resolved exclusively through final and binding arbitration, rather than in court, at the discretion of Phaethon Order LLC. We retain the right to seek injunctive or equitable relief in a court of competent jurisdiction to prevent (or enjoin) the actual or threatened infringement, misappropriation, or violation of our intellectual property and/or other rights.
           </p>
 
           <h4 className="text-[#3A506B] text-base font-semibold mt-4 mb-2">16.2 Arbitration Procedure</h4>
@@ -255,8 +255,8 @@ export default function TermsOfUse() {
         <p className="text-[#3A506B] mb-4">If you have any questions about these Terms, please contact us at:</p>
         <p className="text-[#3A506B] mb-4">
           <strong>Phaethon Order LLC</strong><br />
-          <a href="mailto:admin@spurly.io" className="text-[#9BC7FF] hover:text-[#3A506B] transition-colors hover:underline">
-            admin@spurly.io
+          <a href="mailto:phaethon@phaethon.llc" className="text-[#9BC7FF] hover:text-[#3A506B] transition-colors hover:underline">
+            phaethon@phaethon.llc
           </a>
         </p>
 
