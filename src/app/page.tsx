@@ -114,6 +114,8 @@ export default function SpurlyLandingPage() {
             </span>
           </li>
         </ul>
+        <br />
+        <br />
         <p className="text-lg mb-6 text-[#102A43]/80">
           Whether you&apos;re looking for chill, fun dates with a lot of people or you want to focus on connecting with just one, Spurly helps with both of those goals and everything in between.
         </p>
@@ -136,35 +138,37 @@ export default function SpurlyLandingPage() {
         
         {/* Image Carousel */}
         <div className="my-12">
-          <div className="relative max-w-lg mx-auto">
-            {/* Carousel Container */}
-            <div className="relative h-[600px] bg-white rounded-lg shadow-lg p-4 border-2 border-[#627D98]">
-              {/* Image */}
-              <div className="relative h-[480px] mb-4">
-                <Image
-                  src={screenshots[currentSlide].src}
-                  alt={screenshots[currentSlide].alt}
-                  fill
-                  className="object-contain rounded-md"
-                />
+          <div className="relative max-w-2xl mx-auto">
+            {/* Carousel Container - Increased size */}
+            <div className="relative h-[800px] bg-white rounded-lg shadow-lg p-6 border-2 border-[#627D98]">
+              {/* Image - Increased size with border and shadow */}
+              <div className="relative h-[660px] mb-6">
+                <div className="relative h-full w-full rounded-lg overflow-hidden border-4 border-[#BCCCDC] shadow-2xl">
+                  <Image
+                    src={screenshots[currentSlide].src}
+                    alt={screenshots[currentSlide].alt}
+                    fill
+                    className="object-contain bg-white"
+                  />
+                </div>
               </div>
               
               {/* Description */}
-              <p className="text-center text-[#617D98] px-4 h-[60px] flex items-center justify-center">
+              <p className="text-center text-[#617D98] px-4 h-[80px] flex items-center justify-center text-lg">
                 {screenshots[currentSlide].description}
               </p>
 
               {/* Navigation Buttons */}
               <button
                 onClick={prevSlide}
-                className="absolute left-2 top-1/2 -translate-y-1/2 bg-[#BCCCDC] text-[#102A43] rounded-full w-10 h-10 flex items-center justify-center hover:bg-[#BCCCDC]/70 transition-colors shadow-md"
+                className="absolute left-4 top-1/2 -translate-y-1/2 bg-[#BCCCDC] text-[#102A43] rounded-full w-12 h-12 flex items-center justify-center hover:bg-[#BCCCDC]/70 transition-colors shadow-md text-2xl font-bold"
                 aria-label="Previous screenshot"
               >
                 ‹
               </button>
               <button
                 onClick={nextSlide}
-                className="absolute right-2 top-1/2 -translate-y-1/2 bg-[#BCCCDC] text-[#102A43] rounded-full w-10 h-10 flex items-center justify-center hover:bg-[#BCCCDC]/70 transition-colors shadow-md"
+                className="absolute right-4 top-1/2 -translate-y-1/2 bg-[#BCCCDC] text-[#102A43] rounded-full w-12 h-12 flex items-center justify-center hover:bg-[#BCCCDC]/70 transition-colors shadow-md text-2xl font-bold"
                 aria-label="Next screenshot"
               >
                 ›
@@ -172,12 +176,12 @@ export default function SpurlyLandingPage() {
             </div>
 
             {/* Dots Indicator */}
-            <div className="flex justify-center mt-4 space-x-2">
+            <div className="flex justify-center mt-6 space-x-3">
               {screenshots.map((_, index) => (
                 <button
                   key={index}
                   onClick={() => goToSlide(index)}
-                  className={`w-2 h-2 rounded-full transition-colors ${
+                  className={`w-3 h-3 rounded-full transition-colors ${
                     index === currentSlide ? 'bg-[#102A43]' : 'bg-[#BCCCDC]'
                   }`}
                   aria-label={`Go to screenshot ${index + 1}`}
