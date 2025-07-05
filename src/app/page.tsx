@@ -139,36 +139,37 @@ export default function SpurlyLandingPage() {
         {/* Image Carousel */}
         <div className="my-12">
           <div className="relative max-w-2xl mx-auto">
-            {/* Carousel Container - Increased size */}
-            <div className="relative h-[800px] bg-white rounded-lg shadow-lg p-6 border-2 border-[#627D98]">
-              {/* Image - Increased size with border and shadow */}
-              <div className="relative h-[660px] mb-6">
-                <div className="relative h-full w-full rounded-lg overflow-hidden border-4 border-[#BCCCDC] shadow-2xl">
+            {/* Carousel Container */}
+            <div className="relative bg-white rounded-lg shadow-lg p-6 border-2 border-[#627D98]">
+              {/* Image Container with exact dimensions */}
+              <div className="relative flex justify-center mb-6">
+                <div className="relative w-[369px] h-[800px] rounded-lg overflow-hidden border-4 border-[#BCCCDC] shadow-2xl">
                   <Image
                     src={screenshots[currentSlide].src}
                     alt={screenshots[currentSlide].alt}
-                    fill
+                    width={369}
+                    height={800}
                     className="object-contain bg-white"
                   />
                 </div>
               </div>
               
               {/* Description */}
-              <p className="text-center text-[#617D98] px-4 h-[80px] flex items-center justify-center text-lg">
+              <p className="text-center text-[#617D98] px-4 py-4 text-lg">
                 {screenshots[currentSlide].description}
               </p>
 
               {/* Navigation Buttons */}
               <button
                 onClick={prevSlide}
-                className="absolute left-4 top-1/2 -translate-y-1/2 bg-[#BCCCDC] text-[#102A43] rounded-full w-12 h-12 flex items-center justify-center hover:bg-[#BCCCDC]/70 transition-colors shadow-md text-2xl font-bold"
+                className="absolute left-4 top-[400px] bg-[#BCCCDC] text-[#102A43] rounded-full w-12 h-12 flex items-center justify-center hover:bg-[#BCCCDC]/70 transition-colors shadow-md text-2xl font-bold"
                 aria-label="Previous screenshot"
               >
                 ‹
               </button>
               <button
                 onClick={nextSlide}
-                className="absolute right-4 top-1/2 -translate-y-1/2 bg-[#BCCCDC] text-[#102A43] rounded-full w-12 h-12 flex items-center justify-center hover:bg-[#BCCCDC]/70 transition-colors shadow-md text-2xl font-bold"
+                className="absolute right-4 top-[400px] bg-[#BCCCDC] text-[#102A43] rounded-full w-12 h-12 flex items-center justify-center hover:bg-[#BCCCDC]/70 transition-colors shadow-md text-2xl font-bold"
                 aria-label="Next screenshot"
               >
                 ›
