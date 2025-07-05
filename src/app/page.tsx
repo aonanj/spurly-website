@@ -84,7 +84,7 @@ export default function SpurlyLandingPage() {
       <main className="flex-1 p-8 max-w-4xl w-full mx-auto">
         <p className="text-lg mb-6 text-[#102A43]/80">
           Spurly helps you find your own words, just faster. Spurly is a contextually 
-          informed AI messaging assistant, designed to suggest messages - &ldquo;"Spurs"&rdquo; - for texting, DMs, and in-app chats. With Spurly, &ldquo;contextually informed&rdquo; can be as broad or as specific as you want it to be. Spurly is unique and stands out from other, generic AI  messaging assistants, in the different types of info it can use, alone or in combination, to suggest Spurs that can be highly individualized. Everyone is different, which is why you connect with different people in different ways. Spurly is expertly designed to help you get there faster - less guessing, more connecting - so you don't have to miss another connection simply because you couldn't find the right words fast enough. For example, Spurly can get context information from:
+          informed AI messaging assistant, designed to suggest messages - &ldquo;Spurs&rdquo; - for texting, DMs, and in-app chats. With Spurly, &ldquo;contextually informed&rdquo; can be as broad or as specific as you want it to be. Spurly is unique and stands out from other, generic AI  messaging assistants in the different types of info it can use, alone or in combination, to suggest Spurs that can be highly individualized. Everyone is different, which is why you connect with different people in different ways. Spurly is expertly designed to help you get there faster - less guessing, more connecting - so you don&apos;t have to miss another connection simply because you couldn&apos;t find the right words fast enough. For example, Spurly can get context information from:
         </p>
 
         {/* Features List */}
@@ -110,12 +110,12 @@ export default function SpurlyLandingPage() {
           <li className="flex items-start">
             <span className="mr-3 text-[#617D98]">•</span>
             <span className="text-[#617D98]">
-              Anything you want to add about yourself - Tell Spurly a little about yourself, and you'll get Spurs that fit you specifically so you can be comfortable and confident when you're with your connection in person. 
+              Anything you want to add about yourself - Tell Spurly a little about yourself, and you&apos;ll get Spurs that fit you specifically so you can be comfortable and confident when you&apos;re with your connection in person. 
             </span>
           </li>
         </ul>
         <p className="text-lg mb-6 text-[#102A43]/80">
-          Whether you're looking for chill, fun dates with a lot of people or you want to focus on connecting with just one, Spurly helps with both of those goals and everything in between.
+          Whether you&apos;re looking for chill, fun dates with a lot of people or you want to focus on connecting with just one, Spurly helps with both of those goals and everything in between.
         </p>
 
         {/* Features List */}
@@ -123,13 +123,13 @@ export default function SpurlyLandingPage() {
           <li className="flex items-start">
             <span className="mr-3 text-[#617D98]">•</span>
             <span className="text-[#617D98]">
-              Control how much freedom Spurly has when suggesting Spurs: turn Spurly's creativity down if you're feeling a little reserved, or turn it all the way up to get Spurs that can be pretty wild. 
+              Control how much freedom Spurly has when suggesting Spurs: turn Spurly&apos;s creativity down if you&apos;re feeling a little reserved, or turn it all the way up to get Spurs that can be pretty wild. 
             </span>
           </li>
           <li className="flex items-start">
             <span className="mr-3 text-[#617D98]">•</span>
             <span className="text-[#617D98]">
-              Tell Spurly to see what's going on in the world to get Spurs that are working with the latest trends and topics, so your messages stand out from the same &ldquo;how was your weekend?&rdquo; ones that everyone else is sending. 
+              Tell Spurly to see what&apos;s going on in the world to get Spurs that are working with the latest trends and topics, so your messages stand out from the same &ldquo;how was your weekend?&rdquo; ones that everyone else is sending. 
             </span>
           </li>
         </ul>
