@@ -12,32 +12,32 @@ export default function SpurlyLandingPage() {
     {
       src: '/SpurlyScreenShot-1.png',
       alt: 'Spurly Context View',
-      description: 'Add context about your conversation with screenshots, photos, and personal notes'
+      description: 'Add context with screenshots to get Spurs that fit the conversation flow'
     },
     {
       src: '/SpurlyScreenShot-2.png',
       alt: 'Spurly Message Suggestions',
-      description: 'Get AI-powered message suggestions tailored to your conversation style'
+      description: 'Choose from multiple different Spurs to match your conversation style'
     },
     {
       src: '/SpurlyScreenShot-3.png',
       alt: 'Spurly Profile Analysis',
-      description: 'Analyze profile pictures and bios to understand personality traits'
+      description: 'Add profile pictures and bios from screenshots to match their personality'
     },
     {
       src: '/SpurlyScreenShot-4.png',
       alt: 'Spurly Conversation History',
-      description: 'Upload conversation screenshots for contextually aware responses'
+      description: 'Edit and copy Spurs that can be dropped straight into any messaging app'
     },
     {
       src: '/SpurlyScreenShot-5.png',
       alt: 'Spurly Personalization',
-      description: 'Customize suggestions based on your preferences and communication style'
+      description: 'Customize Spur suggestions based on your preferences and style'
     },
     {
       src: '/SpurlyScreenShot-6.png',
       alt: 'Spurly Quick Actions',
-      description: 'Access quick actions and frequently used responses with one tap'
+      description: 'Save your favorite Spurs and access them with one tap'
     }
   ]
 
