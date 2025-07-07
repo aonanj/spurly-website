@@ -137,13 +137,13 @@ export default function SpurlyLandingPage() {
           <li className="flex items-start">
             <span className="mr-3 text-[#617D98]">•</span>
             <span className="text-[#617D98]">
-              Control how much freedom Spurly has when suggesting Spurs: turn Spurly&apos;s creativity down if you&apos;re feeling a little reserved, or turn it all the way up to get Spurs that can be pretty wild. 
+              Control how much freedom Spurly has when suggesting Spurs: turn down Spurly&apos;s creativity if you&apos;re feeling a little reserved, or turn it all the way up to get Spurs that can be pretty wild. 
             </span>
           </li>
           <li className="flex items-start">
             <span className="mr-3 text-[#617D98]">•</span>
             <span className="text-[#617D98]">
-              Tell Spurly to see what&apos;s going on in the world to get Spurs that are working with the latest trends and topics, so your messages stand out from the same &ldquo;how was your weekend?&rdquo; ones that everyone else is sending. 
+              Have Spurly check what&apos;s trending so you get fresh Spurs based on the latest trends and topics—making your messages stand out from the usual &ldquo;how was your weekend?&rdquo; ones that everyone else is sending. 
             </span>
           </li>
         </ul>
@@ -205,6 +205,7 @@ export default function SpurlyLandingPage() {
         </div>
 
         {/* Mailing List Signup */}
+        <br />
         <div className="text-center mb-12">
           <div className="ml-embedded" data-form="YMxI3I"></div>
         </div>
