@@ -2,6 +2,8 @@
 
 import Image from 'next/image'
 import Link from 'next/link'
+import Script from 'next/script'
+import React from 'react'
 import { useState } from 'react'
 
 export default function SpurlyLandingPage() {
@@ -55,6 +57,16 @@ export default function SpurlyLandingPage() {
 
   return (
     <div className="min-h-screen flex flex-col bg-[#F0F4F8] text-[#102A43]">
+      <Script id="mailerlite-universal" strategy="afterInteractive">
+        {`
+          (function(w,d,e,u,f,l,n){w[f]=w[f]||function(){(w[f].q=w[f].q||[])
+            .push(arguments);},l=d.createElement(e),l.async=1,l.src=u,
+            n=d.getElementsByTagName(e)[0],n.parentNode.insertBefore(l,n);})
+            (window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');
+            ml('account', '1646244');
+        `}
+      </Script>
+
       {/* Header */}
       <header className="bg-[#BCCCDC] py-8 px-4 text-center">
         <div className="relative w-full max-w-[450px] h-[174px] mx-auto">
@@ -192,13 +204,9 @@ export default function SpurlyLandingPage() {
           </div>
         </div>
 
-        {/* App Store Link */}
+        {/* Mailing List Signup */}
         <div className="text-center mb-12">
-          <Link href="https://apps.apple.com/us/app/spurly/id6479989" passHref>
-            <div className="inline-block bg-[#BCCCDC] text-[#102A43] font-bold py-3 px-6 rounded-lg shadow-lg hover:bg-[#BCCCDC]/70 hover:text-[#102A43]/70 hover:underline transition-colors">
-              Download on the App Store
-            </div>
-          </Link>
+          <div className="ml-embedded" data-form="YMxI3I"></div>
         </div>
       </main>
 
