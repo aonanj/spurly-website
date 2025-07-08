@@ -27,13 +27,9 @@ export default function DataDeletionPage() {
 
       {/* Main Content */}
       <main className="flex-1 p-8 max-w-4xl w-full mx-auto">
-        <h1 className="text-3xl font-bold text-[#102A43] text-center mb-6">
-          Spurly Data Deletion Policy and Procedure
-        </h1>
-        
-        <p className="text-[#102A43]/80 mb-4">
-          <strong>Effective Date:</strong> May 28, 2025
-        </p>
+      <h2 className="text-[#3A506B] text-center text-3xl font-bold mb-6">
+          SPURLY DATA DELETION POLICY AND PROCEDURE
+        </h2>
 
         <h3 className="text-xl font-semibold text-[#3A506B] mt-6 mb-3">
           Procedure to request deletion of your data from Spurly:
