@@ -85,8 +85,8 @@ export const metadata: Metadata = {
   verification: {
     // Add these when you have the verification codes
     google: '57nN-hCua8hrOxtXMtlSilUQRpLLCIzeL2_4zSfkEi0',
-     yandex: '49490de7bdf701b6',
-    // bing: 'your-bing-verification-code',
+    yandex: '49490de7bdf701b6',
+    // bing: is verified through Google Search Console,
   },
   
   alternates: {
