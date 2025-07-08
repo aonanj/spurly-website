@@ -45,7 +45,8 @@ export default function TermsOfUse() {
         <p className="text-[#3A506B] mb-4">
           By accessing or using Spurly, you acknowledge that you have read, understood, and agree 
           to be bound by these Terms and our Privacy Policy. These Terms constitute a legally 
-          binding agreement between you and Phaethon Order LLC.
+          binding agreement between you and Phaethon Order LLC. Our Privacy Policy is available at:  
+          <Link href="/privacy-policy" className="mx-2 text-[#FFFFFF] hover:text-[#3A506B] transition-colors hover:underline">Privacy Policy</Link>, and is explicitly incorporated by reference into these Terms.
         </p>
 
         <h3 className="text-[#3A506B] text-lg font-semibold mt-6 mb-3">2. DESCRIPTION OF SERVICE</h3>
