@@ -84,7 +84,7 @@ export const metadata: Metadata = {
   
   verification: {
     // Add these when you have the verification codes
-    // google: 'your-google-verification-code',
+    google: '57nN-hCua8hrOxtXMtlSilUQRpLLCIzeL2_4zSfkEi0',
     // yandex: 'your-yandex-verification-code',
     // bing: 'your-bing-verification-code',
   },
