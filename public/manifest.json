@@ -1,0 +1,23 @@
+{
+    "name": "Spurly - AI Messaging Assistant",
+    "short_name": "Spurly",
+    "description": "Find your words faster with AI-powered message suggestions for dating apps and texts",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#F0F4F8",
+    "theme_color": "#BCCCDC",
+    "orientation": "portrait",
+    "icons": [
+      {
+        "src": "/SpurlyAppIcon.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "/SpurlyAppIcon.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      }
+    ]
+  }

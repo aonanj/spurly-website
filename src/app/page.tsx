@@ -5,6 +5,7 @@ import Link from 'next/link'
 import Script from 'next/script'
 import React from 'react'
 import { useState } from 'react'
+import { organizationSchema, appSchema } from '@/lib/seo-config'
 
 export default function SpurlyLandingPage() {
   const currentYear = new Date().getFullYear()
@@ -66,6 +67,20 @@ export default function SpurlyLandingPage() {
             ml('account', '1646244');
         `}
       </Script>
+      <Script
+        id="organization-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(organizationSchema)
+        }}
+      />
+      <Script
+        id="app-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(appSchema)
+        }}
+      />
 
       {/* Header */}
       <header className="bg-[#BCCCDC] py-8 px-4 text-center">
