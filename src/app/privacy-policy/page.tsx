@@ -387,6 +387,28 @@ export default function PrivacyPolicy() {
 
           <section className="animate-slide-up" style={{ animationDelay: '1.5s' }}>
             <h2 className="text-2xl font-semibold text-[#3A506B] mb-4">
+              Requests for Personal Information
+            </h2>
+            <p className="leading-relaxed text-[#102A43]/90 mb-3">
+            Phaethon Order LLC, the owner of Spurly, reviews the legality of all government or law enforcement requests for personal information. We respond only to requests that are legally valid and properly scoped—such as subpoenas, court orders, or other legal processes issued under applicable law.
+            </p>
+            <p className="leading-relaxed text-[#102A43]/90 mb-3">
+            All requests found to be legally valid and properly scoped, and that we comply with, are formally documented, including:
+            </p>
+            <ul className="list-disc pl-6 space-y-2 text-[#102A43]/90">
+              <li>The identity of the requesting authority</li>
+              <li>The specific data requested</li>
+              <li>The legal basis for the request</li>
+              <li>Our response to the request</li>
+              <li>The date of the request</li>
+            </ul>
+            <p className="mt-3 text-[#102A43]/90">
+              Where legally permitted and feasible, we will make a reasonable effort to notify affected users before disclosing any personal information. These records are retained for audit and compliance purposes and are accessible only to authorized personnel.
+            </p>
+          </section>
+
+          <section className="animate-slide-up" style={{ animationDelay: '1.6s' }}>
+            <h2 className="text-2xl font-semibold text-[#3A506B] mb-4">
               Updates to this Privacy Policy
             </h2>
             <p className="leading-relaxed text-[#102A43]/90">
