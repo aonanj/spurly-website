@@ -41,7 +41,7 @@ export default function TermsOfUse() {
         <p className="text-[#3A506B] mb-4">
           By accessing or using Spurly, you acknowledge that you have read, understood, and agree 
           to be bound by these Terms and our Privacy Policy. These Terms constitute a legally 
-          binding agreement between you and Phaethon Order LLC. Our Privacy Policy is explicitly incorporated by reference into these Terms (<Link href="/privacy-policy" className="mx-2 text-[#3A506B] hover:text-[#9BC7FF] transition-colors hover:underline">Privacy Policy</Link>).
+          binding agreement between you and Phaethon Order LLC. Our Privacy Policy is explicitly incorporated by reference into these Terms (<Link href="/privacy-policy" className="mx-2 text-[#3A506B] underline hover:text-[#9BC7FF] transition-colors hover:no-underline">Privacy Policy</Link>).
         </p>
 
         <h3 className="text-[#3A506B] text-lg font-semibold mt-6 mb-3">2. DESCRIPTION OF SERVICE</h3>
@@ -251,10 +251,11 @@ export default function TermsOfUse() {
         <p className="text-[#3A506B] mb-4">If you have any questions about these Terms, please contact us at:</p>
         <div className="bg-[#BCCCDC]/20 p-4 rounded-lg text-[#102A43]/90">
           <p className="font-semibold">Phaethon Order LLC</p>
-          <p>Email: <a href="mailto:admin@spurly.io" className="text-[#3A506B] hover:text-[#9BC7FF] transition-colors hover:underline">admin@spurly.io</a></p>
-          <p>Privacy Inquiries: <a href="mailto:privacy@spurly.io" className="text-[#3A506B] hover:text-[#9BC7FF] transition-colors hover:underline">privacy@spurly.io</a></p>
+          <p>Email: <a href="mailto:admin@spurly.io" className="text-[#3A506B] underline hover:text-[#9BC7FF] transition-colors hover:no-underline">admin@spurly.io</a></p>
+          <p>Privacy Inquiries: <a href="mailto:privacy@spurly.io" className="text-[#3A506B] underline hover:text-[#9BC7FF] transition-colors hover:no-underline">privacy@spurly.io</a></p>
         </div>
-
+        <br />
+        <br />
         <div className="bg-[#BCCCDC]/20 p-4 rounded-lg text-[#102A43]/90">
           <p className="font-semibold">Effective Dates</p>
           <p>Original Effective Date: May 28, 2025</p>

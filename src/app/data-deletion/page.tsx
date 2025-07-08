@@ -110,10 +110,12 @@ export default function DataDeletionPage() {
           </p>
           <div className="bg-[#BCCCDC]/20 p-4 rounded-lg text-[#102A43]/90">
             <p className="font-semibold">Phaethon Order LLC</p>
-            <p>Email: <a href="mailto:admin@spurly.io" className="text-[#3A506B] hover:text-[#9BC7FF] transition-colors hover:underline">admin@spurly.io</a></p>
-            <p>Privacy Inquiries: <a href="mailto:privacy@spurly.io" className="text-[#3A506B] hover:text-[#9BC7FF] transition-colors hover:underline">privacy@spurly.io</a></p>
+            <p>Email: <a href="mailto:admin@spurly.io" className="text-[#3A506B] underline hover:text-[#9BC7FF] transition-colors hover:no-underline">admin@spurly.io</a></p>
+            <p>Privacy Inquiries: <a href="mailto:privacy@spurly.io" className="text-[#3A506B] underline hover:text-[#9BC7FF] transition-colors hover:no-underline">privacy@spurly.io</a></p>
           </div>
         </div>
+        <br />
+        <br />
         <div className="bg-[#BCCCDC]/20 p-4 rounded-lg text-[#102A43]/90">
           <p className="font-semibold">Effective Dates</p>
           <p>Original Effective Date: May 28, 2025</p>
