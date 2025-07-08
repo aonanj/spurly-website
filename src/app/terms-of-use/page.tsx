@@ -26,10 +26,6 @@ export default function TermsOfUse() {
           SPURLY TERMS OF USE
         </h2>
 
-        <p className="text-[#102A43]/80 mb-4">
-          <strong>Effective Date:</strong> June 4, 2025
-        </p>
-
         <p className="text-[#3A506B] mb-4">
           Welcome to Spurly, a lifestyle application developed and operated by Phaethon Order LLC 
           (&ldquo;Company&rdquo;, &ldquo;we&rdquo;, &ldquo;us&rdquo;, or &ldquo;our&rdquo;). These Terms of Use (&ldquo;Terms&rdquo;) govern your use of the 
@@ -45,8 +41,7 @@ export default function TermsOfUse() {
         <p className="text-[#3A506B] mb-4">
           By accessing or using Spurly, you acknowledge that you have read, understood, and agree 
           to be bound by these Terms and our Privacy Policy. These Terms constitute a legally 
-          binding agreement between you and Phaethon Order LLC. Our Privacy Policy is available at:  
-          <Link href="/privacy-policy" className="mx-2 text-[#FFFFFF] hover:text-[#3A506B] transition-colors hover:underline">Privacy Policy</Link>, and is explicitly incorporated by reference into these Terms.
+          binding agreement between you and Phaethon Order LLC. Our Privacy Policy is explicitly incorporated by reference into these Terms (<Link href="/privacy-policy" className="mx-2 text-[#3A506B] hover:text-[#9BC7FF] transition-colors hover:underline">Privacy Policy</Link>).
         </p>
 
         <h3 className="text-[#3A506B] text-lg font-semibold mt-6 mb-3">2. DESCRIPTION OF SERVICE</h3>
@@ -254,18 +249,18 @@ export default function TermsOfUse() {
 
         <h3 className="text-[#3A506B] text-lg font-semibold mt-6 mb-3">19. CONTACT INFORMATION</h3>
         <p className="text-[#3A506B] mb-4">If you have any questions about these Terms, please contact us at:</p>
-        <p className="text-[#3A506B] mb-4">
-          <strong>Phaethon Order LLC</strong><br />
-          <a href="mailto:phaethon@phaethon.llc" className="text-[#9BC7FF] hover:text-[#3A506B] transition-colors hover:underline">
-            phaethon@phaethon.llc
-          </a>
-        </p>
+        <div className="bg-[#BCCCDC]/20 p-4 rounded-lg text-[#102A43]/90">
+          <p className="font-semibold">Phaethon Order LLC</p>
+          <p>Email: <a href="mailto:admin@spurly.io" className="text-[#3A506B] hover:text-[#9BC7FF] transition-colors hover:underline">admin@spurly.io</a></p>
+          <p>Privacy Inquiries: <a href="mailto:privacy@spurly.io" className="text-[#3A506B] hover:text-[#9BC7FF] transition-colors hover:underline">privacy@spurly.io</a></p>
+        </div>
 
-        <hr className="my-6 border-gray-300" />
+        <div className="bg-[#BCCCDC]/20 p-4 rounded-lg text-[#102A43]/90">
+          <p className="font-semibold">Effective Dates</p>
+          <p>Original Effective Date: May 28, 2025</p>
+          <p>Last Updated: July 8, 2025</p>
+        </div>
 
-        <p className="text-[#3A506B] mb-4">
-          <strong>Last Updated:</strong> June 4, 2025
-        </p>
       </main>
 
       {/* Footer */}

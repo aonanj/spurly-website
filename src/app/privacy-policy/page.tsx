@@ -28,15 +28,9 @@ export default function PrivacyPolicy() {
 
       {/* Main Content */}
       <main className="flex-1 px-6 py-12 max-w-3xl w-full mx-auto animate-fade-in">
-        <h1 className="text-3xl md:text-4xl font-bold text-[#3A506B] text-center mb-8">
-          Spurly Privacy Policy
-        </h1>
-        <p className="text-[#102A43]/80 mb-8 text-center text-lg">
-          <strong className="text-[#102A43]/80">Effective Date:</strong> May 28, 2025
-        </p>
-        <p className="text-[#102A43]/80 mb-8 text-center">
-          <strong className="text-[#102A43]/80">Last Updated:</strong> June 26, 2025
-        </p>
+      <h2 className="text-[#3A506B] text-center text-3xl font-bold mb-6">
+          SPURLY PRIVACY POLICY
+        </h2>
 
         <div className="space-y-8">
           <section className="animate-slide-up">
@@ -108,9 +102,9 @@ export default function PrivacyPolicy() {
             </ul>
             <p className="mt-3 text-[#102A43]/90">
               Please review the privacy policies of{' '}
-              <a href="https://policies.google.com/privacy" className="text-[#9BC7FF] hover:text-[#3A506B] transition-colors hover:underline" target="_blank" rel="noopener noreferrer">Google</a>,{' '}
-              <a href="https://www.facebook.com/privacy/policy" className="text-[#9BC7FF] hover:text-[#3A506B] transition-colors hover:underline" target="_blank" rel="noopener noreferrer">Facebook</a>, and{' '}
-              <a href="https://www.apple.com/legal/privacy/" className="text-[#9BC7FF] hover:text-[#3A506B] transition-colors hover:underline" target="_blank" rel="noopener noreferrer">Apple</a>{' '}
+              <a href="https://policies.google.com/privacy" className="text-[#3A506B] hover:text-[#9BC7FF] transition-colors hover:underline" target="_blank" rel="noopener noreferrer">Google</a>,{' '}
+              <a href="https://www.facebook.com/privacy/policy" className="text-[#3A506B] hover:text-[#9BC7FF] transition-colors hover:underline" target="_blank" rel="noopener noreferrer">Facebook</a>, and{' '}
+              <a href="https://www.apple.com/legal/privacy/" className="text-[#3A506B] hover:text-[#9BC7FF] transition-colors hover:underline" target="_blank" rel="noopener noreferrer">Apple</a>{' '}
               for details on their data practices.
             </p>
           </section>
@@ -166,7 +160,7 @@ export default function PrivacyPolicy() {
                 <strong className="text-[#617D98]">Google Firebase:</strong> Secure cloud storage, authentication, and analytics (
                 <a 
                   href="https://firebase.google.com/support/privacy" 
-                  className="text-[#9BC7FF] hover:text-[#3A506B] transition-colors hover:underline"
+                  className="text-[#3A506B] hover:text-[#9BC7FF] transition-colors hover:underline"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -178,7 +172,7 @@ export default function PrivacyPolicy() {
                 <strong className="text-[#617D98]">Google Cloud Platform:</strong> Cloud Vision API, Cloud Run, and infrastructure services (
                 <a 
                   href="https://cloud.google.com/terms/cloud-privacy-notice" 
-                  className="text-[#9BC7FF] hover:text-[#3A506B] transition-colors hover:underline"
+                  className="text-[#3A506B] hover:text-[#9BC7FF] transition-colors hover:underline"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -190,7 +184,7 @@ export default function PrivacyPolicy() {
                 <strong className="text-[#617D98]">OpenAI:</strong> AI-powered features and content generation (
                 <a 
                   href="https://openai.com/privacy" 
-                  className="text-[#9BC7FF] hover:text-[#3A506B] transition-colors hover:underline"
+                  className="text-[#3A506B] hover:text-[#9BC7FF] transition-colors hover:underline"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -337,7 +331,7 @@ export default function PrivacyPolicy() {
             
             <p className="mt-4 text-[#102A43]/90">
               To exercise any of these rights, please contact us at{' '}
-              <a href="mailto:privacy@spurly.io" className="text-[#9BC7FF] hover:text-[#3A506B] transition-colors hover:underline">
+              <a href="mailto:privacy@spurly.io" className="text-[#3A506B] hover:text-[#9BC7FF] transition-colors hover:underline">
                 privacy@spurly.io
               </a>. We may need to verify your identity before processing your request.
             </p>
@@ -430,13 +424,19 @@ export default function PrivacyPolicy() {
             </p>
             <div className="bg-[#BCCCDC]/20 p-4 rounded-lg text-[#102A43]/90">
               <p className="font-semibold">Phaethon Order LLC</p>
-              <p>Email: <a href="mailto:admin@spurly.io" className="text-[#9BC7FF] hover:text-[#3A506B] transition-colors hover:underline">admin@spurly.io</a></p>
-              <p>Privacy Inquiries: <a href="mailto:privacy@spurly.io" className="text-[#9BC7FF] hover:text-[#3A506B] transition-colors hover:underline">privacy@spurly.io</a></p>
+              <p>Email: <a href="mailto:admin@spurly.io" className="text-[#3A506B] hover:text-[#9BC7FF] transition-colors hover:underline">admin@spurly.io</a></p>
+              <p>Privacy Inquiries: <a href="mailto:privacy@spurly.io" className="text-[#3A506B] hover:text-[#9BC7FF] transition-colors hover:underline">privacy@spurly.io</a></p>
             </div>
             <p className="mt-4 text-[#102A43]/90">
               We aim to respond to all privacy-related inquiries within 30 days.
             </p>
           </section>
+
+          <div className="bg-[#BCCCDC]/20 p-4 rounded-lg text-[#102A43]/90">
+            <p className="font-semibold">Effective Dates</p>
+            <p>Original Effective Date: May 28, 2025</p>
+            <p>Last Updated: July 8, 2025</p>
+          </div>
         </div>
       </main>
 

@@ -42,7 +42,7 @@ export default function DataDeletionPage() {
         <ol className="list-decimal pl-6 mb-4 space-y-2">
           <li>
             Send an email to{' '}
-            <a href="mailto:admin@spurly.io" className="text-[#9BC7FF] hover:text-[#3A506B] transition-colors hover:underline">
+            <a href="mailto:admin@spurly.io" className="text-[#3A506B] hover:text-[#9BC7FF] transition-colors hover:underline">
               admin@spurly.io
             </a>
             .
@@ -110,12 +110,18 @@ export default function DataDeletionPage() {
         <div className="mt-8">
           <p className="font-bold mb-2">Contact Us</p>
           <p>
-            For questions or concerns regarding this Policy, please contact us at{' '}
-            <a href="mailto:admin@spurly.io" className="text-[#9BC7FF] hover:text-[#3A506B] transition-colors hover:underline">
-              admin@spurly.io
-            </a>
-            .
+            For questions or concerns regarding this Policy, please contact us at:
           </p>
+          <div className="bg-[#BCCCDC]/20 p-4 rounded-lg text-[#102A43]/90">
+            <p className="font-semibold">Phaethon Order LLC</p>
+            <p>Email: <a href="mailto:admin@spurly.io" className="text-[#3A506B] hover:text-[#9BC7FF] transition-colors hover:underline">admin@spurly.io</a></p>
+            <p>Privacy Inquiries: <a href="mailto:privacy@spurly.io" className="text-[#3A506B] hover:text-[#9BC7FF] transition-colors hover:underline">privacy@spurly.io</a></p>
+          </div>
+        </div>
+        <div className="bg-[#BCCCDC]/20 p-4 rounded-lg text-[#102A43]/90">
+          <p className="font-semibold">Effective Dates</p>
+          <p>Original Effective Date: May 28, 2025</p>
+          <p>Last Updated: July 8, 2025</p>
         </div>
       </main>
 
