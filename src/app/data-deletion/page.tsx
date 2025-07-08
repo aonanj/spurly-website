@@ -38,7 +38,7 @@ export default function DataDeletionPage() {
         <ol className="list-decimal pl-6 mb-4 space-y-2">
           <li>
             Send an email to{' '}
-            <a href="mailto:admin@spurly.io" className="text-[#3A506B] hover:text-[#9BC7FF] transition-colors hover:underline">
+            <a href="mailto:admin@spurly.io" className="text-[#3A506B] underline hover:text-[#9BC7FF] transition-colors hover:no-underline">
               admin@spurly.io
             </a>
             .
