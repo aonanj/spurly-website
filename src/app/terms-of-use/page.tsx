@@ -23,11 +23,11 @@ export default function TermsOfUse() {
       {/* Main Content */}
       <main className="flex-1 p-8 max-w-4xl w-full mx-auto">
         <h2 className="text-[#3A506B] text-center text-3xl font-bold mb-6">
-          SPURLY TERMS OF USE
+          Spurly Terms of Use
         </h2>
 
         <p className="text-[#3A506B] mb-4">
-          Welcome to Spurly, a lifestyle application developed and operated by Phaethon Order LLC 
+          Welcome to Spurly, a lifestyle application developed and operated by Phaethon Order LLC, a Wyoming limited liability company 
           (&ldquo;Company&rdquo;, &ldquo;we&rdquo;, &ldquo;us&rdquo;, or &ldquo;our&rdquo;). These Terms of Use (&ldquo;Terms&rdquo;) govern your use of the 
           Spurly mobile application and related services (collectively, the &ldquo;Service&rdquo;).
         </p>

@@ -29,7 +29,7 @@ export default function PrivacyPolicy() {
       {/* Main Content */}
       <main className="flex-1 px-6 py-12 max-w-3xl w-full mx-auto animate-fade-in">
       <h2 className="text-[#3A506B] text-center text-3xl font-bold mb-6">
-          SPURLY PRIVACY POLICY
+          Spurly Privacy Policy
         </h2>
 
         <div className="space-y-8">
