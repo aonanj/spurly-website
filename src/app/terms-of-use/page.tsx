@@ -264,7 +264,6 @@ export default function TermsOfUse() {
           <p>Corporate Contact: <a href="mailto:phaethon@phaethon.llc" className="text-[#3A506B] underline hover:text-[#9BC7FF] transition-colors hover:no-underline">phaethon@phaethon.llc</a></p>
         </div>
         <br />
-        <br />
         <div className="bg-[#BCCCDC]/20 p-4 rounded-lg text-[#102A43]/90">
           <p className="font-semibold">Effective Dates</p>
           <p>Original Effective Date: May 28, 2025</p>

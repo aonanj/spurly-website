@@ -116,7 +116,6 @@ export default function DataDeletionPage() {
           </div>
         </div>
         <br />
-        <br />
         <div className="bg-[#BCCCDC]/20 p-4 rounded-lg text-[#102A43]/90">
           <p className="font-semibold">Effective Dates</p>
           <p>Original Effective Date: May 28, 2025</p>
