@@ -424,8 +424,9 @@ export default function PrivacyPolicy() {
             </p>
             <div className="bg-[#BCCCDC]/20 p-4 rounded-lg text-[#102A43]/90">
               <p className="font-semibold">Phaethon Order LLC</p>
-              <p>Email: <a href="mailto:admin@spurly.io" className="text-[#3A506B] underline hover:text-[#9BC7FF] transition-colors hover:no-underline">admin@spurly.io</a></p>
-              <p>Privacy Inquiries: <a href="mailto:privacy@spurly.io" className="text-[#3A506B] underline hover:text-[#9BC7FF] transition-colors hover:no-underline">privacy@spurly.io</a></p>
+                <p>App Contact: <a href="mailto:admin@spurly.io" className="text-[#3A506B] underline hover:text-[#9BC7FF] transition-colors hover:no-underline">admin@spurly.io</a></p>
+                <p>Privacy Contact: <a href="mailto:privacy@spurly.io" className="text-[#3A506B] underline hover:text-[#9BC7FF] transition-colors hover:no-underline">privacy@spurly.io</a></p>
+                <p>Corporate Contact: <a href="mailto:phaethon@phaethon.llc" className="text-[#3A506B] underline hover:text-[#9BC7FF] transition-colors hover:no-underline">phaethon@phaethon.llc</a></p>
             </div>
             <p className="mt-4 text-[#102A43]/90">
               We aim to respond to all privacy-related inquiries within 30 days.

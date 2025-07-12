@@ -28,7 +28,7 @@ export default function DataDeletionPage() {
       {/* Main Content */}
       <main className="flex-1 p-8 max-w-4xl w-full mx-auto">
       <h2 className="text-[#3A506B] text-center text-3xl font-bold mb-6">
-          SPURLY DATA DELETION POLICY AND PROCEDURE
+          Spurly Data Deletion Policy and Procedure
         </h2>
 
         <h3 className="text-xl font-semibold text-[#3A506B] mt-6 mb-3">
@@ -110,8 +110,9 @@ export default function DataDeletionPage() {
           </p>
           <div className="bg-[#BCCCDC]/20 p-4 rounded-lg text-[#102A43]/90">
             <p className="font-semibold">Phaethon Order LLC</p>
-            <p>Email: <a href="mailto:admin@spurly.io" className="text-[#3A506B] underline hover:text-[#9BC7FF] transition-colors hover:no-underline">admin@spurly.io</a></p>
-            <p>Privacy Inquiries: <a href="mailto:privacy@spurly.io" className="text-[#3A506B] underline hover:text-[#9BC7FF] transition-colors hover:no-underline">privacy@spurly.io</a></p>
+              <p>App Contact: <a href="mailto:admin@spurly.io" className="text-[#3A506B] underline hover:text-[#9BC7FF] transition-colors hover:no-underline">admin@spurly.io</a></p>
+              <p>Privacy Contact: <a href="mailto:privacy@spurly.io" className="text-[#3A506B] underline hover:text-[#9BC7FF] transition-colors hover:no-underline">privacy@spurly.io</a></p>
+              <p>Corporate Contact: <a href="mailto:phaethon@phaethon.llc" className="text-[#3A506B] underline hover:text-[#9BC7FF] transition-colors hover:no-underline">phaethon@phaethon.llc</a></p>
           </div>
         </div>
         <br />

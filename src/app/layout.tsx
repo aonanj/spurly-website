@@ -60,6 +60,7 @@ export const metadata: Metadata = {
   
   icons: {
     icon: [
+      { url: '/favicon.ico', type: 'image/x-icon' },
       { url: '/SpurlyAppIcon.png', sizes: '32x32', type: 'image/png' },
       { url: '/SpurlyAppIcon.png', sizes: '192x192', type: 'image/png' },
     ],
