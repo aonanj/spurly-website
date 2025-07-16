@@ -34,30 +34,27 @@ export default function TokenDisclaimer() {
 
         <section className="animate-slide-up">
           <p className="leading-relaxed text-[#102A43]/90 mb-6">
-            Spurly subscriptions provide a weekly allotment of tokens, which are required for various functionality of the app (e.g., generating spurs, extracting data from screenshots).
-            The number of tokens consumed per spur can vary significantly based on several factors — including 
-            whether the user has provided a conversation, the format of that conversation (e.g., screenshot vs. text), 
-            and the amount and type of contextual information supplied about yourself and a connection.
+            As described in the <a href="https://www.spurly.io/terms-of-use" className="text-[#3A506B] underline hover:text-[#9BC7FF] transition-colors hover:no-underline">Terms of Use</a>, Spurly uses one or more artificial intelligence (AI) models, large language models (LLMs), and/or multimodal LLMs (MLLMs) that are the exclusive properties of respective third-party providers. The models provided by these third-party providers implement <a href="https://en.wikipedia.org/wiki/Large_language_model#Tokenization" className="text-[#3A506B] underline hover:text-[#9BC7FF] transition-colors hover:no-underline">tokenization</a> in which inputs are converted into tokens. The number of tokens used to generate spur suggestions, extract profile information from screenshots, infer personality traits from profile pictures, and various other features of Spurly will vary substantially, e.g., depending on the complexity of images, amounts of text, selected &ldquo;creativity level&rdquo; (i.e., model temperature), and numerous other factors that cannot be accurately forecasted. </p>
+            <p className="leading-relaxed text-[#102A43]/90 mb-6">
+            Spurly subscriptions provide a weekly allotment of tokens, as this arrangement logically aligns with the underlying models. Spurly guarantees that you will be able to use the full number of tokens available at your subscription level, and in most cases, you will be able to exceed that number in order to complete a request for spur suggestions or other Spurly feature. However, Spurly cannot and does not guarantee any amount and/or quality of model-dependent and/or model-generated content and/or functionality that you will receive in return for those tokens. The number of spur suggestions that can be generated at each subscription level is explicitly indicated as an approximation (e.g., via approximately symbol &ldquo;≈&rdquo;), and those approximations assume a minimal amount of contextual information provided by the user. 
           </p>
 
           <p className="leading-relaxed text-[#102A43]/90 mb-6">
-            Due to these variations, Spurly can only offer an <strong className="text-[#3A506B]">approximate estimate</strong> of how many spurs each 
-            subscription level might support. The actual number of spurs a user can generate in a given week 
-            may differ substantially from these estimates.
+            The above information has been made readily available to you prior to subscribing to Spurly. By subscribing to Spurly, you are acknowledging and accepting the terms outlined in this disclaimer. You are free to cancel your weekly subscription at any time. If you are in your first week of subscription and are dissatisfied with the service or need to downgrade your subscription level, please contact us and we will see that your are fully refunded. Questions and concerns should be directed to <a href="mailto:support@spurly.io" className="text-[#3A506B] underline hover:text-[#9BC7FF] transition-colors hover:no-underline">support@spurly.io</a>. We appreciate you.
           </p>
 
-          <p className="leading-relaxed text-[#102A43]/90 mb-6">
-            Spurly does not guarantee a fixed number of spurs per subscription period. By subscribing, 
-            you acknowledge and accept that token consumption is dynamic and that your actual usage outcomes 
-            may vary.
+          <p className="leading-relaxed text-[#102A43]/90 mb-8">
+            Note regarding <strong>limitless</strong> subscription level: As set forth above, Spurly does not have any degree of control or influence over the models utilized to generate spur suggestions and provide various other functionalities. As used in the Spurly subscription context, <strong>limitless</strong> only guarantees that Spurly does not impose a limit on your token usage. This guarantee does not imply that third-party providers will not impose a limit or throttle usage of their models separately from Spurly. As an example, one of the models underlying Spurly has a context window of 1,000,000 tokens. The <strong>limitless</strong> subscription level does not in any way imply that you will be able to exceed that context window. As stated above, Spurly explicitly does not guarantee any features, functionalities, content, availabilities, and/or performances that Spurly does not fully control and implement. </p>
+          <p className="leading-relaxed text-[#102A43]/90 mb-8">
+            By subscribing to Spurly at the <strong>limitless</strong> level, you acknowledge and accept these terms, which have been made readily available to you prior to subscribing. You are free to cancel or downgrade your subscription at any time. However, if you are in your first week of <strong>limitless</strong> subscription and are dissatisfied with the service or need to downgrade your subscription level, please contact us and we will see that your are fully refunded. Questions and concerns should be directed to <a href="mailto:support@spurly.io" className="text-[#3A506B] underline hover:text-[#9BC7FF] transition-colors hover:no-underline">support@spurly.io</a>. We appreciate you.
           </p>
         </section>
         <br />
-        <p className="text-[#3A506B] mb-4">Questions and concerns may be directed to:</p>
+        <p className="text-[#3A506B] mb-4">Spurly is fully owned and operated by Phaethon Order LLC. All rights reserved. Additional contact information:</p>
         <div className="bg-[#BCCCDC]/20 p-4 rounded-lg text-[#102A43]/90">
           <p className="font-semibold">Phaethon Order LLC</p>
           <p>App Contact: <a href="mailto:admin@spurly.io" className="text-[#3A506B] underline hover:text-[#9BC7FF] transition-colors hover:no-underline">admin@spurly.io</a></p>
-          <p>Support Contact: <a href="mailto:support@spurly.io" className="text-[#3A506B] underline hover:text-[#9BC7FF] transition-colors hover:no-underline">support@spurly.io</a></p>
+          <p>Privacy Contact: <a href="mailto:privacy@spurly.io" className="text-[#3A506B] underline hover:text-[#9BC7FF] transition-colors hover:no-underline">privacy@spurly.io</a></p>
           <p>Corporate Contact: <a href="mailto:phaethon@phaethon.llc" className="text-[#3A506B] underline hover:text-[#9BC7FF] transition-colors hover:no-underline">phaethon@phaethon.llc</a></p>
         </div>
         <br />
@@ -83,7 +80,7 @@ export default function TokenDisclaimer() {
           className="object-contain mb-2"
         />
         <span className="text-[#3A506B] text-center">
-          &copy; {currentYear} Phaethon Order LLC. All rights reserved.
+          &copy; {currentYear} Phaethon Order LLC. All rights reserved. <Link href="https://www.phaethon.llc" className="mx-2 text-[#FFFFFF] hover:text-[#3A506B] transition-colors hover:underline">www.phaethon.llc</Link>
         </span>
       </footer>
     </div>
