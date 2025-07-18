@@ -189,14 +189,14 @@ export default function SpurlyLandingPage() {
               {/* Navigation Buttons */}
               <button
                 onClick={prevSlide}
-                className="absolute left-4 top-[400px] bg-[#BCCCDC] text-[#102A43] rounded-full w-12 h-12 flex items-center justify-center hover:bg-[#BCCCDC]/70 transition-colors shadow-md text-2xl font-bold"
+                className="absolute left-4 top-[400px] bg-[#BCCCDC] text-[#102A43] rounded-full w-12 h-12 flex items-center justify-center hover:bg-[#BCCCDC]/70 transition-colors text-3xl font-extrabold"
                 aria-label="Previous screenshot"
               >
                 ‹
               </button>
               <button
                 onClick={nextSlide}
-                className="absolute right-4 top-[400px] bg-[#BCCCDC] text-[#102A43] rounded-full w-12 h-12 flex items-center justify-center hover:bg-[#BCCCDC]/70 transition-colors shadow-md text-2xl font-bold"
+                className="absolute right-4 top-[400px] bg-[#BCCCDC] text-[#102A43] rounded-full w-12 h-12 flex items-center justify-center hover:bg-[#BCCCDC]/70 transition-colors text-3xl font-extrabold"
                 aria-label="Next screenshot"
               >
                 ›
