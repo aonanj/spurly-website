@@ -108,6 +108,7 @@ export default function DataDeletionPage() {
           <p>
             For questions or concerns regarding this Policy, please contact us at:
           </p>
+          <br />
           <div className="bg-[#BCCCDC]/20 p-4 rounded-lg text-[#102A43]/90">
             <p className="font-semibold">Phaethon Order LLC</p>
               <p>App Contact: <a href="mailto:admin@spurly.io" className="text-[#3A506B] underline hover:text-[#9BC7FF] transition-colors hover:no-underline">admin@spurly.io</a></p>
