@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 export const metadata = {
   title: 'Spurly – Data deletion policy and procedure',
-  description: 'Data deletion policy and procedure for Spurly by Phaethon Order LLC',
+  description: 'Learn how to request deletion of your personal data from Spurly. Step-by-step instructions for removing your account and all associated information within 30 days.',
 }
 
 export default function DataDeletionPage() {
