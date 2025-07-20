@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 export const metadata = {
-  title: 'Spurly – Data deletion policy and procedure',
+  title: 'Spurly™ – Data deletion policy and procedure',
   description: 'Learn how to request deletion of your personal data from Spurly. Step-by-step instructions for removing your account and all associated information within 30 days.',
 }
 
@@ -31,10 +31,15 @@ export default function DataDeletionPage() {
           Spurly Data Deletion Policy and Procedure
         </h2>
 
-        <h3 className="text-xl font-semibold text-[#3A506B] mt-6 mb-3">
-          Procedure to request deletion of your data from Spurly:
-        </h3>
-        
+        <h3 className="text-xl font-semibold text-[#3A506B] text-center mt-6 mb-3">Spurly In-App User Account Deletion</h3>
+
+
+        <p className="text-[#3A506B] text-left mb-4">
+          Spurly™ (&ldquo;App&rdquo;, &ldquo;Service&rdquo;, or when referencing the Spurly team or owner/operator organization Phaethon Order LLC, &ldquo;We&rdquo; or &ldquo;Us&rdquo;) does not collect, sell, or otherwise transfer or use your personal. When you delete your account  provides a in-app option for quickly and immediately deleting your account and all associated data. The in-app option can be exercised by opening the side menu of Spurly when you are logged in, tapping &ldquo;settings and preferences&rdquo; (located in the lower portion of the side menu), and then tapping &ldquo;delete account&rdquo;. If you are signing in through your Apple account, you may be required to reauthenticate through Apple before completing account deletion. 
+        </p>
+
+        <h3 className= "text-xl font-semibold text-[#3A506B] text-center mt-6 mb-3">Spurly Account Deletion via Email</h3>
+
         <ol className="list-decimal pl-6 mb-4 space-y-2">
           <li>
             Send an email to{' '}

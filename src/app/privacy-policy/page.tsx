@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Spurly – Privacy Policy',
+  title: 'Spurly™ – Privacy Policy',
   description: 'Learn how Spurly by Phaethon Order LLC protects your personal information. Our comprehensive privacy policy covers data collection, usage, sharing, security measures, and your rights as a user.',
 }
 
@@ -40,7 +40,7 @@ export default function PrivacyPolicy() {
             <p className="leading-relaxed text-[#102A43]/90 mb-3">
               This Privacy Policy describes how Phaethon Order LLC (&ldquo;we&rdquo;, &ldquo;us&rdquo;, &ldquo;our&rdquo;, or &ldquo;Company&rdquo;) 
               collects, uses, shares, and safeguards your information when you use our 
-              mobile application, Spurly (&ldquo;App&rdquo;, &ldquo;Service&rdquo;, or &ldquo;Services&rdquo;). By accessing or using our App, you 
+              mobile application, Spurly™ (&ldquo;App&rdquo;, &ldquo;Service&rdquo;, or &ldquo;Services&rdquo;). By accessing or using our App, you 
               consent to the practices described herein.
             </p>
             <p className="leading-relaxed text-[#102A43]/90">
