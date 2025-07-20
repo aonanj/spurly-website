@@ -92,7 +92,7 @@ export default function BrandingAssets() {
         <div className="mb-4">
           <Link href="/privacy-policy" className="mx-2 text-[#FFFFFF] hover:text-[#3A506B] transition-colors hover:underline">Privacy Policy</Link>
           <Link href="/terms-of-use" className="mx-2 text-[#FFFFFF] hover:text-[#3A506B] transition-colors hover:underline">Terms of Use</Link>
-          <Link href="/ip" className="mx-2 text-[#FFFFFF] hover:text-[#3A506B] transition-colors hover:underline">IP Inventory</Link>
+          <Link href="/data-deletion" className="mx-2 text-[#FFFFFF] hover:text-[#3A506B] transition-colors hover:underline">Data Deletion</Link>
         </div>
         <Image
           src="/SpurlyAppIcon.png"
@@ -130,6 +130,6 @@ export const metadata = {
     title: 'Spurly – Branding & Visual Identity',
     description: 'Browse Spurly’s protected logos and official color palette.',
     images: ['/SpurlyBanner.png'],
-    creator: '@spurlyapp',
+    creator: '@spurlyApp',
   }
 }

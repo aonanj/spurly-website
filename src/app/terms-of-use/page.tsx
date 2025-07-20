@@ -140,8 +140,8 @@ export default function TermsOfUse() {
             </p>
             <p className="text-[#3A506B] mb-4">For non-exhaustive lists of IP assets associated with the App and owned by Phaethon Order LLC, please visit:</p>
             <ul className="text-[#3A506B] list-disc pl-6 mb-4 space-y-1">
-              <li>{' '}</li>(<a href="/ip-inventory" className="text-[#3A506B] underline hover:text-[#9BC7FF] transition-colors hover:no-underline">Spurly IP inventory</a>
-              <li>{' '}</li>(<a href="/branding" className="text-[#3A506B] underline hover:text-[#9BC7FF] transition-colors hover:no-underline">Spurly IP branding</a>
+              <li>{' '}<a href="/ip-inventory" className="text-[#3A506B] underline hover:text-[#9BC7FF] transition-colors hover:no-underline">Spurly IP inventory</a></li>
+              <li>{' '}<a href="/branding" className="text-[#3A506B] underline hover:text-[#9BC7FF] transition-colors hover:no-underline">Spurly IP branding</a></li>
             </ul>
           <h4 className="text-[#3A506B] text-base font-semibold mt-4 mb-2">7.2 License to Company</h4>
             <p className="text-[#3A506B] mb-4">
