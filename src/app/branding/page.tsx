@@ -4,9 +4,31 @@ import Link from 'next/link'
 export default function BrandingAssets() {
   const currentYear = new Date().getFullYear()
 
+  const colorPalette = [
+    { label: 'Accent', light: '#5FA8D2', dark: '#6BAEDB' },
+    { label: 'Accent Contrast', light: '#F15F5C', dark: '#FFFFFF' },
+    { label: 'Accent 2', light: '#F15F5C', dark: '#F37975' },
+    { label: 'Accent 3', light: '#D27C2C', dark: '#DA8F49' },
+    { label: 'Accent 4', light: '#FFA400', dark: '#FFCD33' },
+    { label: 'Borders / Separators', light: '#CAD2D9', dark: '#474749' },
+    { label: 'Brand Color', light: '#3A506B', dark: '#5A7695' },
+    { label: 'Brand Alt Dark', light: '#B5D2D9', dark: '#39506B' },
+    { label: 'Card Background', light: '#EAF6FF', dark: '#232323' },
+    { label: 'Highlight', light: '#9BC7FF', dark: '#A4D1FF' },
+    { label: 'Primary Background', light: '#EFF4F8', dark: '#1A1A1A' },
+    { label: 'Primary Button', light: '#39506B', dark: '#5A7695' },
+    { label: 'Primary Text', light: '#102A43', dark: '#E4E4E7' },
+    { label: 'Secondary Background', light: '#D9E1EB', dark: '#2C2C2D' },
+    { label: 'Secondary Borders', light: '#6F8090', dark: '#CAD2D9' },
+    { label: 'Secondary Button', light: '#5FA8D2', dark: '#5FA8E2' },
+    { label: 'Secondary Text', light: '#617D98', dark: '#8E8E92' },
+    { label: 'Tertiary Background', light: '#BCCCDC', dark: '#39393B' },
+    { label: 'Tertiary Button', light: '#C70714', dark: '#D93644' },
+    { label: 'Tertiary Text', light: '#E4E4E7', dark: '#102A43' },
+  ]
+
   return (
     <div className="min-h-screen flex flex-col bg-[#F0F4F8]">
-      {/* Header */}
       <header className="bg-[#BCCCDC] py-8 px-4 text-center">
         <div className="max-w-[450px] mx-auto">
           <Image
@@ -20,7 +42,6 @@ export default function BrandingAssets() {
         </div>
       </header>
 
-      {/* Main Content */}
       <main className="flex-1 p-8 max-w-4xl w-full mx-auto">
         <h2 className="text-[#3A506B] text-center text-3xl font-bold mb-6">
           Spurly – Branding & Visual Identity
@@ -37,8 +58,18 @@ export default function BrandingAssets() {
             <p className="text-[#3A506B] mt-2">App Icon</p>
           </div>
           <div className="text-center">
-            <Image src="/SpurlyBanner.png" alt="Spurly Banner Logo" width={300} height={120} className="rounded shadow-lg mx-auto" />
-            <p className="text-[#3A506B] mt-2">Banner Logo</p>
+            <Image src="/SpurlyTextLogo.png" alt="Spurly Banner Logo" width={300} height={120} className="rounded shadow-lg mx-auto" />
+            <p className="text-[#3A506B] mt-2">Text Logo</p>
+          </div>
+        </div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-6">
+          <div className="text-center">
+            <Image src="/SpurlyAppIconAlt.png" alt="Spurly App Icon Alt" width={128} height={128} className="rounded shadow-lg mx-auto" />
+            <p className="text-[#3A506B] mt-2">App Icon (Alt)</p>
+          </div>
+          <div className="text-center">
+            <Image src="/SpurlyFlyingSpur.png" alt="Spurly Flying Spur Logo" width={300} height={120} className="rounded shadow-lg mx-auto" />
+            <p className="text-[#3A506B] mt-2">Flying Spur Logo</p>
           </div>
         </div>
 
@@ -47,39 +78,17 @@ export default function BrandingAssets() {
         </p>
 
         <h3 className="text-[#3A506B] text-2xl font-semibold mt-8 mb-4">Color Palette</h3>
-        <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 text-center mb-12">
-          <div>
-            <div className="bg-[#5FA8D2] h-20 rounded-lg shadow-inner" />
-            <p className="text-[#3A506B] mt-2">Accent: #5FA8D2</p>
-          </div>
-          <div>
-            <div className="bg-[#F15F5C] h-20 rounded-lg shadow-inner" />
-            <p className="text-[#3A506B] mt-2">Accent 2: #F15F5C</p>
-          </div>
-          <div>
-            <div className="bg-[#D27C2C] h-20 rounded-lg shadow-inner" />
-            <p className="text-[#3A506B] mt-2">Accent 3: #D27C2C</p>
-          </div>
-          <div>
-            <div className="bg-[#FFA400] h-20 rounded-lg shadow-inner" />
-            <p className="text-[#3A506B] mt-2">Accent 4: #FFA400</p>
-          </div>
-          <div>
-            <div className="bg-[#CAD2D9] h-20 rounded-lg shadow-inner" />
-            <p className="text-[#3A506B] mt-2">Borders: #CAD2D9</p>
-          </div>
-          <div>
-            <div className="bg-[#3A506B] h-20 rounded-lg shadow-inner" />
-            <p className="text-[#3A506B] mt-2">Brand: #3A506B</p>
-          </div>
-          <div>
-            <div className="bg-[#B5D2D9] h-20 rounded-lg shadow-inner" />
-            <p className="text-[#3A506B] mt-2">Brand Alt: #B5D2D9</p>
-          </div>
-          <div>
-            <div className="bg-[#EFF4F8] h-20 rounded-lg shadow-inner border" />
-            <p className="text-[#3A506B] mt-2">Primary Background: #EFF4F8</p>
-          </div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 text-center mb-12">
+          {colorPalette.map((color, idx) => (
+            <div key={idx} className="bg-white rounded shadow p-4">
+              <p className="text-[#3A506B] font-semibold mb-2">{color.label}</p>
+              <div className="flex justify-center items-center gap-4">
+                <div className="w-20 h-10 rounded" style={{ backgroundColor: color.light }} />
+                <div className="w-20 h-10 rounded" style={{ backgroundColor: color.dark }} />
+              </div>
+              <p className="text-[#3A506B] text-sm mt-2">Light: {color.light} | Dark: {color.dark}</p>
+            </div>
+          ))}
         </div>
 
         <p className="text-[#3A506B] text-sm italic text-center">
@@ -87,7 +96,6 @@ export default function BrandingAssets() {
         </p>
       </main>
 
-      {/* Footer */}
       <footer className="bg-[#BCCCDC] flex flex-col items-center justify-center p-4 text-[#627D98]">
         <div className="mb-4">
           <Link href="/privacy-policy" className="mx-2 text-[#FFFFFF] hover:text-[#3A506B] transition-colors hover:underline">Privacy Policy</Link>
@@ -129,7 +137,6 @@ export const metadata = {
     card: 'summary_large_image',
     title: 'Spurly – Branding & Visual Identity',
     description: 'Browse Spurly’s protected logos and official color palette.',
-    images: ['/SpurlyBanner.png'],
-    creator: '@spurlyApp',
+    images: ['/SpurlyBanner.png']
   }
 }
