@@ -41,6 +41,11 @@ export default function SpurlyLandingPage() {
       src: '/SpurlyScreenShot-6.png',
       alt: 'Spurly Quick Actions',
       description: 'Save your favorite Spurs and access them with one tap'
+    },
+    {
+      src: '/SpurlyScreenShot-7.png',
+      alt: 'Spurly Personality Insights',
+      description: 'Get Spurly insights into their personality and how to connect with them'
     }
   ]
 
