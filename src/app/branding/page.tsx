@@ -89,8 +89,8 @@ export default function BrandingAssets() {
             <div key={idx} className="bg-white rounded shadow p-4">
               <p className="text-[#3A506B] font-semibold mb-2">{color.label}</p>
               <div className="flex justify-center items-center gap-4">
-                <div className="w-20 h-10 rounded" style={{ backgroundColor: color.light }} />
-                <div className="w-20 h-10 rounded" style={{ backgroundColor: color.dark }} />
+                <div className="w-20 h-10 rounded border border-gray-300" style={{ backgroundColor: color.light }} />
+                <div className="w-20 h-10 rounded border border-gray-300" style={{ backgroundColor: color.dark }} />
               </div>
               <p className="text-[#3A506B] text-sm mt-2">Light: {color.light} | Dark: {color.dark}</p>
             </div>
