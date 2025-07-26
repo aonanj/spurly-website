@@ -72,6 +72,12 @@ export default function BrandingAssets() {
             <p className="text-[#3A506B] mt-2">Flying Spur Logo</p>
           </div>
         </div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-6">
+          <div className="text-center">
+            <Image src="/SpurlyLower.png" alt="Spurly Lowercase Logo" width={300} height={100} className="rounded shadow-lg mx-auto" />
+            <p className="text-[#3A506B] mt-2">Lowercase Logo</p>
+          </div>
+        </div>
 
         <p className="text-[#3A506B] mb-6 text-sm italic text-center">
           These assets are protected under trademark and copyright law. Do not alter, recolor, distort, or redistribute without explicit permission.

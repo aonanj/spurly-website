@@ -39,6 +39,7 @@ export default function SpurlyIP() {
           <li>Main Spur™; Warm Spur™; Cool Spur™; Banter Spur™ (phrases)</li>
           <li>Spur™ (in the context of message suggestions)</li>
           <li>Less guessing, more connecting.™ (slogan)</li>
+          <li>Stop guessing, start connecting.™ (slogan)</li>
           <li>Find your own words, faster.™ (slogan)</li>
           <li>App icon design and color palette</li>
           <li>Spurly wordmark (custom stylized typography)</li>
