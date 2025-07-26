@@ -4,7 +4,7 @@ import { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Spurly™ – Privacy Policy',
-  description: 'Learn how Spurly by Phaethon Order LLC protects your personal information. Our comprehensive privacy policy covers data collection, usage, sharing, security measures, and your rights as a user.',
+  description: 'Protecting your privacy is our priority. Read the Spurly privacy policy to learn about our data collection, usage, and security practices, and your rights as a user.',
 }
 
 export default function PrivacyPolicy() {
