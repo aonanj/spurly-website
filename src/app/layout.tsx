@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     default: 'Spurly - AI-Powered Dating Message Assistant | Find Your Words Faster',
     template: '%s | Spurly'
   },
-  description: 'Spurly is a contextually informed AI messaging assistant that helps you find the right words faster for dating apps, texts, and DMs. Get personalized message suggestions that match your style.',
+  description: 'Less guessing, more connecting with Spurly. Get AI-powered, context-informed message suggestions and personality insights for dating and messaging apps.',
   keywords: ['dating app assistant', 'AI messaging', 'dating message suggestions', 'text message helper', 'conversation starter', 'AI dating coach', 'message generator', 'dating app helper', 'Spurly app'],
   authors: [{ name: 'Phaethon Order LLC' }],
   creator: 'Phaethon Order LLC',

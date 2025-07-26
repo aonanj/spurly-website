@@ -11,7 +11,9 @@ export default function DataDeletionPage() {
   const currentYear = new Date().getFullYear()
 
   return (
+    
     <div className="min-h-screen flex flex-col bg-[#F0F4F8] text-[#102A43]">
+      <h1 className="sr-only">Spurly: Data Deletion Policy and Procedure</h1>
       {/* Header */}
       <header className="bg-[#BCCCDC] py-8 px-4 text-center">
         <div className="relative w-full max-w-[450px] h-[174px] mx-auto">

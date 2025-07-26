@@ -1,7 +1,7 @@
 export const seoConfig = {
     defaultTitle: 'Spurly - AI-Powered Dating Message Assistant | Find Your Words Faster',
     titleTemplate: '%s | Spurly',
-    defaultDescription: 'Connect faster with Spurly, the AI messaging assistant. Get context-informed message suggestions and personality insights for dating apps, texts, and DMs.',
+    defaultDescription: 'Less guessing, more connecting with Spurly. Get AI-powered, context-informed message suggestions and personality insights for dating and messaging apps.',
     siteUrl: 'https://spurly.io',
     defaultOgImage: 'https://spurly.io/SpurlyBanner.png',
     twitterHandle: '@spurlyapp',
