@@ -87,6 +87,8 @@ export default function SpurlyLandingPage() {
         }}
       />
 
+      <h1 className="sr-only">Spurly: Context-Informed AI-Powered Messaging Assistant for Authentic Connections. Now with Personality Insights.</h1>
+
       {/* Header */}
       <header className="bg-[#BCCCDC] py-8 px-4 text-center">
         <div className="relative w-full max-w-[450px] h-[174px] mx-auto">
