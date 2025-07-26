@@ -59,7 +59,7 @@ export default function BrandingAssets() {
           </div>
           <div className="text-center">
             <Image src="/SpurlyTextLogo.png" alt="Spurly Banner Logo" width={300} height={120} className="rounded shadow-lg mx-auto" />
-            <p className="text-[#3A506B] mt-2">Text Logo</p>
+            <p className="text-[#3A506B] mt-2">Text Banner Logo</p>
           </div>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-6">
@@ -74,8 +74,8 @@ export default function BrandingAssets() {
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-6">
           <div className="text-center">
-            <Image src="/SpurlyLower.png" alt="Spurly Lowercase Logo" width={300} height={100} className="rounded shadow-lg mx-auto" />
-            <p className="text-[#3A506B] mt-2">Lowercase Logo</p>
+            <Image src="/SpurlyLower.png" alt="Spurly Lowercase Logo" width={200} height={70} className="rounded shadow-lg mx-auto" />
+            <p className="text-[#3A506B] mt-2">Text Banner Logo (Alt)</p>
           </div>
         </div>
 
