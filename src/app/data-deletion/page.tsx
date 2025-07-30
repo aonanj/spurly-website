@@ -37,13 +37,13 @@ export default function DataDeletionPage() {
 
 
         <p className="text-[#3A506B] text-left mb-4">
-          Spurly™ (&ldquo;App&rdquo;, &ldquo;Service&rdquo;, or when referencing the Spurly team or owner/operator organization Phaethon Order LLC, &ldquo;We&rdquo; or &ldquo;Us&rdquo;) does not collect, sell, or otherwise transfer or use your personal. When you delete your account, all of your information will be removed from our storage servers. Once removed, it cannot be recovered. 
+          Spurly™ (&ldquo;App&rdquo;, &ldquo;Service&rdquo;, or when referencing the Spurly team or owner/operator organization Phaethon Order LLC, &ldquo;we,&rdquo; &ldquo;us,&rdquo; &ldquo;our&rdquo;) does not collect, sell, or otherwise transfer or use your personal data. When you delete your account, all of your data will be removed from our storage servers. Once removed, it cannot be recovered. 
         </p>
         <p className="text-[#3A506B] text-left mb-4">
-          Please note that deleting your account will not cancel any active subscriptions, which are managed through Apple&apos;s App Store. Deleting your account with us will only delete the subscription data stored on our servers. If you have an active subscription, you must also cancel your subscription through Apple&apos;s App Store in addition to deleting your account to avoid being charged for the next billing cycle.
+          Please note that deleting your account will not cancel any active subscriptions, which are managed through Apple&apos;s App Store. Deleting your account with us will only delete the subscription data stored on our servers. Apple prohibits us from canceling a subscription on behalf of a user. Therefore, you must also cancel your subscription through Apple&apos;s App Store in addition to deleting your account to avoid being charged for the next billing cycle. We are not responsible for any charges incurred due to failure to cancel your subscription through Apple&apos;s App Store. You can manage your subscriptions through the App Store on your device or through your Apple ID account settings.
         </p>
         <p className="text-[#3A506B] text-left mb-4">
-          Spurly also provides an in-app option for quickly and immediately deleting your account and all associated data. The in-app option can be exercised by opening the side menu of Spurly when you are logged in, tapping &ldquo;settings and preferences&rdquo; (located in the lower portion of the side menu), and then tapping &ldquo;delete account&rdquo;. If you are signing in through your Apple account, you may be required to reauthenticate through Apple before completing account deletion.
+          Spurly also provides an in-app option for quickly and immediately deleting your account and all associated data. The in-app option is available through the side menu of Spurly when you are logged in. With the side menu open, tap &ldquo;settings and preferences&rdquo; (located in the lower section of the side menu), and then tap &ldquo;delete account&rdquo;. If you are signing in through your Apple account, you may be required to reauthenticate through Apple before completing account deletion.
         </p>
 
         <h3 className= "text-xl font-semibold text-[#3A506B] text-center mt-6 mb-3">Spurly Account Deletion via Email</h3>
@@ -56,7 +56,7 @@ export default function DataDeletionPage() {
             </a>
             .
           </li>
-          <li>Use the subject line: &ldquo;Data Deletion Request&rdquo;.</li>
+          <li>Use the subject line: &ldquo;Data Deletion Request.&rdquo;</li>
           <li>
             In the body of the email, please include:
             <ol className="list-[lower-alpha] pl-6 mt-2 space-y-1 text-sm">
@@ -65,7 +65,7 @@ export default function DataDeletionPage() {
             </ol>
           </li>
           <li>
-            If you use a third-party provider to sign on to Spurly, please identify 
+            If you use a third-party provider to sign in to Spurly, please identify 
             that provider: Apple, Google, or Facebook.
             <ol className="list-[lower-alpha] pl-6 mt-2 space-y-1 text-sm">
               <li>IMPORTANT: If you sign in with Apple and use &ldquo;Hide My Email,&rdquo; you must provide the Apple-generated random email address, which is the email address associated with your Spurly account. Failure to provide the exact email address associated with your Spurly account will prevent deletion of your data.</li>
@@ -101,8 +101,8 @@ export default function DataDeletionPage() {
             providers for the purpose of generating personalized content (Spurly does not collect or share any personal information for any other purpose, such as advertising or marketing).
           </p>
           <p className="mb-4">
-            These service providers may include Apple (if used for sign in or subscription), Facebook (only if used for sign in), Google (for authentication, secure storage, and for AI functionality through one or more of its models), OpenAI (for AI functionality through one or more of its models), Anthropic (for AI functionality through one or more of its models), and/or Meta. We do not send personal identifiers, such as user IDs or email addresses, in calls to AI models. However, we have no control of, access to, or information about your data at these third-party service providers. Accordingly, a request to delete your data from Spurly will not affect your data stored 
-            with those other service providers (if any). Please contact those providers directly if you wish to delete your data with them. 
+            These service providers may include Apple (if used for sign in or subscription), Facebook (only if used for sign in), Google (for authentication, secure storage, and for AI functionality through one or more of its models), OpenAI (for AI functionality through one or more of its models), Anthropic (for AI functionality through one or more of its models), and/or Meta (for AI functionality through one or more of its models). We do not send personal identifiers, such as user IDs or email addresses, in calls to AI models. However, we have no control of, access to, or information about your data at these third-party service providers. Accordingly, a request to delete your data from Spurly will not affect your data stored 
+            with those other service providers (if any).
           </p>
           <p>
             We are not responsible for contacting any third-party providers on your 
@@ -113,13 +113,13 @@ export default function DataDeletionPage() {
 
         <div className="mt-8">
           <p className="font-bold mb-2">Updates to this Policy</p>
-          <p>This Policy may be updated periodically and without notice.</p>
+          <p>This Policy and Procedure may be updated periodically and without notice.</p>
         </div>
 
         <div className="mt-8">
           <p className="font-bold mb-2">Contact Us</p>
           <p>
-            For questions or concerns regarding this Policy, please contact us at:
+            For questions or concerns regarding this Policy and Procedure, please contact us at:
           </p>
           <br />
           <div className="bg-[#BCCCDC]/20 p-4 rounded-lg text-[#102A43]/90">
@@ -133,7 +133,7 @@ export default function DataDeletionPage() {
         <div className="bg-[#BCCCDC]/20 p-4 rounded-lg text-[#102A43]/90">
           <p className="font-semibold">Effective Dates</p>
           <p>Original Effective Date: May 28, 2025</p>
-          <p>Last Updated: July 26, 2025</p>
+          <p>Last Updated: July 30, 2025</p>
         </div>
       </main>
 

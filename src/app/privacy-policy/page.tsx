@@ -81,7 +81,7 @@ export default function PrivacyPolicy() {
             <h3 className="text-xl font-medium text-[#3A506B] mb-3">Information from Third Parties</h3>
             <ul className="list-disc pl-6 space-y-2 text-[#102A43]/90">
               <li>Social media account information (when you sign in with Google, Facebook, or Apple)</li>
-              <li>GPT model content and responses</li>
+              <li>AI/LLM model content and responses</li>
               <li>Publicly available information</li>
             </ul>
           </section>
@@ -95,10 +95,10 @@ export default function PrivacyPolicy() {
               using these services:
             </p>
             <ul className="list-disc pl-6 space-y-2 text-[#102A43]/90">
-              <li>We access only the information you authorize us to access</li>
-              <li>Your information is accessed consistent with your privacy settings on those platforms</li>
-              <li>We may receive your name, email address, and unique identifier</li>
-              <li>We do not receive or store your third-party account passwords</li>
+              <li>We access only the information you authorize us to access.</li>
+              <li>Your information is accessed consistent with your privacy settings on those platforms.</li>
+              <li>We may receive your name, email address, and unique identifier.</li>
+              <li>We do not receive or store your third-party account passwords.</li>
             </ul>
             <p className="mt-3 text-[#102A43]/90">
               Please review the privacy policies of{' '}
@@ -113,7 +113,7 @@ export default function PrivacyPolicy() {
             <h2 className="text-2xl font-semibold text-[#3A506B] mb-4">
               Use of Your Information
             </h2>
-            <p className="mb-3 text-[#102A43]/90">We do not collect your information for advertising or sale purposes. Your information is not made available outside of our App, apart from what you proactively choose to use to send to OpenAI GPT models (necessary for the core featuers of our App).</p>
+            <p className="mb-3 text-[#102A43]/90">We do not collect your information for advertising or sale purposes. Your information is not made available outside of our App, apart from what you proactively choose to use to send to AI/LLM models (necessary for the core featuers of our App).</p>
             <p className="mb-3 text-[#102A43]/90">We use the information we collect to:</p>
             <ul className="list-disc pl-6 space-y-2 text-[#102A43]/90">
               <li>Provide, maintain, and improve the App and our Services</li>
@@ -169,7 +169,7 @@ export default function PrivacyPolicy() {
                 )
               </li>
               <li>
-                <strong className="text-[#617D98]">Google Cloud Platform:</strong> Cloud Vision API, Cloud Run, and infrastructure services (
+                <strong className="text-[#617D98]">Google Cloud Platform:</strong> Cloud Vertex AI, Cloud Run, and infrastructure services (
                 <a 
                   href="https://cloud.google.com/terms/cloud-privacy-notice" 
                   className="text-[#3A506B] underline hover:text-[#9BC7FF] transition-colors hover:no-underline"
@@ -181,9 +181,45 @@ export default function PrivacyPolicy() {
                 )
               </li>
               <li>
-                <strong className="text-[#617D98]">OpenAI:</strong> AI-powered features and content generation (
+                <strong className="text-[#617D98]">Google:</strong> Gemini-powered features and content generation (
+                <a 
+                  href="https://ai.google.dev/gemini-api/terms" 
+                  className="text-[#3A506B] underline hover:text-[#9BC7FF] transition-colors hover:no-underline"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Privacy Policy
+                </a>
+                )
+              </li>
+              <li>
+                <strong className="text-[#617D98]">Meta:</strong> Llama-powered features and content generation (
+                <a 
+                  href="https://www.facebook.com/privacy/policy/" 
+                  className="text-[#3A506B] underline hover:text-[#9BC7FF] transition-colors hover:no-underline"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Privacy Policy
+                </a>
+                )
+              </li>
+              <li>
+                <strong className="text-[#617D98]">OpenAI:</strong> GPT-powered features and content generation (
                 <a 
                   href="https://openai.com/privacy" 
+                  className="text-[#3A506B] underline hover:text-[#9BC7FF] transition-colors hover:no-underline"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Privacy Policy
+                </a>
+                )
+              </li>
+              <li>
+                <strong className="text-[#617D98]">Anthropic:</strong> Claude-powered features and content generation (
+                <a 
+                  href="https://www.anthropic.com/legal/privacy" 
                   className="text-[#3A506B] underline hover:text-[#9BC7FF] transition-colors hover:no-underline"
                   target="_blank"
                   rel="noopener noreferrer"

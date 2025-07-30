@@ -56,7 +56,7 @@ export default function SpurlyIP() {
           <li>Animations, tooltips, and onboarding guides</li>
           <li>Help center content and legal disclaimers</li>
           <li>Email templates and notification design</li>
-          <li>Website content and structure (e.g., spurly.io, page.tsx)</li>
+          <li>Website content and structure (e.g., spurly.io, spurly.ai)</li>
         </ul>
 
         {/* Trade Secrets */}
@@ -67,9 +67,9 @@ export default function SpurlyIP() {
           <li>Thumbs-up/down feedback strategy and message reranking heuristics</li>
           <li>System prompt fallback mechanisms and retry logic</li>
           <li>Internal scoring and filtering mechanisms to determine spur quality</li>
-          <li>Design principles for cold-open generation under chaotic user conditions</li>
+          <li>Design principles for content generation under chaotic user conditions</li>
           <li>LLM provider selection logic and tiered model fallback</li>
-          <li>Backend architecture linking SwiftUI frontend, Python middleware, and Firebase/OpenAI APIs</li>
+          <li>Backend architecture linking SwiftUI frontend, Python middleware, and frontier-level foundation models APIs</li>
         </ul>
 
         {/* Patents */}
