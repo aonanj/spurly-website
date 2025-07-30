@@ -8,15 +8,17 @@ export default function SpurlyIP() {
     <div className="min-h-screen flex flex-col bg-[#F0F4F8]">
       {/* Header */}
       <header className="bg-[#BCCCDC] py-8 px-4 text-center">
-        <div className="max-w-[450px] mx-auto">
-          <Image
-            src="/SpurlyBanner.png"
-            alt="Spurly banner logo"
-            width={450}
-            height={174}
+        <div className="max-w-[450px] mx-auto transform transition-transform hover:scale-110">
+          <a href="https://spurly.io">
+            <Image
+              src="/SpurlyBanner.png"
+              alt="Spurly banner logo"
+              width={450}
+              height={174}
             className="w-full h-auto object-contain"
             priority
           />
+          </a>
         </div>
       </header>
 
@@ -98,7 +100,7 @@ export default function SpurlyIP() {
           className="object-contain mb-2"
         />
         <span className="text-[#3A506B] text-center">
-          &copy; {currentYear} Phaethon Order LLC. All rights reserved.
+          &copy; {currentYear} <a href="https://phaethon.llc" className="text-[#3A506B] underline hover:text-[#9BC7FF] transition-colors hover:no-underline">Phaethon Order LLC</a>. All rights reserved.
         </span>
       </footer>
     </div>

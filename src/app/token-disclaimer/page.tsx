@@ -14,15 +14,17 @@ export default function TokenDisclaimer() {
     <div className="min-h-screen flex flex-col bg-[#F0F4F8] text-[#102A43]">
       {/* Header */}
       <header className="bg-[#BCCCDC] py-8 px-4 text-center">
-        <div className="relative w-full max-w-[450px] h-[174px] mx-auto">
-          <Image
-            src="/SpurlyBanner.png"
-            alt="Spurly banner logo"
-            width={450}
-            height={174}
+        <div className="relative w-full max-w-[450px] h-[174px] mx-auto transform transition-transform hover:scale-110">
+          <a href="https://spurly.io">
+            <Image
+              src="/SpurlyBanner.png"
+              alt="Spurly banner logo"
+              width={450}
+              height={174}
             className="w-full h-auto object-contain"
             priority
           />
+          </a>
         </div>
       </header>
 

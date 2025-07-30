@@ -30,15 +30,17 @@ export default function BrandingAssets() {
   return (
     <div className="min-h-screen flex flex-col bg-[#F0F4F8]">
       <header className="bg-[#BCCCDC] py-8 px-4 text-center">
-        <div className="max-w-[450px] mx-auto">
-          <Image
-            src="/SpurlyBanner.png"
-            alt="Spurly banner logo"
-            width={450}
-            height={174}
+        <div className="max-w-[450px] mx-auto transform transition-transform hover:scale-110">
+          <a href="https://spurly.io">
+            <Image
+              src="/SpurlyBanner.png"
+              alt="Spurly banner logo"
+              width={450}
+              height={174}
             className="w-full h-auto object-contain"
             priority
           />
+          </a>
         </div>
       </header>
 
