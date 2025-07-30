@@ -296,7 +296,7 @@ export default function TermsOfUse() {
             className="object-contain mb-2"
           />
           <span className="text-[#3A506B] text-center">
-            &copy; {currentYear} Phaethon Order LLC. All rights reserved.
+            &copy; {currentYear} <a href="https://phaethon.llc" className="text-[#3A506B] underline hover:text-[#9BC7FF] transition-colors hover:no-underline">Phaethon Order LLC</a>. All rights reserved.
           </span>
         </footer>
     </div>

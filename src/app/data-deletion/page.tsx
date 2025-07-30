@@ -16,14 +16,16 @@ export default function DataDeletionPage() {
       <h1 className="sr-only">Spurly: Data Deletion Policy and Procedure</h1>
       {/* Header */}
       <header className="bg-[#BCCCDC] py-8 px-4 text-center">
-        <div className="relative w-full max-w-[450px] h-[174px] mx-auto">
-          <Image
-            src="/SpurlyBanner.png"
-            alt="Spurly banner logo"
-            fill
-            className="object-contain"
-            priority
-          />
+        <div className="relative w-full max-w-[450px] h-[174px] mx-auto transform transition-transform hover:scale-110">
+          <a href="https://spurly.io">
+            <Image
+              src="/SpurlyBanner.png"
+              alt="Spurly banner logo"
+              fill
+              className="object-contain"
+              priority
+            />
+          </a>
         </div>
       </header>
 
@@ -151,7 +153,7 @@ export default function DataDeletionPage() {
             className="object-contain mb-2"
           />
           <span className="text-[#3A506B] text-center">
-            &copy; {currentYear} Phaethon Order LLC. All rights reserved.
+            &copy; {currentYear} <a href="https://phaethon.llc" className="text-[#3A506B] underline hover:text-[#9BC7FF] transition-colors hover:no-underline">Phaethon Order LLC</a>. All rights reserved.
           </span>
         </footer>
     </div>
