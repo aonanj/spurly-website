@@ -375,44 +375,41 @@ export default function PrivacyPolicy() {
 
           <section className="animate-slide-up" style={{ animationDelay: '1.2s' }}>
             <h2 className="text-2xl font-semibold text-[#3A506B] mb-4">
-              Cookies and Tracking Technologies
+              App Data Storage and Tracking Technologies
             </h2>
             <p className="leading-relaxed text-[#102A43]/90 mb-3">
-              We use cookies and similar tracking technologies to:
+              Spurly does not use web cookies, as it is a native iOS application. Instead, we rely on secure mobile app storage technologies and third-party services for operation and functionality.
             </p>
+            <h3 className="text-xl font-medium text-[#3A506B] mb-3">Local Storage</h3>
+            <p className="mb-3 text-[#102A43]/90">To support seamless functionality, Spurly uses iOS-native storage tools such as:</p>
             <ul className="list-disc pl-6 space-y-2 text-[#102A43]/90">
-              <li>Keep you logged in to your account</li>
-              <li>Remember your preferences and settings</li>
-              <li>Analyze app usage and performance</li>
-              <li>Deliver relevant content and features</li>
+              <li><strong>Keychain</strong> to securely store authentication tokens and keep you signed in.</li>
+              <li><strong>UserDefaults</strong> to store your app preferences, such as theme or onboarding status.</li>
             </ul>
-            <p className="mt-3 text-[#102A43]/90">
-              You can manage cookie preferences through your device settings. Disabling cookies may 
-              limit some features of our App.
-            </p>
-          </section>
-
-          <section className="animate-slide-up" style={{ animationDelay: '1.3s' }}>
-            <h2 className="text-2xl font-semibold text-[#3A506B] mb-4">
-              Third-Party Links
-            </h2>
-            <p className="leading-relaxed text-[#102A43]/90">
-              Our App may contain links to third-party websites, services, or content. We are not 
-              responsible for the privacy practices of these third parties. We encourage you to 
-              review their privacy policies before providing any personal information.
-            </p>
-          </section>
-
-          <section className="animate-slide-up" style={{ animationDelay: '1.4s' }}>
-            <h2 className="text-2xl font-semibold text-[#3A506B] mb-4">
-              Marketing Communications
-            </h2>
-            <p className="leading-relaxed text-[#102A43]/90">
-              With your consent, we may send you promotional emails about new features, products, 
-              or services. You can opt-out of marketing communications at any time by clicking the 
-              &ldquo;unsubscribe&rdquo; link in our emails or updating your preferences in account settings. 
-              Note that you will continue to receive transactional and account-related communications.
-            </p>
+            <h3 className="text-xl font-medium text-[#3A506B] mt-6 mb-3">Authentication Providers</h3>
+            <p className="mb-3 text-[#102A43]/90">If you choose to sign in using a third-party provider (Apple, Google, or Facebook), we receive limited personal information from that provider (your name, email address, and an identifier). These services authenticate your identity but do not provide us with any other access to your account or password. This information is only used to uniquely identify and authenticate you within the App.</p>
+            <p className="mb-3 text-[#102A43]/90">Please refer to the respective privacy policy of the provider you choose for more information:</p>
+            <ul className="list-disc pl-6 space-y-2 text-[#102A43]/90">
+              <li><a href="https://www.apple.com/legal/privacy/" className="text-[#3A506B] underline hover:text-[#9BC7FF] transition-colors hover:no-underline" target="_blank" rel="noopener noreferrer">Apple</a></li>
+              <li><a href="https://policies.google.com/privacy" className="text-[#3A506B] underline hover:text-[#9BC7FF] transition-colors hover:no-underline" target="_blank" rel="noopener noreferrer">Google</a></li>
+              <li><a href="https://www.facebook.com/policy.php" className="text-[#3A506B] underline hover:text-[#9BC7FF] transition-colors hover:no-underline" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+            </ul>
+            <h3 className="text-xl font-medium text-[#3A506B] mt-6 mb-3">Analytics and Crash Reporting</h3>
+            <p className="mb-3 text-[#102A43]/90">To understand app usage and improve stability, Spurly uses:</p>
+            <ul className="list-disc pl-6 space-y-2 text-[#102A43]/90">
+              <li><strong>Firebase Analytics</strong> — collects anonymized usage data to help us improve features and app performance.</li>
+              <li><strong>Firebase Crashlytics</strong> — collects crash logs and diagnostic information to help resolve errors and bugs.</li>
+            </ul>
+            <p className="mb-3 text-[#102A43]/90">These services may automatically collect information such as device model, OS version, app version, and anonymized usage interactions. You can opt out of analytics tracking through your device&apos;s privacy settings.</p>
+            <h3 className="text-xl font-medium text-[#3A506B] mt-6 mb-3">Advertising and Attribution (Future Use)</h3>
+            <p className="mb-3 text-[#102A43]/90">As of the Last Updated date (<i>infra</i>), Spurly does not integrate any advertising or attribution tools. However, we reserve the right to integrate advertising or attribution tools (such as the TikTok SDK) in the future, e.g., for marketing or app performance purposes. These tools may collect device identifiers (e.g., Apple&apos;s IDFA) if you consent to tracking. No personally identifiable information will be used for targeted advertising without your explicit permission.</p>
+            <h3 className="text-xl font-medium text-[#3A506B] mt-6 mb-3">Managing Your Data and Privacy Settings</h3>
+            <p className="mb-3 text-[#102A43]/90">You can manage your app tracking preferences in your device settings:</p>
+            <ul className="list-disc pl-6 space-y-2 text-[#102A43]/90">
+              <li><strong>Settings &gt; Privacy &amp; Security &gt; Tracking</strong> – to allow or deny app tracking.</li>
+              <li><strong>Settings &gt; Spurly</strong> – to manage app permissions like access to notifications or background refresh.</li>
+            </ul>
+            <p className="mt-3 text-[#102A43]/90">Disabling tracking or permissions may impact certain features. Those features are not directly implemented by Spurly, but may be relied upon by third-party services. We are unable to control whether these services continue to function as intended without the necessary permissions.</p>
           </section>
 
           <section className="animate-slide-up" style={{ animationDelay: '1.5s' }}>
@@ -472,7 +469,7 @@ export default function PrivacyPolicy() {
           <div className="bg-[#BCCCDC]/20 p-4 rounded-lg text-[#102A43]/90">
             <p className="font-semibold">Effective Dates</p>
             <p>Original Effective Date: May 28, 2025</p>
-            <p>Last Updated: July 8, 2025</p>
+            <p>Last Updated: July 30, 2025</p>
           </div>
         </div>
       </main>
