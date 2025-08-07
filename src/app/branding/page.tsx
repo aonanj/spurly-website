@@ -70,8 +70,8 @@ export default function BrandingAssets() {
             <p className="text-[#3A506B] mt-2">App Icon (Alt)</p>
           </div>
           <div className="text-center">
-            <Image src="/SpurlyFlyingSpur.png" alt="Spurly Flying Spur Logo" width={300} height={120} className="rounded shadow-lg mx-auto" />
-            <p className="text-[#3A506B] mt-2">Flying Spur Logo</p>
+            <Image src="/SpurlyArcLogo.png" alt="Spurly Arc Logo" width={300} height={129} className="rounded shadow-lg mx-auto" />
+            <p className="text-[#3A506B] mt-2">Arc Logo</p>
           </div>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-6">
@@ -79,6 +79,12 @@ export default function BrandingAssets() {
             <Image src="/SpurlyLower.png" alt="Spurly Lowercase Logo" width={200} height={70} className="rounded shadow-lg mx-auto" />
             <p className="text-[#3A506B] mt-2">Text Banner Logo (Alt)</p>
           </div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-6">
+          <div className="text-center">
+            <Image src="/SpurlyShootingSpur.png" alt="Spurly Shooting Spur Logo" width={200} height={70} className="rounded shadow-lg mx-auto" />
+            <p className="text-[#3A506B] mt-2">Shooting Spur Logo</p>
+          </div>
+        </div>
         </div>
 
         <p className="text-[#3A506B] mb-6 text-sm italic text-center">
