@@ -33,10 +33,10 @@ export default function BrandingAssets() {
         <div className="max-w-[450px] mx-auto transform transition-transform hover:scale-110">
           <a href="https://spurly.io">
             <Image
-              src="/SpurlyBanner.png"
+              src="/SpurlyArcLogo.png"
               alt="Spurly banner logo"
               width={450}
-              height={174}
+              height={196}
             className="w-full h-auto object-contain"
             priority
           />
@@ -137,7 +137,7 @@ export const metadata = {
     description: 'Browse Spurly’s protected logos and official color palette.',
     images: [
       {
-        url: '/SpurlyBanner.png',
+        url: '/SpurlyArcLogo.png',
         width: 1200,
         height: 630,
         alt: 'Spurly Branding Banner'
@@ -149,6 +149,6 @@ export const metadata = {
     card: 'summary_large_image',
     title: 'Spurly – Branding & Visual Identity',
     description: 'Browse Spurly’s protected logos and official color palette.',
-    images: ['/SpurlyBanner.png']
+    images: ['/SpurlyArcLogo.png']
   }
 }

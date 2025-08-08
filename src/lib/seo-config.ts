@@ -3,7 +3,7 @@ export const seoConfig = {
     titleTemplate: '%s | Spurly',
     defaultDescription: 'Less guessing, more connecting with Spurly. Get AI-powered, context-informed message suggestions and personality insights for dating and messaging apps.',
     siteUrl: 'https://spurly.io',
-    defaultOgImage: 'https://spurly.io/SpurlyBanner.png',
+    defaultOgImage: 'https://spurly.io/SpurlyArcLogo.png',
     twitterHandle: '@spurlyapp',
     additionalMetaTags: [
       {

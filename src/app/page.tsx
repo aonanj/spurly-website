@@ -91,12 +91,12 @@ export default function SpurlyLandingPage() {
 
       {/* Header */}
       <header className="bg-[#BCCCDC] py-8 px-4 text-center">
-        <div className="relative w-full max-w-[450px] h-[174px] mx-auto transform transition-transform hover:scale-105">
+        <div className="relative w-full max-w-[450px] h-[196px] mx-auto transform transition-transform hover:scale-105">
           <Image
-            src="/SpurlyBanner.png"
+            src="/SpurlyArcLogo.png"
             alt="Spurly banner logo"
             width={450}
-            height={174}
+            height={196}
             className="w-full h-auto object-contain drop-shadow-md"
             priority
           />
