@@ -79,12 +79,10 @@ export default function BrandingAssets() {
             <Image src="/SpurlyLower.png" alt="Spurly Lowercase Logo" width={200} height={70} className="rounded shadow-lg mx-auto" />
             <p className="text-[#3A506B] mt-2">Text Banner Logo (Alt)</p>
           </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-6">
           <div className="text-center">
             <Image src="/SpurlyFlyingSpur.png" alt="Spurly Flying Spur Logo" width={350} height={78} className="rounded shadow-lg mx-auto" />
             <p className="text-[#3A506B] mt-2">Flying Spur Logo</p>
           </div>
-        </div>
         </div>
 
         <p className="text-[#3A506B] mb-6 text-sm italic text-center">
