@@ -75,7 +75,7 @@ export default function SpurlyIP() {
         </ul>
 
         {/* Patents */}
-        <h3 className="text-[#3A506B] text-2xl font-semibold mt-8 mb-4">Patents (Pending)</h3>
+        <h3 className="text-[#3A506B] text-2xl font-semibold mt-8 mb-4">Patents (Pending) Application No. 63/860,940</h3>
         <ul className="list-disc pl-6 text-[#3A506B] space-y-2">
           <li>System and method for injecting user profile traits into LLM prompt chains to generate synthetic dating app messages</li>
           <li>Framework for modular AI message generation using structured sketch input and reactive topic routing</li>
