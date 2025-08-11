@@ -144,7 +144,7 @@ export default function SpurlyLandingPage() {
           <li className="flex items-start">
             <span className="mr-3 text-[#617D98]">•</span>
             <span className="text-[#617D98]">
-              Anything you want to add about yourself - Tell Spurly a little about yourself, and you&apos;ll get Spurs that fit you specifically so you can be comfortable and confident when you&apos;re with your connection in person. 
+              Anything you want to add about yourself - Tell Spurly a little about yourself, and you&apos;ll get Spurs that fit you specifically so you can be comfortable and confident with the messages you send. 
             </span>
           </li>
         </ul>
