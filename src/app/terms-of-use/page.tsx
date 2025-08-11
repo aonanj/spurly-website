@@ -138,7 +138,7 @@ export default function TermsOfUse() {
         </p>
         <h4 className="text-[#3A506B] text-base font-semibold mt-4 mb-2">7.1 IP Inventory</h4>
             <p className="text-[#3A506B] mb-4">
-              The undivided IP rights include, without limitation (1) trademark and other mark IP, such as the App name and its variations, logos, slogans, etc.; (2) copyrights, including end-to-end source code, proprietary system- and user-level prompts, and message suggestions (&ldquo;Spurs&rdquo;); (3) trade secrets, such as unexposed algorithms and server-side frameworks and architectures; (4) patents or patent applications covering proprietary inventions that improve mobile device operations; and (5) other IP rights.
+              The undivided IP rights include, without limitation (1) trademark and other mark IP, such as the App name and its variations, logos, slogans, etc.; (2) copyrights, including end-to-end source code, proprietary system- and user-level prompts, and message suggestions (&ldquo;Spurs&rdquo;); (3) trade secrets, such as unexposed algorithms and server-side frameworks and architectures; (4) patents or patent applications covering proprietary inventions that improve mobile device operations (patent application no. 63/860,940); and (5) other IP rights.
             </p>
             <p className="text-[#3A506B] mb-4">For non-exhaustive lists of IP assets associated with the App and owned by Phaethon Order LLC, please visit:</p>
             <ul className="text-[#3A506B] list-disc pl-6 mb-4 space-y-1">
@@ -278,8 +278,8 @@ export default function TermsOfUse() {
         <br />
         <div className="bg-[#BCCCDC]/20 p-4 rounded-lg text-[#102A43]/90">
           <p className="font-semibold">Effective Dates</p>
-          <p>Original Effective Date: May 28, 2025</p>
-          <p>Last Updated: July 11, 2025</p>
+          <p>Original Effective Date: August 10, 2025</p>
+          <p>Last Updated: August 11, 2025</p>
         </div>
 
       </main>

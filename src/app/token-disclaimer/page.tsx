@@ -62,8 +62,8 @@ export default function TokenDisclaimer() {
         <br />
         <div className="bg-[#BCCCDC]/20 p-4 rounded-lg text-[#102A43]/90">
           <p className="font-semibold">Effective Dates</p>
-          <p>Original Effective Date: July 12, 2025</p>
-          <p>Last Updated: July 30, 2025</p>
+          <p>Original Effective Date: August 10, 2025</p>
+          <p>Last Updated: August 11, 2025</p>
         </div>
       </main>
 
