@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     url: 'https://spurly.io',
     siteName: 'Spurly',
     title: 'Spurly - AI-Powered Dating Message Assistant',
-    description: 'Find your words faster with Spurly. Get AI-powered message suggestions for dating apps, texts, and DMs that match your personality and conversation style.',
+    description: 'Find your words faster with Spurly. Get AI-powered message, context-informed message suggestions for dating apps, texts, and DMs that match your vibe with theirs.',
     images: [
       {
         url: '/SpurlyArcLogo.png',

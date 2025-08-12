@@ -106,8 +106,8 @@ export default function SpurlyLandingPage() {
           <Image
             src="/SpurlyTagLine.png"
             alt="Spurly Tag Line"
-            width={350}
-            height={32}
+            width={800}
+            height={73}
             className="w-full h-auto drop-shadow-md"
             priority
           />
