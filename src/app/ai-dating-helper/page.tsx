@@ -4,28 +4,6 @@ import Link from "next/link";
 import Image from "next/image";
 import { useState } from "react";
 
-export const metadata = {
-  title: "AI Dating Helper for Tinder, Hinge & Bumble | Spurly",
-  description:
-    "Spurly turns screenshots or chat snippets into concise openers and replies that sound like you—no cringe.",
-  alternates: {
-    canonical: "https://www.spurly.io/",
-  },
-  openGraph: {
-    title: "Spurly – AI Dating Helper",
-    description:
-      "Context-aware openers and replies for Tinder, Hinge, Bumble, Raya, OKCupid, and more that fit your tone.",
-    url: "https://www.spurly.io/",
-    siteName: "Spurly",
-    type: "website",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Spurly – AI Dating Helper",
-    description:
-      "Context-aware openers and replies for Tinder, Hinge, Bumble, Raya, OKCupid, and more that fit your style and match their vibe.",
-  },
-};
 
 export default function Page() {
   const [currentSlide, setCurrentSlide] = useState(0)
@@ -87,7 +65,7 @@ export default function Page() {
                 A Better, Smarter AI Dating Assistant to help you find your words for your message.
               </h1>
               <p className="mt-4 text-lg leading-relaxed text-gray-800">
-                Add up to six photos at a time showing your connection pics, profile, or socials, and get personality insights including their traits and communication style so you can better connect with them. Or add screenshots of a conversation to get up to four suggested messages that can be dropped straight into most dating and messaging apps with Spurly's messaging app integration feature. Less guessing, more connecting. Find your words faster, with Spurly.
+                Add up to six photos at a time showing your connection pics, profile, or socials, and get personality insights including their traits and communication style so you can better connect with them. Or add screenshots of a conversation to get up to four suggested messages that can be dropped straight into most dating and messaging apps with Spurly&apos;s messaging app integration feature. Less guessing, more connecting. Find your words faster, with Spurly.
               </p>
 
               <div className="mt-6 flex flex-wrap items-center gap-10">
