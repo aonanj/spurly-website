@@ -185,7 +185,7 @@ export default function Page() {
             </div>
           </div>
           <br />
-          <p className="mt-3 text-lg text-gray-700">
+          <p className="mt-3 text-md text-gray-700">
                 Or see what Spurly comes up with without much direction -- just tap the &ldquo;Get Spurs&rdquo; button and go straight to step 3.
               </p>
 
