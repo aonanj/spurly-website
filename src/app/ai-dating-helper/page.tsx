@@ -61,15 +61,15 @@ export default function Page() {
           <div className="mx-auto grid w-full max-w-6xl grid-cols-1 items-center gap-12 px-6 py-16 sm:py-24 md:grid-cols-2">
             {/* Copy */}
             <div>
-              <h1 className="text-4xl font-extrabold tracking-tight sm:text-5xl">
-                A Better, Smarter AI Dating Assistant to help you find your words for your message.
+              <h1 className="text-3xl font-bold tracking-tight sm:text-4xl">
+                A better, smarter AI dating assistant to help you find your words for your message faster.
               </h1>
               <p className="mt-4 text-lg leading-relaxed text-gray-800">
                 Add up to six photos at a time showing your connection pics, profile, or socials, and get personality insights including their traits and communication style so you can better connect with them. Or add screenshots of a conversation to get up to four suggested messages that can be dropped straight into most dating and messaging apps with Spurly&apos;s messaging app integration feature. Less guessing, more connecting. Find your words faster, with Spurly.
               </p>
 
               <div className="mt-6 flex flex-wrap items-center gap-10">
-                <div className="relative w-full max-w-[200px] h-[58px] mx-auto transform transition-transform hover:scale-110">
+                <div className="relative justify-center w-full max-w-[200px] h-[58px] mx-auto transform transition-transform hover:scale-110">
                 <a href="https://apps.apple.com/us/app/spurly-ai/id6746918550">
                     <Image
                     src="/AppStoreBadge.png"
@@ -107,7 +107,6 @@ export default function Page() {
                     priority
                   />
                 </div>
-                </div>
                 <button 
                   onClick={prevSlide}
                   className="absolute left-4 top-[400px] bg-[#BCCCDC] text-[#102A43] rounded-full w-12 h-12 flex items-center justify-center hover:bg-[#BCCCDC]/70 transition-colors text-3xl font-extrabold"
@@ -124,7 +123,7 @@ export default function Page() {
                 </button>
             </div>
 
-
+            </div>
 
           </div>
         </section>
