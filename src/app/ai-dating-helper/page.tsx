@@ -183,8 +183,8 @@ export default function Page() {
           </div>
 
           <p className="mt-3 text-xs text-gray-700">
-                Or see what Spurly comes up with without much direction -- just tap the "Get Spurs" button and go straight to step 3.
-              </p> 
+                Or see what Spurly comes up with without much direction -- just tap the &ldquor;Get Spurs&rdquor; button and go straight to step 3.
+              </p>
 
         </section>
 
@@ -227,7 +227,7 @@ export default function Page() {
                 </div>
               </div>
             </div>
-            <p className="mt-4 text-xs text-gray-500">Examples are illustrative; Spurly adapts to your context and tone, as well as your connection's.</p>
+            <p className="mt-4 text-xs text-gray-500">Examples are illustrative; Spurly adapts to your context and tone, as well as your connection&apos;s.</p>
           </div>
         </section>
 
@@ -247,7 +247,7 @@ export default function Page() {
         <section className="mx-auto w-full max-w-6xl px-6 pb-24 pt-10">
           <div className="rounded-3xl border border-gray-200 p-8 text-center">
             <h3 className="text-xl font-semibold">Stop guessing, start connecting. Download Spurly today.</h3>
-            <p className="mt-2 text-sm text-gray-700">We'll be randomly giving out a few limitless subscriptions to those that install before yearend (2025).</p>
+            <p className="mt-2 text-sm text-gray-700">We&apos;ll be randomly giving out a few limitless subscriptions to those that install before yearend (2025).</p>
             <div className="relative p-8 justify-center items-center w-full max-w-[200px] h-[58px] mx-auto transform transition-transform hover:scale-110">
               <a href="https://apps.apple.com/us/app/spurly-ai/id6746918550">
                   <Image
