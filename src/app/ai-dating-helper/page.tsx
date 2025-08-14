@@ -92,10 +92,10 @@ export default function Page() {
                 <div className="absolute left-1/2 top-0 z-10 h-6 w-40 -translate-x-1/2 rounded-b-2xl bg-black/90" />
                 {/* Bezel */}
                 <div className="absolute inset-2 rounded-[1.9rem] bg-black/5" />
-                {/* Screen (your screenshot) */}
+                {/* Screen */}
                 <div className="absolute inset-3 overflow-hidden rounded-[1.6rem] bg-white">
                   <Image
-                    src="/images/hero-screenshot.png" // TODO: place your image in /public/images
+                    src="/SpurlyScreenShot-2.png"
                     alt="Spurly composing a reply from a dating app screenshot"
                     fill
                     sizes="(max-width: 768px) 320px, 400px"
@@ -105,6 +105,7 @@ export default function Page() {
                 </div>
               </div>
             </div>
+
           </div>
         </section>
 
