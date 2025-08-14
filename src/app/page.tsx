@@ -231,8 +231,8 @@ export default function SpurlyLandingPage() {
             <Image
               src="/AppStoreBadge.png"
               alt="App Store Badge"
-              width={200}
-              height={58}
+              width={100}
+              height={29}
             className="w-full h-auto object-contain"
             priority
           />
