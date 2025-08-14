@@ -137,6 +137,7 @@ export default function Page() {
         {/* QUICK HITS */}
         <section className="bg-gray-50">
           <div className="mx-auto w-full max-w-6xl px-6 py-10">
+            <h2 className="text-2xl font-bold">Highlights</h2>
           </div>
         </section>
 
@@ -162,7 +163,7 @@ export default function Page() {
 
         {/* HOW IT WORKS */}
         <section id="how-it-works" className="mx-auto w-full max-w-6xl px-6 py-16">
-          <h2 className="text-2xl font-bold">How it works</h2>
+          <h2 className="text-2xl font-bold">How Spurly works</h2>
           <div className="mt-6 grid gap-5 md:grid-cols-3">
             <div className="rounded-2xl border border-gray-200 p-6">
               <p className="text-sm font-semibold">(1) Share some context with Spurly</p>
@@ -183,8 +184,8 @@ export default function Page() {
               </p>
             </div>
           </div>
-
-          <p className="mt-3 text-xs text-gray-700">
+          <br />
+          <p className="mt-3 text-xl text-gray-700">
                 Or see what Spurly comes up with without much direction -- just tap the &ldquo;Get Spurs&rdquo; button and go straight to step 3.
               </p>
 
@@ -193,14 +194,14 @@ export default function Page() {
         {/* EXAMPLES */}
         <section className="bg-gray-50">
           <div className="mx-auto w-full max-w-6xl px-6 py-16">
-            <h2 className="text-2xl font-bold">Real‑world examples</h2>
+            <h2 className="text-2xl font-bold">Real Examples</h2>
             <div className="mt-6 grid gap-6 md:grid-cols-2">
               <div className="rounded-2xl border border-gray-200 p-6">
                 <p className="text-sm font-semibold">Opener (from Hinge prompt &apos;Two truths and a lie&apos;)</p>
                 <div className="mt-3 rounded-xl bg-white p-4 shadow">
                   <p className="text-sm text-gray-800">
-                  &ldquor;Okay, calling it: you&apos;ve for sure gone skydiving, prob hate olives, and the lie is owning
-                  three cats. If I&apos;m wrong, I owe you a drink. If I&apos;m right, you have to let me buy you a drink.&rdquor;
+                  &ldquo;Okay, calling it: you&apos;ve for sure gone skydiving, prob hate olives, and the lie is owning
+                  three cats. If I&apos;m wrong, I owe you a drink. If I&apos;m right, you have to let me buy you a drink.&rdquo;
                   </p>
                 </div>
               </div>
@@ -208,7 +209,7 @@ export default function Page() {
                 <p className="text-sm font-semibold">Reply (banter to Tinder message &apos;wyd&apos;)</p>
                 <div className="mt-3 rounded-xl bg-white p-4 shadow">
                   <p className="text-sm text-gray-800">
-                  &ldquor;Considering two options: 1) perfecting my breakfast tacos before tmw morning, 2) convincing you to try option 1.&rdquor;
+                  &ldquo;Considering two options: 1) perfecting my breakfast tacos before tmw morning, 2) convincing you to try option 1.&rdquo;
                   </p>
                 </div>
               </div>
@@ -216,7 +217,7 @@ export default function Page() {
                 <p className="text-sm font-semibold">Ask out (Bumble shared foodie interest)</p>
                 <div className="mt-3 rounded-xl bg-white p-4 shadow">
                   <p className="text-sm text-gray-800">
-                  &ldquor;Into spots with with some awards to back up their claims? Great, same. I&apos;ll take you to my favorite if you&apos;ll tell me yours, deal?&rdquor;
+                  &ldquo;Into spots with with some awards to back up their claims? Great, same. I&apos;ll take you to my favorite if you&apos;ll tell me yours, deal?&rdquo;
                   </p>
                 </div>
               </div>
@@ -224,7 +225,7 @@ export default function Page() {
                 <p className="text-sm font-semibold">Recovery (declined to give number until after meeting)</p>
                 <div className="mt-3 rounded-xl bg-white p-4 shadow">
                   <p className="text-sm text-gray-800">
-                  &ldquor;Lil trad values? I respect that. We&apos;ll keep it classy like they did on those 1950s dating apps. Are you free Thurs or Fri?&rdquor;
+                  &ldquo;Lil trad values? I respect that. We&apos;ll keep it classy like they did on those 1950s dating apps. Are you free Thurs or Fri?&rdquo;
                   </p>
                 </div>
               </div>
