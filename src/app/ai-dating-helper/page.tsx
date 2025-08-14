@@ -68,8 +68,8 @@ export default function Page() {
                 Add up to six photos at a time showing your connection pics, profile, or socials, and get personality insights including their traits and communication style so you can better connect with them. Or add screenshots of a conversation to get up to four suggested messages that can be dropped straight into most dating and messaging apps with Spurly&apos;s messaging app integration feature. Less guessing, more connecting. Find your words faster, with Spurly.
               </p>
 
-              <div className="mt-6 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
-                <div className="relative w-full max-w-[200px] h-[58px] mx-auto transform transition-transform hover:scale-110">
+              <div className="mt-6 flex flex-col items-start gap-4 sm:flex-row sm:justify-start">
+                <div className="relative w-full max-w-[200px] h-[58px] transform transition-transform hover:scale-110">
                   <a href="https://apps.apple.com/us/app/spurly-ai/id6746918550">
                     <Image
                       src="/AppStoreBadge.png"
@@ -100,7 +100,7 @@ export default function Page() {
               <div className="relative">
                 <div className="relative aspect-[9/19] w-[320px] rounded-[2.2rem] border border-black/10 bg-white shadow-2xl">
                   {/* Screen */}
-                  <div className="absolute inset-3 overflow-hidden rounded-[1.6rem] bg-white">
+                  <div className="absolute inset-1 overflow-hidden rounded-[1.6rem] bg-white">
                     <Image
                       src={screenshots[currentSlide].src}
                       alt={screenshots[currentSlide].alt}
@@ -113,14 +113,14 @@ export default function Page() {
 
                 <button
                   onClick={prevSlide}
-                  className="absolute -left-6 top-1/2 -translate-y-1/2 bg-[#BCCCDC] text-[#102A43] rounded-full w-12 h-12 flex items-center justify-center hover:bg-[#BCCCDC]/70 transition-colors text-3xl font-extrabold"
+                  className="absolute -left-6 top-1/2 -translate-y-1/2 bg-[#BCCCDC] text-[#102A43] flex items-center justify-center hover:bg-[#BCCCDC]/70 transition-colors text-3xl font-extrabold"
                   aria-label="Previous screenshot"
                 >
                   ‹
                 </button>
                 <button
                   onClick={nextSlide}
-                  className="absolute -right-6 top-1/2 -translate-y-1/2 bg-[#BCCCDC] text-[#102A43] rounded-full w-12 h-12 flex items-center justify-center hover:bg-[#BCCCDC]/70 transition-colors text-3xl font-extrabold"
+                  className="absolute -right-6 top-1/2 -translate-y-1/2 bg-[#BCCCDC] text-[#102A43] flex items-center justify-center hover:bg-[#BCCCDC]/70 transition-colors text-3xl font-extrabold"
                   aria-label="Next screenshot"
                 >
                   ›
