@@ -68,8 +68,8 @@ export default function Page() {
                 Add up to six photos at a time showing your connection pics, profile, or socials, and get personality insights including their traits and communication style so you can better connect with them. Or add screenshots of a conversation to get up to four suggested messages that can be dropped straight into most dating and messaging apps with Spurly&apos;s messaging app integration feature. Less guessing, more connecting. Find your words faster, with Spurly.
               </p>
 
-              <div className="mt-6 flex w-full flex-col items-start gap-10 sm:flex-row sm:justify-start">
-                <div className="relative leading-10 w-full max-w-[150px] h-[44px] transform transition-transform hover:scale-110">
+              <div className="mt-6 flex w-full flex-col items-start gap-25 sm:flex-row sm:justify-start">
+                <div className="relative px-25 w-full max-w-[150px] h-[44px] transform transition-transform hover:scale-110">
                   <a href="https://apps.apple.com/us/app/spurly-ai/id6746918550">
                     <Image
                       src="/AppStoreBadge.png"
@@ -149,8 +149,8 @@ export default function Page() {
                 <p className="mt-1 text-sm text-gray-600">Get four spurs per request, each with a unique tone.</p>
               </li>
               <li className="rounded-2xl border border-gray-200 p-5">
-                <p className="text-sm font-semibold">No copy–paste farm</p>
-                <p className="mt-1 text-sm text-gray-600">Short, sendable lines—not walls of text.</p>
+                <p className="text-sm font-semibold">Real-time learning</p>
+                <p className="mt-1 text-sm text-gray-600">Liking and disliking spurs adjusts Spurly's behavior.</p>
               </li>
             </ul>
           </div>
