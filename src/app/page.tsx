@@ -225,11 +225,18 @@ export default function SpurlyLandingPage() {
             </div>
           </div>
         </div>
-
-        {/* Mailing List Signup */}
         <br />
-        <div className="text-center mb-12">
-          <div className="ml-embedded" data-form="YMxI3I"></div>
+        <div className="relative w-full max-w-[450px] h-[196px] mx-auto transform transition-transform hover:scale-110">
+          <a href="https://apps.apple.com/us/app/spurly-ai/id6746918550">
+            <Image
+              src="/AppStoreBadge.png"
+              alt="App Store Badge"
+              width={200}
+              height={58}
+            className="w-full h-auto object-contain"
+            priority
+          />
+          </a>
         </div>
       </main>
 
