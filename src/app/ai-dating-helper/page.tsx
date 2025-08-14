@@ -68,8 +68,8 @@ export default function Page() {
                 Add up to six photos at a time showing your connection pics, profile, or socials, and get personality insights including their traits and communication style so you can better connect with them. Or add screenshots of a conversation to get up to four suggested messages that can be dropped straight into most dating and messaging apps with Spurly&apos;s messaging app integration feature. Less guessing, more connecting. Find your words faster, with Spurly.
               </p>
 
-              <div className="mt-6 flex flex-col items-start gap-10 sm:flex-row sm:justify-start">
-                <div className="relative w-full max-w-[150px] h-[44px] transform transition-transform hover:scale-110">
+              <div className="mt-6 flex w-full flex-col items-start gap-10 sm:flex-row sm:justify-start">
+                <div className="relative leading-10 w-full max-w-[150px] h-[44px] transform transition-transform hover:scale-110">
                   <a href="https://apps.apple.com/us/app/spurly-ai/id6746918550">
                     <Image
                       src="/AppStoreBadge.png"
@@ -90,7 +90,7 @@ export default function Page() {
               </div>
               <br />
               <p className="mt-3 text-xs text-gray-700">
-                Across-app messaging integration does not require linked accounts. <Link href="#privacy" className="underline">Learn more</Link>.
+                Across-app messaging integration feature does not require linked accounts. <Link href="#privacy" className="underline">Learn more</Link>.
               </p>
             </div>
 
@@ -142,11 +142,11 @@ export default function Page() {
             <ul className="grid grid-cols-1 gap-4 sm:grid-cols-3">
               <li className="rounded-2xl border border-gray-200 p-5">
                 <p className="text-sm font-semibold">Context-aware suggestions</p>
-                <p className="mt-1 text-sm text-gray-600">Understands prompts, bios, and message history.</p>
+                <p className="mt-1 text-sm text-gray-600">Introduce yourself and respond in ways that feel natural to you.</p>
               </li>
               <li className="rounded-2xl border border-gray-200 p-5">
                 <p className="text-sm font-semibold">Tone matching</p>
-                <p className="mt-1 text-sm text-gray-600">Casual, playful, witty, or earnest—your choice.</p>
+                <p className="mt-1 text-sm text-gray-600">Get four spurs per request, each with a unique tone.</p>
               </li>
               <li className="rounded-2xl border border-gray-200 p-5">
                 <p className="text-sm font-semibold">No copy–paste farm</p>
