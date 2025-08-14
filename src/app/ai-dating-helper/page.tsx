@@ -76,13 +76,8 @@ export default function Page() {
                 >
                   How it works
                 </Link>
-              </div>
-              <br />
-              <p className="mt-3 text-xs text-gray-700">
-                Direct-app messaging integration feature does not require linked accounts. <Link href="#privacy" className="underline">Learn more</Link>.
-              </p>
 
-             <div className="relative w-full max-w-[150px] h-[44px] transform transition-transform hover:scale-110">
+                <div className="relative w-full max-w-[150px] h-[44px] transform transition-transform hover:scale-110">
                   <a href="https://apps.apple.com/us/app/spurly-ai/id6746918550">
                     <Image
                       src="/AppStoreBadge.png"
@@ -94,6 +89,11 @@ export default function Page() {
                     />
                   </a>
                 </div>
+              </div>
+              <br />
+              <p className="mt-3 text-xs text-gray-700">
+                Direct-app messaging integration feature does not require linked accounts. <Link href="#privacy" className="underline">Learn more</Link>.
+              </p> 
             </div>
 
             {/* Phone mockup with screenshot */}
@@ -181,7 +181,11 @@ export default function Page() {
               </p>
             </div>
           </div>
-          
+
+          <p className="mt-3 text-xs text-gray-700">
+                Or see what Spurly comes up with without much direction -- just tap the "Get Spurs" button and go straight to step 3.
+              </p> 
+
         </section>
 
         {/* EXAMPLES */}
@@ -190,72 +194,60 @@ export default function Page() {
             <h2 className="text-2xl font-bold">Real‑world examples</h2>
             <div className="mt-6 grid gap-6 md:grid-cols-2">
               <div className="rounded-2xl border border-gray-200 p-6">
-                <p className="text-sm font-semibold">Opener (Hinge prompt: “Two truths and a lie”)</p>
+                <p className="text-sm font-semibold">Opener (from Hinge prompt &apos;Two truths and a lie&apos;)</p>
                 <div className="mt-3 rounded-xl bg-white p-4 shadow">
                   <p className="text-sm text-gray-800">
-                    “Okay, I’m calling it: you’ve <em>definitely</em> gone skydiving, probably hate olives, and the lie is owning
-                    three cats. Tell me I’m wrong and win a coffee.”
+                  &ldqos;Okay, calling it: you&apos;ve for sure gone skydiving, prob hate olives, and the lie is owning
+                  three cats. If I&apos;m wrong, I owe you a drink. If I&apos;m right, you have to let me buy you a drink.&rdqos;
                   </p>
                 </div>
               </div>
               <div className="rounded-2xl border border-gray-200 p-6">
-                <p className="text-sm font-semibold">Reply (Tinder: they wrote “wyd”) – playful</p>
+                <p className="text-sm font-semibold">Reply (Banter response (Tinder message &apos;wyd&apos;) – playful</p>
                 <div className="mt-3 rounded-xl bg-white p-4 shadow">
                   <p className="text-sm text-gray-800">
-                    “Considering two options: 1) perfecting my breakfast taco technique, 2) convincing you to try option 1.”
+                  &ldqos;Considering two options: 1) perfecting my breakfast tacos before tmw morning, 2) convincing you to try option 1.&rdqos;
                   </p>
                 </div>
               </div>
               <div className="rounded-2xl border border-gray-200 p-6">
-                <p className="text-sm font-semibold">Escalate (Bumble: shared foodie interest)</p>
+                <p className="text-sm font-semibold">Ask out (Bumble shared foodie interest)</p>
                 <div className="mt-3 rounded-xl bg-white p-4 shadow">
                   <p className="text-sm text-gray-800">
-                    “You&apos;re into spots with a good bar program—same. Want to trade favorites and pick one to test this week?”
+                  &ldqos;Into spots with with some awards to back up their claims? Great, same. I&apos;ll take you to my favorite if you&apos;ll tell me yours, deal?&rdqos;
                   </p>
                 </div>
               </div>
               <div className="rounded-2xl border border-gray-200 p-6">
-                <p className="text-sm font-semibold">Defuse (they teased you about early gym time)</p>
+                <p className="text-sm font-semibold">Recovery (declined to give number until after meeting)</p>
                 <div className="mt-3 rounded-xl bg-white p-4 shadow">
                   <p className="text-sm text-gray-800">
-                    “I swear I&apos;m fun after 7am. Before that I only communicate via espresso. Brunch truce?”
+                  &ldqos;Lil trad values? I respect that. We&apos;ll keep it classy like they did on those 1950s dating apps. Are you free Thurs or Fri?&rdqos;
                   </p>
                 </div>
               </div>
             </div>
-            <p className="mt-4 text-xs text-gray-500">Examples are illustrative; Spurly adapts to your context and tone.</p>
+            <p className="mt-4 text-xs text-gray-500">Examples are illustrative; Spurly adapts to your context and tone, as well as your connection's.</p>
           </div>
         </section>
 
         {/* WHY SPURLY */}
         <section className="mx-auto w-full max-w-6xl px-6 py-16">
-          <h2 className="text-2xl font-bold">Why Spurly over generic scripts</h2>
+          <h2 className="text-2xl font-bold">What sets Spurly apart from AI chatbot apps</h2>
           <ul className="mt-6 grid list-disc gap-3 pl-6 text-sm text-gray-800">
-            <li>Understands screenshots and chat context—responses reference what was actually said.</li>
-            <li>Matches your tone settings (casual, witty, playful, earnest).</li>
-            <li>Short, sendable lines by default; no paragraph dumps.</li>
-            <li>Local‑first posture: you control what&apos;s shared. Opt‑in sync only. See <Link href="#privacy" className="underline">privacy</Link>.</li>
+            <li>Understanding of full conversations, and considering it all leading up to the most recent messages being responded to. </li>
+            <li>Get multiple spurs at once, each with a unique vibe and approach, not just the same message with slightly different wording.</li>
+            <li>Direct-messaging app integrations. Tap to copy, and then pick from a list of just ones you have on your device.</li>
+            <li>Spurly is designed to be unobtrusive and to work <i>with</i> you in your conversations, instead of just speaking for you.</li>
           </ul>
         </section>
 
-        {/* PRIVACY */}
-        <section id="privacy" className="bg-gray-50">
-          <div className="mx-auto w-full max-w-6xl px-6 py-16">
-            <h2 className="text-2xl font-bold">Privacy, data, and safety</h2>
-            <p className="mt-4 text-sm text-gray-700">
-              Spurly minimizes data exposure. You can generate suggestions from on‑device context or share only what you
-              choose. We don’t require connecting your dating accounts. See our {" "}
-              <Link href="/privacy-policy" className="underline">Privacy Policy</Link> and {" "}
-              <Link href="/data-deletion" className="underline">Data Deletion</Link> pages.
-            </p>
-          </div>
-        </section>
 
         {/* FOOTER CTA */}
         <section className="mx-auto w-full max-w-6xl px-6 pb-24 pt-10">
           <div className="rounded-3xl border border-gray-200 p-8 text-center">
-            <h3 className="text-xl font-semibold">Ready to try Spurly?</h3>
-            <p className="mt-2 text-sm text-gray-700">Install the app and generate your first few messages free.</p>
+            <h3 className="text-xl font-semibold">Stop guessing, start connecting. Download Spurly today.</h3>
+            <p className="mt-2 text-sm text-gray-700">We'll be randomly giving out a few limitless subscriptions to those that install before yearend (2025).</p>
             <div className="relative p-8 justify-center items-center w-full max-w-[200px] h-[58px] mx-auto transform transition-transform hover:scale-110">
               <a href="https://apps.apple.com/us/app/spurly-ai/id6746918550">
                   <Image
