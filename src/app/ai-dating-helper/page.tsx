@@ -58,7 +58,7 @@ export default function Page() {
       <main className="min-h-screen bg-white text-gray-900">
         {/* HERO */}
         <section className="relative overflow-hidden bg-[#BCCCDC]">
-          <div className="mx-auto grid w-full max-wd-6xl grid-cols-1 items-center gap-12 px-6 py-16 sm:py-24 md:grid-cols-2">
+          <div className="mx-auto grid w-full max-wd-6xl grid-cols-1 items-center gap-8 px-6 py-16 sm:py-24 md:grid-cols-2">
             {/* Copy */}
             <div>
               <h1 className="text-3xl font-bold tracking-tight sm:text-4xl">
@@ -68,7 +68,7 @@ export default function Page() {
                 Add up to six photos at a time showing your connection pics, profile, or socials, and get personality insights including their traits and communication style so you can better connect with them. Or add screenshots of a conversation to get up to four suggested messages that can be dropped straight into most dating and messaging apps with Spurly&apos;s messaging app integration feature. Less guessing, more connecting. Find your words faster, with Spurly.
               </p>
 
-              <div className="mt-6 flex w-full flex-col items-start gap-30 sm:flex-row sm:justify-start">
+              <div className="mt-6 flex w-full flex-col items-start gap-25 sm:flex-row sm:justify-center">
 
                 <Link
                   href="#how-it-works"
@@ -77,14 +77,14 @@ export default function Page() {
                   How it works
                 </Link>
 
-                <div className="relative w-full max-w-[150px] h-[44px] transform transition-transform hover:scale-110">
+                <div className="relative w-auto max-w-[150px] h-[44px] min-w-[100px] transform transition-transform hover:scale-110">
                   <a href="https://apps.apple.com/us/app/spurly-ai/id6746918550">
                     <Image
                       src="/AppStoreBadge.png"
                       alt="App Store Badge"
                       width={150}
                       height={44}
-                      className="w-full h-auto object-contain"
+                      className="w-auto h-auto object-contain"
                       priority
                     />
                   </a>
