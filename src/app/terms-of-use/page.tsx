@@ -308,5 +308,5 @@ export default function TermsOfUse() {
 // Add metadata for SEO
 export const metadata = {
   title: 'Spurly – Terms of Use',
-  description: 'Terms of Use for Spurly, a lifestyle application by Phaethon Order LLC',
+  description: 'Terms of Use for Spurly: Get AI-powered, context-informed message suggestions and personality insights for dating and messaging apps. Less guessing, more connecting with Spurly.',
 }
