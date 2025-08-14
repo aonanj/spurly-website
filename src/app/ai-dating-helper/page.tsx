@@ -68,14 +68,14 @@ export default function Page() {
                 Add up to six photos at a time showing your connection pics, profile, or socials, and get personality insights including their traits and communication style so you can better connect with them. Or add screenshots of a conversation to get up to four suggested messages that can be dropped straight into most dating and messaging apps with Spurly&apos;s messaging app integration feature. Less guessing, more connecting. Find your words faster, with Spurly.
               </p>
 
-              <div className="mt-6 flex flex-col items-start gap-4 sm:flex-row sm:justify-start">
-                <div className="relative w-full max-w-[200px] h-[58px] transform transition-transform hover:scale-110">
+              <div className="mt-6 flex flex-col items-start gap-10 sm:flex-row sm:justify-start">
+                <div className="relative w-full max-w-[150px] h-[44px] transform transition-transform hover:scale-110">
                   <a href="https://apps.apple.com/us/app/spurly-ai/id6746918550">
                     <Image
                       src="/AppStoreBadge.png"
                       alt="App Store Badge"
-                      width={200}
-                      height={58}
+                      width={150}
+                      height={44}
                       className="w-full h-auto object-contain"
                       priority
                     />
@@ -88,9 +88,9 @@ export default function Page() {
                   How it works
                 </Link>
               </div>
+              <br />
               <p className="mt-3 text-xs text-gray-700">
-                No linking to dating accounts required. Sign in with Apple/Google/Facebook is optional, and Spurly never
-                sees your passwords. <Link href="#privacy" className="underline">Learn more</Link>.
+                Across-app messaging integration does not require linked accounts. <Link href="#privacy" className="underline">Learn more</Link>.
               </p>
             </div>
 
