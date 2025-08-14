@@ -152,7 +152,7 @@ export default function Page() {
               </li>
               <li className="rounded-2xl border border-gray-200 p-5">
                 <p className="text-sm font-semibold">Real-time learning</p>
-                <p className="mt-1 text-sm text-gray-600">Liking and disliking spurs adjusts Spurly's behavior.</p>
+                <p className="mt-1 text-sm text-gray-600">Liking and disliking spurs adjusts Spurly&apos;s behavior.</p>
               </li>
             </ul>
           </div>
