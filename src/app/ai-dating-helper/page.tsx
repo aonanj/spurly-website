@@ -103,7 +103,7 @@ export default function Page() {
                 </div>
                 <Link
                   href="#how-it-works"
-                  className="rounded-2xl border border-gray-900 px-5 py-3 text-sm font-semibold shadow-sm hover:shadow"
+                  className="inline-block justify-center bg-[#3A506B] hover:bg-[#9BC7FF] text-white font-medium py-2 px-6 rounded-lg transition-colors transform hover:scale-105"
                 >
                   How it works
                 </Link>
