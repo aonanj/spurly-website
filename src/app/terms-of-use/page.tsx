@@ -9,7 +9,7 @@ export default function TermsOfUse() {
       {/* Header */}
       <header className="bg-[#BCCCDC] py-8 px-4 text-center">
         <div className="max-w-[450px] mx-auto transform transition-transform hover:scale-110">
-          <a href="https://spurly.io">
+          <a href="https://www.spurly.io">
             <Image
               src="/SpurlyArcLogo.png"
               alt="Spurly banner logo"

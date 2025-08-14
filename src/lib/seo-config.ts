@@ -2,8 +2,8 @@ export const seoConfig = {
     defaultTitle: 'Spurly - AI-Powered Dating Message Assistant | Find Your Words Faster',
     titleTemplate: '%s | Spurly',
     defaultDescription: 'Less guessing, more connecting with Spurly. Get AI-powered, context-informed message suggestions and personality insights for dating and messaging apps.',
-    siteUrl: 'https://spurly.io',
-    defaultOgImage: 'https://spurly.io/SpurlyArcLogo.png',
+    siteUrl: 'https://www.spurly.io',
+    defaultOgImage: 'https://www.spurly.io/SpurlyArcLogo.png',
     twitterHandle: '@spurlyapp',
     additionalMetaTags: [
       {
@@ -53,8 +53,8 @@ export const seoConfig = {
     '@context': 'https://schema.org',
     '@type': 'Organization',
     name: 'Phaethon Order LLC',
-    url: 'https://spurly.io',
-    logo: 'https://spurly.io/SpurlyAppIcon.png',
+    url: 'https://www.spurly.io',
+    logo: 'https://www.spurly.io/SpurlyAppIcon.png',
     sameAs: [
       // Add your social media URLs here
     ],

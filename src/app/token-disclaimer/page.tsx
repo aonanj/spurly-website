@@ -15,7 +15,7 @@ export default function TokenDisclaimer() {
       {/* Header */}
       <header className="bg-[#BCCCDC] py-8 px-4 text-center">
         <div className="relative w-full max-w-[450px] h-[196px] mx-auto transform transition-transform hover:scale-110">
-          <a href="https://spurly.io">
+          <a href="https://www.spurly.io">
             <Image
               src="/SpurlyArcLogo.png"
               alt="Spurly banner logo"

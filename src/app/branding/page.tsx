@@ -31,7 +31,7 @@ export default function BrandingAssets() {
     <div className="min-h-screen flex flex-col bg-[#F0F4F8]">
       <header className="bg-[#BCCCDC] py-8 px-4 text-center">
         <div className="max-w-[450px] mx-auto transform transition-transform hover:scale-110">
-          <a href="https://spurly.io">
+          <a href="https://www.spurly.io">
             <Image
               src="/SpurlyArcLogo.png"
               alt="Spurly banner logo"

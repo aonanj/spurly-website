@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: '/api/',
     },
-    sitemap: 'https://spurly.io/sitemap.xml',
+    sitemap: 'https://www.spurly.io/sitemap.xml',
   }
 }

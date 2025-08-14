@@ -1,48 +1,55 @@
 import { MetadataRoute } from 'next'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://spurly.io'
+  const baseUrl = 'https://www.spurly.io'
+  const lastmod = new Date('2025-08-12')
   
   return [
     {
       url: baseUrl,
-      lastModified: new Date(),
+      lastModified: lastmod,
       changeFrequency: 'weekly',
       priority: 1,
     },
     {
       url: `${baseUrl}/privacy-policy`,
-      lastModified: new Date(),
+      lastModified: lastmod,
       changeFrequency: 'monthly',
       priority: 0.8,
     },
     {
       url: `${baseUrl}/terms-of-use`,
-      lastModified: new Date(),
+      lastModified: lastmod,
       changeFrequency: 'monthly',
       priority: 0.8,
     },
     {
       url: `${baseUrl}/data-deletion`,
-      lastModified: new Date(),
+      lastModified: lastmod,
+      changeFrequency: 'monthly',
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/ai-dating-helper`,
+      lastModified: lastmod,
       changeFrequency: 'monthly',
       priority: 0.7,
     },
     {
       url: `${baseUrl}/token-disclaimer`,
-      lastModified: new Date(),
+      lastModified: lastmod,
       changeFrequency: 'monthly',
       priority: 0.6,
     },
     {
       url: `${baseUrl}/ip-inventory`,
-      lastModified: new Date(),
+      lastModified: lastmod,
       changeFrequency: 'monthly',
       priority: 0.5,
     },
     {
       url: `${baseUrl}/branding`,
-      lastModified: new Date(),
+      lastModified: lastmod,
       changeFrequency: 'monthly',
       priority: 0.5,
     },

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import { organizationSchema } from "@/lib/seo-config";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -13,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://spurly.io'),
+  metadataBase: new URL('https://www.spurly.io'),
   title: {
     default: 'Spurly - AI-Powered Dating Message Assistant | Find Your Words Faster',
     template: '%s | Spurly'
@@ -30,7 +31,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://spurly.io',
+    url: 'https://www.spurly.io',
     siteName: 'Spurly',
     title: 'Spurly - AI-Powered Dating Message Assistant',
     description: 'Find your words faster with Spurly. Get AI-powered message, context-informed message suggestions for dating apps, texts, and DMs that match your vibe with theirs.',
@@ -91,7 +92,7 @@ export const metadata: Metadata = {
   },
   
   alternates: {
-    canonical: 'https://spurly.io',
+    canonical: 'https://www.spurly.io',
   },
   
   category: 'lifestyle',
@@ -105,6 +106,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <script 
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema)}}
+        />
         <link rel="icon" type="image/png" href="https://www.spurly.io/favicon-96x96.png" sizes="96x96" />
         <link rel="icon" type="image/svg+xml" href="https://www.spurly.io/favicon.svg" />
         <link rel="shortcut icon" href="https://www.spurly.io/favicon.ico" />
