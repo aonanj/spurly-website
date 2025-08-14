@@ -58,17 +58,17 @@ export default function Page() {
       <main className="min-h-screen bg-white text-gray-900">
         {/* HERO */}
         <section className="relative overflow-hidden bg-[#BCCCDC]">
-          <div className="mx-auto grid w-full max-w-6xl grid-cols-1 items-center gap-12 px-6 py-16 sm:py-24 md:grid-cols-2">
+          <div className="mx-auto grid w-full max-wd-6xl grid-cols-1 items-center gap-12 px-6 py-16 sm:py-24 md:grid-cols-2">
             {/* Copy */}
             <div>
               <h1 className="text-3xl font-bold tracking-tight sm:text-4xl">
-                A better, smarter AI dating assistant to help you find your words for your message faster.
+                A better, smarter AI dating assistant to help you find your words for your messages faster.
               </h1>
               <p className="mt-4 text-lg leading-relaxed text-gray-800">
                 Add up to six photos at a time showing your connection pics, profile, or socials, and get personality insights including their traits and communication style so you can better connect with them. Or add screenshots of a conversation to get up to four suggested messages that can be dropped straight into most dating and messaging apps with Spurly&apos;s messaging app integration feature. Less guessing, more connecting. Find your words faster, with Spurly.
               </p>
 
-              <div className="mt-6 flex w-full flex-col items-start gap-40 sm:flex-row sm:justify-start">
+              <div className="mt-6 flex w-full flex-col items-start gap-30 sm:flex-row sm:justify-start">
 
                 <Link
                   href="#how-it-works"
@@ -79,10 +79,10 @@ export default function Page() {
               </div>
               <br />
               <p className="mt-3 text-xs text-gray-700">
-                Across-app messaging integration feature does not require linked accounts. <Link href="#privacy" className="underline">Learn more</Link>.
+                Direct-app messaging integration feature does not require linked accounts. <Link href="#privacy" className="underline">Learn more</Link>.
               </p>
 
-             <div className="relative px-25 w-full max-w-[150px] h-[44px] transform transition-transform hover:scale-110">
+             <div className="relative w-full max-w-[150px] h-[44px] transform transition-transform hover:scale-110">
                   <a href="https://apps.apple.com/us/app/spurly-ai/id6746918550">
                     <Image
                       src="/AppStoreBadge.png"
@@ -169,18 +169,19 @@ export default function Page() {
               </p>
             </div>
             <div className="rounded-2xl border border-gray-200 p-6">
-              <p className="text-sm font-semibold">2) Pick a vibe</p>
+              <p className="text-sm font-semibold">(2) Focus Spurly for what you need</p>
               <p className="mt-1 text-sm text-gray-700">
-                Choose your tone and goal—open, escalate, ask out, or defuse. Get several options each time.
+                Type in a topic and/or pick one of multiple situations (e.g., setup a date, recovery, cold intro).
               </p>
             </div>
             <div className="rounded-2xl border border-gray-200 p-6">
-              <p className="text-sm font-semibold">3) Edit & send</p>
+              <p className="text-sm font-semibold">(3) Pick a spur (edit) and send</p>
               <p className="mt-1 text-sm text-gray-700">
-                Tweak a word or two and go. Tap to copy and drop into your app of choice.
+                Get four unique spurs. Use direct-messaging app integration to drop one straight into the app you want.
               </p>
             </div>
           </div>
+          
         </section>
 
         {/* EXAMPLES */}
@@ -209,7 +210,7 @@ export default function Page() {
                 <p className="text-sm font-semibold">Escalate (Bumble: shared foodie interest)</p>
                 <div className="mt-3 rounded-xl bg-white p-4 shadow">
                   <p className="text-sm text-gray-800">
-                    “You’re into spots with a good bar program—same. Want to trade favorites and pick one to test this week?”
+                    “You&apos;re into spots with a good bar program—same. Want to trade favorites and pick one to test this week?”
                   </p>
                 </div>
               </div>
@@ -217,7 +218,7 @@ export default function Page() {
                 <p className="text-sm font-semibold">Defuse (they teased you about early gym time)</p>
                 <div className="mt-3 rounded-xl bg-white p-4 shadow">
                   <p className="text-sm text-gray-800">
-                    “I swear I’m fun after 7am. Before that I only communicate via espresso. Brunch truce?”
+                    “I swear I&apos;m fun after 7am. Before that I only communicate via espresso. Brunch truce?”
                   </p>
                 </div>
               </div>
@@ -233,7 +234,7 @@ export default function Page() {
             <li>Understands screenshots and chat context—responses reference what was actually said.</li>
             <li>Matches your tone settings (casual, witty, playful, earnest).</li>
             <li>Short, sendable lines by default; no paragraph dumps.</li>
-            <li>Local‑first posture: you control what’s shared. Opt‑in sync only. See <Link href="#privacy" className="underline">privacy</Link>.</li>
+            <li>Local‑first posture: you control what&apos;s shared. Opt‑in sync only. See <Link href="#privacy" className="underline">privacy</Link>.</li>
           </ul>
         </section>
 
