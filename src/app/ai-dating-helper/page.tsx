@@ -272,6 +272,24 @@ export default function Page() {
           </div>
         </section>
       </main>
+      {/* Footer */}
+      <footer className="bg-[#BCCCDC] flex flex-col items-center justify-center p-4 text-[#627D98]">
+        <div className="mb-4">
+          <Link href="/privacy-policy" className="mx-2 text-[#FFFFFF] hover:text-[#3A506B] transition-colors hover:underline">Privacy Policy</Link>
+          <Link href="/terms-of-use" className="mx-2 text-[#FFFFFF] hover:text-[#3A506B] transition-colors hover:underline">Terms of Use</Link>
+          <Link href="/data-deletion" className="mx-2 text-[#FFFFFF] hover:text-[#3A506B] transition-colors hover:underline">Data Deletion</Link>
+        </div>
+        <Image
+          src="/SpurlyAppIcon.png"
+          alt="Spurly app logo"
+          width={64}
+          height={64}
+          className="object-contain mb-2"
+        />
+        <span className="text-[#3A506B] text-center">
+          &copy; {2025} <a href="https://phaethon.llc" className="text-[#3A506B] underline hover:text-[#9BC7FF] transition-colors hover:no-underline">Phaethon Order LLC</a>. All rights reserved.
+        </span>
+      </footer>
     </>
   );
 }
