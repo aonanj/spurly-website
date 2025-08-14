@@ -14,9 +14,9 @@ export default function Page() {
       description: 'Add context with screenshots to get Spurs that fit the conversation flow'
     },
     {
-      src: '/SpurlyScreenShot-3.png',
-      alt: 'Spurly Message Suggestions',
-      description: 'Choose from multiple different Spurs to match your conversation style'
+      src: '/SpurlyScreenShot-7.png',
+      alt: 'Spurly Personality Insights',
+      description: 'Get Spurly insights into their personality and how to connect with them'
     }
   ]
 
@@ -185,7 +185,7 @@ export default function Page() {
             </div>
           </div>
           <br />
-          <p className="mt-3 text-xl text-gray-700">
+          <p className="mt-3 text-lg text-gray-700">
                 Or see what Spurly comes up with without much direction -- just tap the &ldquo;Get Spurs&rdquo; button and go straight to step 3.
               </p>
 
