@@ -185,7 +185,7 @@ export default function Page() {
           </div>
 
           <p className="mt-3 text-xs text-gray-700">
-                Or see what Spurly comes up with without much direction -- just tap the &ldquor;Get Spurs&rdquor; button and go straight to step 3.
+                Or see what Spurly comes up with without much direction -- just tap the &ldquo;Get Spurs&rdquo; button and go straight to step 3.
               </p>
 
         </section>
@@ -199,16 +199,16 @@ export default function Page() {
                 <p className="text-sm font-semibold">Opener (from Hinge prompt &apos;Two truths and a lie&apos;)</p>
                 <div className="mt-3 rounded-xl bg-white p-4 shadow">
                   <p className="text-sm text-gray-800">
-                  &ldqos;Okay, calling it: you&apos;ve for sure gone skydiving, prob hate olives, and the lie is owning
-                  three cats. If I&apos;m wrong, I owe you a drink. If I&apos;m right, you have to let me buy you a drink.&rdqos;
+                  &ldquor;Okay, calling it: you&apos;ve for sure gone skydiving, prob hate olives, and the lie is owning
+                  three cats. If I&apos;m wrong, I owe you a drink. If I&apos;m right, you have to let me buy you a drink.&rdquor;
                   </p>
                 </div>
               </div>
               <div className="rounded-2xl border border-gray-200 p-6">
-                <p className="text-sm font-semibold">Reply (Banter response (Tinder message &apos;wyd&apos;) – playful</p>
+                <p className="text-sm font-semibold">Reply (banter to Tinder message &apos;wyd&apos;)</p>
                 <div className="mt-3 rounded-xl bg-white p-4 shadow">
                   <p className="text-sm text-gray-800">
-                  &ldqos;Considering two options: 1) perfecting my breakfast tacos before tmw morning, 2) convincing you to try option 1.&rdqos;
+                  &ldquor;Considering two options: 1) perfecting my breakfast tacos before tmw morning, 2) convincing you to try option 1.&rdquor;
                   </p>
                 </div>
               </div>
@@ -216,7 +216,7 @@ export default function Page() {
                 <p className="text-sm font-semibold">Ask out (Bumble shared foodie interest)</p>
                 <div className="mt-3 rounded-xl bg-white p-4 shadow">
                   <p className="text-sm text-gray-800">
-                  &ldqos;Into spots with with some awards to back up their claims? Great, same. I&apos;ll take you to my favorite if you&apos;ll tell me yours, deal?&rdqos;
+                  &ldquor;Into spots with with some awards to back up their claims? Great, same. I&apos;ll take you to my favorite if you&apos;ll tell me yours, deal?&rdquor;
                   </p>
                 </div>
               </div>
@@ -224,7 +224,7 @@ export default function Page() {
                 <p className="text-sm font-semibold">Recovery (declined to give number until after meeting)</p>
                 <div className="mt-3 rounded-xl bg-white p-4 shadow">
                   <p className="text-sm text-gray-800">
-                  &ldqos;Lil trad values? I respect that. We&apos;ll keep it classy like they did on those 1950s dating apps. Are you free Thurs or Fri?&rdqos;
+                  &ldquor;Lil trad values? I respect that. We&apos;ll keep it classy like they did on those 1950s dating apps. Are you free Thurs or Fri?&rdquor;
                   </p>
                 </div>
               </div>
@@ -262,6 +262,7 @@ export default function Page() {
               />
               </a>
             </div>
+            <br />
             <p className="mt-3 text-xs text-gray-500">
               By using Spurly, you agree to our {" "}
               <Link href="/terms-of-use" className="underline">Terms of Use</Link> and {" "}
