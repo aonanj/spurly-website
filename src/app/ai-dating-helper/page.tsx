@@ -32,17 +32,19 @@ export default function Page() {
   return (
     <>
       <header className="bg-[#BCCCDC] py-8 px-4 text-center">
-        <div className="mx-auto w-full max-w-[460px]">
-          <Image
-            src="/SpurlyArcLogo.png"             // /public/SpurlyArcLogo.png
-            alt="Spurly arc logo"
-            width={460}
-            height={200}
-            className="w-full h-auto object-contain drop-shadow-md transition-transform duration-150 hover:scale-[1.02]"
+
+        <div className="max-w-[450px] mx-auto transform transition-transform hover:scale-110">
+          <a href="https://www.spurly.io">
+            <Image
+              src="/SpurlyArcLogo.png"
+              alt="Spurly banner logo"
+              width={450}
+              height={196}
+            className="w-full h-auto object-contain drop-shadow-md transition-transform duration-150 hover:scale-[1.10]"
             priority
           />
+          </a>
         </div>
-
         <div className="mx-auto mt-3 w-full max-w-[360px]">
           <Image
             src="/SpurlyTagLine.png"             // /public/SpurlyTagLine.png
@@ -58,9 +60,9 @@ export default function Page() {
       <main className="min-h-screen bg-white text-gray-900">
         {/* HERO */}
         <section className="relative overflow-hidden bg-[#BCCCDC]">
-          <div className="mx-auto grid w-full max-wd-6xl grid-cols-1 items-center gap-8 px-6 py-16 sm:py-24 md:grid-cols-2">
+          <div className="mx-auto grid w-full max-w-5xl grid-cols-1 items-center gap-8 px-6 py-16 sm:py-24 md:grid-cols-2">
             {/* Copy */}
-            <div>
+            <div className="md:pl-8 lg:pl-16">
               <h1 className="text-3xl font-bold tracking-tight sm:text-4xl">
                 A better, smarter AI dating assistant to help you find your words for your messages faster.
               </h1>
@@ -97,7 +99,7 @@ export default function Page() {
             </div>
 
             {/* Phone mockup with screenshot */}
-            <div className="flex justify-center md:justify-end">
+            <div className="flex justify-center md:justify-end md:pr-8 lg:pr-16">
               {/* Wrapper positions nav buttons slightly outside the phone */}
               <div className="relative">
                 <div className="relative aspect-[9/19] w-[320px] rounded-[2.2rem] border border-black/10 bg-white shadow-2xl">
