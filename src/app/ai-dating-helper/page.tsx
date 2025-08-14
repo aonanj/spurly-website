@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import { useState } from "react";
 
 export const metadata = {
   title: "AI Dating Helper for Tinder, Hinge & Bumble | Spurly",
@@ -11,7 +12,7 @@ export const metadata = {
   openGraph: {
     title: "Spurly – AI Dating Helper",
     description:
-      "Context-aware openers and replies for Tinder, Hinge, and Bumble that fit your tone.",
+      "Context-aware openers and replies for Tinder, Hinge, Bumble, Raya, OKCupid, and more that fit your tone.",
     url: "https://www.spurly.io/",
     siteName: "Spurly",
     type: "website",
@@ -20,11 +21,34 @@ export const metadata = {
     card: "summary_large_image",
     title: "Spurly – AI Dating Helper",
     description:
-      "Context-aware openers and replies for Tinder, Hinge, and Bumble that fit your tone.",
+      "Context-aware openers and replies for Tinder, Hinge, Bumble, Raya, OKCupid, and more that fit your style and match their vibe.",
   },
 };
 
 export default function Page() {
+  const [currentSlide, setCurrentSlide] = useState(0)
+  const screenshots = [
+    {
+      src: '/SpurlyScreenShot-1.png',
+      alt: 'Spurly Context View',
+      description: 'Add context with screenshots to get Spurs that fit the conversation flow'
+    },
+    {
+      src: '/SpurlyScreenShot-3.png',
+      alt: 'Spurly Message Suggestions',
+      description: 'Choose from multiple different Spurs to match your conversation style'
+    }
+  ]
+
+    const nextSlide = () => {
+    setCurrentSlide((prev) => (prev + 1) % screenshots.length)
+  }
+
+  const prevSlide = () => {
+    setCurrentSlide((prev) => (prev - 1 + screenshots.length) % screenshots.length)
+  }
+
+  
   return (
     <>
       <header className="bg-[#BCCCDC] py-8 px-4 text-center">
@@ -58,20 +82,25 @@ export default function Page() {
             {/* Copy */}
             <div>
               <h1 className="text-4xl font-extrabold tracking-tight sm:text-5xl">
-                AI Dating Helper that writes <span className="italic">your</span> kind of message
+                A Better, Smarter AI Dating Assistant to help you find your words for your message.
               </h1>
               <p className="mt-4 text-lg leading-relaxed text-gray-800">
-                Paste a chat snippet or add a screenshot. Spurly reads the context, mirrors your tone, and drafts
-                short, sendable openers and replies for Tinder, Hinge, and Bumble—without the generic bot vibe.
+                Add up to six photos at a time showing your connection pics, profile, or socials, and get personality insights including their traits and communication style so you can better connect with them. Or add screenshots of a conversation to get up to four suggested messages that can be dropped straight into most dating and messaging apps with Spurly's messaging app integration feature. Less guessing, more connecting. Find your words faster, with Spurly.
               </p>
 
-              <div className="mt-6 flex flex-wrap items-center gap-3">
-                <a
-                  href="https://apps.apple.com/us/app/spurly-ai/id6746918550"
-                  className="inline-flex items-center justify-center rounded-2xl bg-black px-5 py-3 text-sm font-semibold text-white shadow-sm hover:bg-gray-900"
-                >
-                  Get it on the App Store
+              <div className="mt-6 flex flex-wrap items-center gap-10">
+                <div className="relative w-full max-w-[200px] h-[58px] mx-auto transform transition-transform hover:scale-110">
+                <a href="https://apps.apple.com/us/app/spurly-ai/id6746918550">
+                    <Image
+                    src="/AppStoreBadge.png"
+                    alt="App Store Badge"
+                    width={200}
+                    height={58}
+                    className="w-full h-auto object-contain"
+                    priority
+                />
                 </a>
+                </div>
                 <Link
                   href="#how-it-works"
                   className="rounded-2xl border border-gray-900 px-5 py-3 text-sm font-semibold shadow-sm hover:shadow"
@@ -88,24 +117,41 @@ export default function Page() {
             {/* Phone mockup with screenshot */}
             <div className="flex justify-center md:justify-end">
               <div className="relative aspect-[9/19] w-[320px] rounded-[2.2rem] border border-black/10 bg-white shadow-2xl">
-                {/* Notch */}
-                <div className="absolute left-1/2 top-0 z-10 h-6 w-40 -translate-x-1/2 rounded-b-2xl bg-black/90" />
-                {/* Bezel */}
-                <div className="absolute inset-2 rounded-[1.9rem] bg-black/5" />
                 {/* Screen */}
                 <div className="absolute inset-3 overflow-hidden rounded-[1.6rem] bg-white">
                   <Image
-                    src="/SpurlyScreenShot-2.png"
-                    alt="Spurly composing a reply from a dating app screenshot"
-                    fill
+                    src={screenshots[currentSlide].src}
+                    alt={screenshots[currentSlide].alt}
                     sizes="(max-width: 768px) 320px, 400px"
-                    className="object-cover"
+                    className="object-contain bg-white"
                     priority
                   />
                 </div>
-              </div>
+                </div>
+                <button 
+                  onClick={prevSlide}
+                  className="absolute left-4 top-[400px] bg-[#BCCCDC] text-[#102A43] rounded-full w-12 h-12 flex items-center justify-center hover:bg-[#BCCCDC]/70 transition-colors text-3xl font-extrabold"
+                  aria-label="Previous screenshot"
+                >
+                  ‹
+                </button>
+                <button
+                  onClick={nextSlide}
+                  className="absolute right-4 top-[400px] bg-[#BCCCDC] text-[#102A43] rounded-full w-12 h-12 flex items-center justify-center hover:bg-[#BCCCDC]/70 transition-colors text-3xl font-extrabold"
+                  aria-label="Next screenshot"
+                >
+                  ›
+                </button>
             </div>
 
+
+
+          </div>
+        </section>
+
+        {/* QUICK HITS */}
+        <section className="bg-gray-50">
+          <div className="mx-auto w-full max-w-6xl px-6 py-10">
           </div>
         </section>
 
