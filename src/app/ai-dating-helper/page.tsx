@@ -68,8 +68,21 @@ export default function Page() {
                 Add up to six photos at a time showing your connection pics, profile, or socials, and get personality insights including their traits and communication style so you can better connect with them. Or add screenshots of a conversation to get up to four suggested messages that can be dropped straight into most dating and messaging apps with Spurly&apos;s messaging app integration feature. Less guessing, more connecting. Find your words faster, with Spurly.
               </p>
 
-              <div className="mt-6 flex w-full flex-col items-start gap-25 sm:flex-row sm:justify-start">
-                <div className="relative px-25 w-full max-w-[150px] h-[44px] transform transition-transform hover:scale-110">
+              <div className="mt-6 flex w-full flex-col items-start gap-40 sm:flex-row sm:justify-start">
+
+                <Link
+                  href="#how-it-works"
+                  className="inline-block bg-[#3A506B] hover:bg-[#9BC7FF] text-white font-medium py-2 px-7 rounded-lg transition-colors transform hover:scale-110 text-center"
+                >
+                  How it works
+                </Link>
+              </div>
+              <br />
+              <p className="mt-3 text-xs text-gray-700">
+                Across-app messaging integration feature does not require linked accounts. <Link href="#privacy" className="underline">Learn more</Link>.
+              </p>
+
+             <div className="relative px-25 w-full max-w-[150px] h-[44px] transform transition-transform hover:scale-110">
                   <a href="https://apps.apple.com/us/app/spurly-ai/id6746918550">
                     <Image
                       src="/AppStoreBadge.png"
@@ -81,17 +94,6 @@ export default function Page() {
                     />
                   </a>
                 </div>
-                <Link
-                  href="#how-it-works"
-                  className="inline-block bg-[#3A506B] hover:bg-[#9BC7FF] text-white font-medium py-2 px-6 rounded-lg transition-colors transform hover:scale-105 text-center"
-                >
-                  How it works
-                </Link>
-              </div>
-              <br />
-              <p className="mt-3 text-xs text-gray-700">
-                Across-app messaging integration feature does not require linked accounts. <Link href="#privacy" className="underline">Learn more</Link>.
-              </p>
             </div>
 
             {/* Phone mockup with screenshot */}
@@ -161,9 +163,9 @@ export default function Page() {
           <h2 className="text-2xl font-bold">How it works</h2>
           <div className="mt-6 grid gap-5 md:grid-cols-3">
             <div className="rounded-2xl border border-gray-200 p-6">
-              <p className="text-sm font-semibold">1) Share context</p>
+              <p className="text-sm font-semibold">(1) Share some context with Spurly</p>
               <p className="mt-1 text-sm text-gray-700">
-                Paste chat text or add a screenshot. Spurly extracts the useful bits (bios, prompts, recent messages).
+                Add up to six photos of a conversation, connection and their socials, and anything else relevant.
               </p>
             </div>
             <div className="rounded-2xl border border-gray-200 p-6">
