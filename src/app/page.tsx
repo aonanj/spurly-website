@@ -15,12 +15,12 @@ export default function SpurlyLandingPage() {
     {
       src: '/SpurlyScreenShot-1.png',
       alt: 'Spurly Context View',
-      description: 'Add context with screenshots to get Spurs that fit the conversation flow'
+      description: 'Add context with screenshots to get spurs that fit the conversation flow'
     },
     {
       src: '/SpurlyScreenShot-2.png',
       alt: 'Spurly Message Suggestions',
-      description: 'Choose from multiple different Spurs to match your conversation style'
+      description: 'Choose from multiple different spurs to match your conversation style'
     },
     {
       src: '/SpurlyScreenShot-3.png',
@@ -30,17 +30,17 @@ export default function SpurlyLandingPage() {
     {
       src: '/SpurlyScreenShot-4.png',
       alt: 'Spurly Conversation History',
-      description: 'Edit and copy Spurs that can be dropped straight into any messaging app'
+      description: 'Edit and copy spurs that can be dropped straight into any messaging app'
     },
     {
       src: '/SpurlyScreenShot-5.png',
       alt: 'Spurly Personalization',
-      description: 'Customize Spursuggestions based on your preferences and style'
+      description: 'Customize spur suggestions based on your preferences and style'
     },
     {
       src: '/SpurlyScreenShot-6.png',
       alt: 'Spurly Quick Actions',
-      description: 'Save your favorite Spurs and access them with one tap'
+      description: 'Save your favorite spurs and access them with one tap'
     },
     {
       src: '/SpurlyScreenShot-7.png',
@@ -164,13 +164,13 @@ export default function SpurlyLandingPage() {
           <li className="flex items-start">
             <span className="mr-3 text-[#617D98]">•</span>
             <span className="text-[#617D98]">
-              Control how much freedom Spurly has when suggesting Spurs: turn down Spurly&apos;s creativity if you&apos;re feeling a little reserved, or turn it all the way up to get Spurs that can be pretty wild. 
+              Control how much freedom Spurly has when suggesting spurs: turn down Spurly&apos;s creativity if you&apos;re feeling a little reserved, or turn it all the way up to get spurs that can be pretty wild. 
             </span>
           </li>
           <li className="flex items-start">
             <span className="mr-3 text-[#617D98]">•</span>
             <span className="text-[#617D98]">
-              Have Spurly check what&apos;s trending so you get fresh Spurs based on the latest trends and topics—making your messages stand out from the usual &ldquo;how was your weekend?&rdquo; ones that everyone else is sending. 
+              Have Spurly check what&apos;s trending so you get fresh spurs based on the latest trends and topics—making your messages stand out from the usual &ldquo;how was your weekend?&rdquo; ones that everyone else is sending. 
             </span>
           </li>
         </ul>

@@ -11,7 +11,7 @@ export default function Page() {
     {
       src: '/SpurlyScreenShot-1.png',
       alt: 'Spurly Context Vie',
-      description: 'Add context with screenshots to get Spurs that fit the conversation flow'
+      description: 'Add context with screenshots to get spurs that fit the conversation flow'
     },
     {
       src: '/SpurlyScreenShot-7.png',
@@ -47,7 +47,7 @@ export default function Page() {
         </div>
         <div className="mx-auto mt-3 w-full max-w-[360px]">
           <Image
-            src="/SpurlyTagLine.png"             // /public/SpurlyTagLine.png
+            src="/SpurlyTagLine.png"           
             alt="less guessing. more connecting."
             width={800}
             height={80}
