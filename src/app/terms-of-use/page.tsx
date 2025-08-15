@@ -23,20 +23,18 @@ export default function TermsOfUse() {
       </header>
 
       {/* Main Content */}
+      <h1 className= "sr-only text-lg font-semibold mt-6 mb-3">A better, smarter AI-powered dating and messaging assistant. Spurly doesn&apos;t replace your words, it helps you find your own words, just faster. Stop guessing, start connecting.</h1>
       <main className="flex-1 p-8 max-w-4xl w-full mx-auto">
         <h2 className="text-[#3A506B] text-center text-3xl font-bold mb-6">
           Spurly Terms of Use
         </h2>
 
         <p className="text-[#3A506B] mb-4">
-          Welcome to Spurly™ - a contextually informed AI messaging assistant (&ldquo;the App&rdquo;). End-to-end design, development, and deployment of Spurly was done by Phaethon Order LLC, a US-based software development and technology LLC. 
-          (&ldquo;Company&rdquo;, &ldquo;we&rdquo;, &ldquo;us&rdquo;, or &ldquo;our&rdquo;). Spurly is solely owned, operated, and provided by Phaethon Order LLC. These Terms of Use (&ldquo;Terms&rdquo;, &ldquo;User Agreement&rdquo;, &ldquo;End User License Agreement&rdquo;, &ldquo;EULA&rdquo;) govern your use of the 
-          Spurly mobile application and related services (collectively, the &ldquo;Service&rdquo;).
-        </p>
+          Spurly™ is a contextually informed AI dating and messaging assistant (&ldquo;the App&rdquo;). End-to-end design, development, and deployment of Spurly was done by Phaethon Order LLC, a US-based software development and technology company. 
+          (&ldquo;Company&rdquo;, &ldquo;we&rdquo;, &ldquo;us&rdquo;, &ldquo;our&rdquo;). Spurly is solely owned, operated, and provided by Phaethon Order LLC. For information or to contact Phaethon Order, please visit: <Link href="https://www.phaethon.llc" className="text-[#3A506B] underline hover:text-[#9BC7FF] transition-colors hover:no-underline">www.phaethon.llc</Link>.</p>
 
-        <p className="text-[#3A506B] mb-4">
-          By downloading, installing, or using Spurly, you agree to be bound by these Terms. 
-          If you do not agree to these Terms, do not use the Service.
+          <p className="text-[#3A506B] mb-4">These Terms of Use (&ldquo;Terms&rdquo;, &ldquo;User Agreement&rdquo;, &ldquo;End User License Agreement&rdquo;, &ldquo;EULA&rdquo;) govern your use of the
+          Spurly mobile application and related services (collectively, the &ldquo;Service&rdquo;).
         </p>
 
         <h3 className="text-[#3A506B] text-lg font-semibold mt-6 mb-3">1. ACCEPTANCE OF TERMS</h3>
