@@ -1,7 +1,7 @@
 {
     "name": "Spurly - AI Messaging Assistant",
     "short_name": "Spurly",
-    "description": "Find your words faster with AI-powered message suggestions for dating apps and texts",
+    "description": "Spurly App - Get AI-powered, context-informed message suggestions and personality insights for dating and messaging apps. Less guessing, more connecting with Spurly.",
     "start_url": "/",
     "display": "standalone",
     "background_color": "#F0F4F8",

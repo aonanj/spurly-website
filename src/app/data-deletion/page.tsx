@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 export const metadata = {
   title: 'Spurly™ – Data deletion policy and procedure',
-  description: 'Easily delete your Spurly account and personal data. This page provides clear, step-by-step instructions for in-app deletion or requesting data removal via email.',
+  description: 'Spurly: Get AI-powered, context-informed message suggestions and personality insights to use with dating and messaging apps. Less guessing, more connecting. With Spurly. Policy and Procedure for removing your account and personal data from the app.',
 }
 
 export default function DataDeletionPage() {

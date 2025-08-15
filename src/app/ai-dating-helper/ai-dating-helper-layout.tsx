@@ -42,7 +42,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Spurly - Contextually Informed AI Dating Assistant with Message Suggestions',
-    description: 'Find your words faster with Spurly. Get AI-powered message, context-informed message suggestions for dating apps, texts, and DMs that match your vibe with theirs.',
+    description: 'Spurly IP: Branding & Visual Identity. Get AI-powered, context-informed message suggestions and personality insights to use with dating and messaging apps.',
     images: ['/SpurlyArcLogo.png'],
     creator: '@spurlyapp',
   },

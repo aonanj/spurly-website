@@ -131,10 +131,10 @@ export default function BrandingAssets() {
 
 export const metadata = {
   title: 'Spurly – Branding & Visual Identity',
-  description: 'Official logos and color palette of Spurly, protected under intellectual property laws.',
+  description: 'Spurly IP: Branding & Visual Identity. Get AI-powered, context-informed message suggestions and personality insights to use with dating and messaging apps.',
   openGraph: {
     title: 'Spurly – Branding & Visual Identity',
-    description: 'Browse Spurly’s protected logos and official color palette.',
+    description: 'Spurly IP: Branding & Visual Identity. Get AI-powered, context-informed message suggestions and personality insights to use with dating and messaging apps.',
     images: [
       {
         url: '/SpurlyArcLogo.png',
@@ -148,7 +148,7 @@ export const metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Spurly – Branding & Visual Identity',
-    description: 'Browse Spurly’s protected logos and official color palette.',
+    description: 'Spurly IP: Branding & Visual Identity. Get AI-powered, context-informed message suggestions and personality insights to use with dating and messaging apps.',
     images: ['/SpurlyArcLogo.png']
   }
 }

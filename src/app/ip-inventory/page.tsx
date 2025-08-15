@@ -109,5 +109,5 @@ export default function SpurlyIP() {
 
 export const metadata = {
   title: 'Spurly – Intellectual Property Inventory',
-  description: 'A categorized inventory of Spurly’s intellectual property including trademarks, copyrights, trade secrets, and patentable systems.'
+  description: 'Spurly IP: Non-exhaustive accounting of the intellectual property related to Spurly, . Get AI-powered, context-informed message suggestions and personality insights to use with dating and messaging apps.'
 }
