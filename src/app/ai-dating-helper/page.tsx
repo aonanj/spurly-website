@@ -10,7 +10,7 @@ export default function Page() {
   const screenshots = [
     {
       src: '/SpurlyScreenShot-1.png',
-      alt: 'Spurly Context View',
+      alt: 'Spurly Context Vie',
       description: 'Add context with screenshots to get Spurs that fit the conversation flow'
     },
     {
@@ -168,7 +168,7 @@ export default function Page() {
             <div className="rounded-2xl border border-gray-200 p-6">
               <p className="text-sm font-semibold">(1) Share some context with Spurly</p>
               <p className="mt-1 text-sm text-gray-700">
-                Add up to six photos of a conversation, connection and their socials, and anything else relevant.
+                Add up to six photos of a conversation, connection and/or their socials, and anything else relevant.
               </p>
             </div>
             <div className="rounded-2xl border border-gray-200 p-6">
@@ -250,7 +250,7 @@ export default function Page() {
         <section className="mx-auto w-full max-w-6xl px-6 pb-24 pt-10">
           <div className="rounded-3xl border border-gray-200 p-8 text-center">
             <h3 className="text-xl font-semibold">Stop guessing, start connecting. Download Spurly today.</h3>
-            <p className="mt-2 text-sm text-gray-700">We&apos;ll be randomly giving out a few limitless subscriptions to those that install before yearend (2025).</p>
+            <p className="mt-2 text-sm text-gray-700">We’ll be randomly giving out a few limitless subscriptions to those that install before yearend (2025).</p>
             <div className="relative p-8 justify-center items-center w-full max-w-[200px] h-[58px] mx-auto transform transition-transform hover:scale-110">
               <a href="https://apps.apple.com/us/app/spurly-ai/id6746918550">
                   <Image
