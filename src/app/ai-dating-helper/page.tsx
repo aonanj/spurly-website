@@ -64,10 +64,10 @@ export default function Page() {
             {/* Copy */}
             <div className="md:pl-8 lg:pl-16">
               <h1 className="text-3xl font-bold tracking-tight sm:text-4xl">
-                A better, smarter AI dating assistant to help you find your words for your messages faster.
+                A better, smarter AI-powered dating and messaging assistant. Spurly doesn't replace your words, it helps you find your own words, just faster. Stop guessing, start connecting. 
               </h1>
               <p className="mt-4 text-lg leading-relaxed text-gray-800">
-                Add up to six photos at a time showing your connection pics, profile, or socials, and get personality insights including their traits and communication style so you can better connect with them. Or add screenshots of a conversation to get up to four suggested messages that can be dropped straight into most dating and messaging apps with Spurly&apos;s messaging app integration feature. Less guessing, more connecting. Find your words faster, with Spurly.
+                Add up to six photos at a time showing your connection's pics, profile, or socials, and get personality insights including their traits and communication style so you can better connect with them. Or add screenshots of a conversation to get up to four suggested messages that can be dropped straight into most dating and messaging apps with Spurly&apos;s direct-messaging app integration feature. Less guessing, more connecting. 
               </p>
 
               <div className="mt-6 flex w-full flex-col items-start gap-25 sm:flex-row sm:justify-center">
@@ -94,8 +94,8 @@ export default function Page() {
               </div>
               <br />
               <p className="mt-3 text-xs text-gray-700">
-                Direct-app messaging integration feature does not require linked accounts. <Link href="#privacy" className="underline">Learn more</Link>.
-              </p> 
+                Spurly only collects the minimum amount of information necessary to provide app functionality. Your personal data will never be sold or shared by Spurly. Direct-messaging app integration functionality does not require linked accounts. <Link href="#privacy" className="underline">Privacy Policy</Link>.
+              </p>
             </div>
 
             {/* Phone mockup with screenshot */}
