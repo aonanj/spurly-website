@@ -131,7 +131,7 @@ export default function SpurlyLandingPage() {
           <li className="flex items-start">
             <span className="mr-3 text-[#617D98]">•</span>
             <span className="text-[#617D98]">
-              Screenshots of conversations - Spurly can suggest spurs to say next, with each one sounding natural and organical.
+              Screenshots of conversations - Spurly can suggest spurs to say next, with each one sounding natural and organic.
             </span>
           </li>
           <li className="flex items-start">
@@ -149,7 +149,7 @@ export default function SpurlyLandingPage() {
           <li className="flex items-start">
             <span className="mr-3 text-[#617D98]">•</span>
             <span className="text-[#617D98]">
-              Anything you want to add about yourself - Tell Spurly a little about yourself, and you&apos;ll get Spurs that fit you specifically so you can be comfortable and confident with the messages you send. 
+              Anything you want to add - Tell Spurly a little about yourself to get spurs you can be comfortable and confident in sending.
             </span>
           </li>
         </ul>
