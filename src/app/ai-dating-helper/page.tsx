@@ -63,7 +63,7 @@ export default function Page() {
           <div className="mx-auto grid w-full max-w-5xl grid-cols-1 items-center gap-8 px-6 py-16 sm:py-24 md:grid-cols-2">
             {/* Copy */}
             <div className="md:pl-8 lg:pl-16">
-              <h1 className="text-3xl font-bold tracking-tight sm:text-4xl">
+              <h1 className="text-3xl font-bold tracking-tight sm:text-2xl">
                 A better, smarter AI-powered dating and messaging assistant. Spurly doesn’t replace your words, it helps you find your own words, just faster. Stop guessing, start connecting. 
               </h1>
               <p className="mt-4 text-lg leading-relaxed text-gray-800">
