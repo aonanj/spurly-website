@@ -35,7 +35,7 @@ export default function SpurlyLandingPage() {
     {
       src: '/SpurlyScreenShot-5.png',
       alt: 'Spurly Personalization',
-      description: 'Customize Spur suggestions based on your preferences and style'
+      description: 'Customize Spursuggestions based on your preferences and style'
     },
     {
       src: '/SpurlyScreenShot-6.png',
