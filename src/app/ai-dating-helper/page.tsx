@@ -64,10 +64,10 @@ export default function Page() {
             {/* Copy */}
             <div className="md:pl-8 lg:pl-16">
               <h1 className="text-3xl font-bold tracking-tight sm:text-4xl">
-                A better, smarter AI-powered dating and messaging assistant. Spurly doesn't replace your words, it helps you find your own words, just faster. Stop guessing, start connecting. 
+                A better, smarter AI-powered dating and messaging assistant. Spurly doesn’t replace your words, it helps you find your own words, just faster. Stop guessing, start connecting. 
               </h1>
               <p className="mt-4 text-lg leading-relaxed text-gray-800">
-                Add up to six photos at a time showing your connection's pics, profile, or socials, and get personality insights including their traits and communication style so you can better connect with them. Or add screenshots of a conversation to get up to four suggested messages that can be dropped straight into most dating and messaging apps with Spurly&apos;s direct-messaging app integration feature. Less guessing, more connecting. 
+                Add up to six photos at a time showing your connection’s pics, profile, or socials, and get personality insights including their traits and communication style so you can better connect with them. Or add screenshots of a conversation to get up to four suggested messages that can be dropped straight into most dating and messaging apps with Spurly’s direct-messaging app integration feature. Less guessing, more connecting. 
               </p>
 
               <div className="mt-6 flex w-full flex-col items-start gap-25 sm:flex-row sm:justify-center">
