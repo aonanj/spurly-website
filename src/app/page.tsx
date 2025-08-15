@@ -119,7 +119,7 @@ export default function SpurlyLandingPage() {
       {/* Main Information Section */}
       <main className="flex-1 p-8 max-w-4xl w-full mx-auto text-[#102A43]/80">
         <p className="text-lg mb-6 text-[#102A43]/80">
-          Spurly is a better, smarter AI-powered dating and messaging assistant capable of incorporating context, deriving personality traits, and adopting your communication style. Spurly doesn’t replace your words, it helps you find your own words, just faster. Stop guessing, start connecting.
+          Spurly is a better, smarter AI-powered dating and messaging assistant capable of incorporating context, deriving personality traits, and adopting your communication style. Spurly helps you find your own words, just faster -- less guessing, more connecting.
         </p>
         <p className="text-lg mb-6 text-[#102A43]/80">With Spurly, &ldquo;contextually informed&rdquo; can be as broad or as specific as you want it to be (or the context can even be empty). Spurly is unique and stands out from other, generic AI messaging assistants in the different types of info it can use, alone or in combination, to suggest messages (spurs). With sufficient context Spurly can help you find your words to start a conversation and keep that conversation flowing up until you're ready to meet.</p>
 
