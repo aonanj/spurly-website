@@ -121,9 +121,9 @@ export default function SpurlyLandingPage() {
         <p className="text-lg mb-6 text-[#102A43]/80">
           Spurly is a better, smarter AI-powered dating and messaging assistant capable of incorporating context, deriving personality traits, and adopting your communication style. Spurly helps you find your own words, just faster.
         </p>
-        <p className="text-lg mb-6 text-[#102A43]/80">With Spurly, &ldquo;contextually informed&rdquo; can be as broad or as specific as you want it to be (or the context can even be empty). Spurly is unique and stands out from other, generic AI messaging assistants in the different types of info it can use, alone or in combination, to suggest messages (&ldquo;spurs&rdquo;). With or without context though, Spurly can help you find your own words to start a conversation and keep up that conversation flow the whole time.</p>
+        <p className="text-lg mb-6 text-[#102A43]/80">With Spurly, &ldquo;contextually informed&rdquo; can be as broad or as specific as you want (the context can even be empty). Spurly stands out from other, generic AI chat bots in the different types of info it can use to suggest messages (&ldquo;spurs&rdquo;). With or without context though, Spurly can help you find your own words to start a conversation and keep up that conversation flow the whole time.</p>
 
-        <p className="text-lg mb-6 text-[#102A43]/80">Everyone is different, so you connect with different people in different ways. Spurly is expertly designed to help you get there faster - less guessing, more connecting - so you don&apos;t have to miss another connection simply because you couldn&apos;t find the right words fast enough. For example, Spurly can get context information from:
+        <p className="text-lg mb-6 text-[#102A43]/80">Everyone is different, so you connect with different people in different ways. Spurly is expertly designed to help you get there faster - less guessing, more connecting - so you don&apos;t have to miss out on another connection simply because you couldn&apos;t think of anything to say. For example, Spurly can get context information from:
         </p>
 
         {/* Features List */}
@@ -131,7 +131,7 @@ export default function SpurlyLandingPage() {
           <li className="flex items-start">
             <span className="mr-3 text-[#617D98]">•</span>
             <span className="text-[#617D98]">
-              Screenshots of conversations - Spurly can suggest what to say next, and in that help your conversations flow naturally and organically.
+              Screenshots of conversations - Spurly can suggest spurs to say next, with each one sounding natural and organical.
             </span>
           </li>
           <li className="flex items-start">
@@ -143,7 +143,7 @@ export default function SpurlyLandingPage() {
           <li className="flex items-start">
             <span className="mr-3 text-[#617D98]">•</span>
             <span className="text-[#617D98]">
-              Screenshots of profiles - Spurly can examine those for text and other features that help generate Spurs your connections will want to respond to first. 
+              Screenshots of profiles or socials - Spurly can analyze those for their interests and other info, and then suggest ways to communicate with them.
             </span>
           </li>
           <li className="flex items-start">
