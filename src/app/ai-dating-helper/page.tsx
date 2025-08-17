@@ -64,7 +64,7 @@ export default function Page() {
             {/* Copy */}
             <div className="md:pl-8 lg:pl-16">
               <h1 className="text-3xl font-bold tracking-tight sm:text-2xl">
-                A better, smarter AI-powered dating and messaging assistant. Spurly doesn’t replace your words, it helps you find your own words, just faster.
+                A better, smarter AI-powered dating and messaging assistant. Spurly is the only context-aware AI dating assistant. Don’t send the same try-hard messages that chat bots output. Find your own words, just faster, with Spurly. 
               </h1>
               <p className="mt-4 text-lg leading-relaxed text-gray-800">
                 Add up to six photos at a time showing your connection’s pics, profile, or socials, and get personality insights including their traits and communication style so you can better connect with them. Or add screenshots of a conversation to get up to four suggested messages (“spurs”) that can be dropped straight into most dating and messaging apps with Spurly’s direct-messaging app integration feature. Download Spurly on the App Store, and stop guessing, start connecting.
@@ -199,7 +199,7 @@ export default function Page() {
                 </div>
               </div>
               <div className="rounded-2xl border border-gray-200 p-6">
-                <p className="text-sm font-semibold">Banter Spur (responding to &ldqos;wyd tn&rdqos; message)</p>
+                <p className="text-sm font-semibold">Banter Spur (responding to &ldquo;wyd tn&rdquo; message)</p>
                 <div className="mt-3 rounded-xl bg-white p-4 shadow">
                   <p className="text-sm text-gray-800">
                   &ldquo;Considering two options: 1) perfecting my breakfast tacos before tmw morning, 2) convincing you to try option 1.&rdquo;
@@ -215,7 +215,7 @@ export default function Page() {
                 </div>
               </div>
               <div className="rounded-2xl border border-gray-200 p-6">
-                <p className="text-sm font-semibold">Cool Spur (responding to &ldqos;don&apos;t give out my # until meeting in person&rdqos; message)</p>
+                <p className="text-sm font-semibold">Cool Spur (responding to &ldquo;don&apos;t give out my # until meeting in person&rdquo; message)</p>
                 <div className="mt-3 rounded-xl bg-white p-4 shadow">
                   <p className="text-sm text-gray-800">
                   &ldquo;Trad values? I respect that. We&apos;ll keep it classy like they did on those 1950s dating apps. Are you free Thurs or Fri?&rdquo;

@@ -119,9 +119,9 @@ export default function SpurlyLandingPage() {
       {/* Main Information Section */}
       <main className="flex-1 p-8 max-w-4xl w-full mx-auto text-[#102A43]/80">
         <h1 className="text-lg mb-6 text-[#102A43]/80">
-          Spurly is a better, smarter AI-powered dating and messaging assistant capable of incorporating profile information, analyzing photos for personality insights, and modifying its suggestion engine so chatting with your connections feels more natural and matches their communication style. Spurly helps you find your own words, just faster.
+          Spurly is a better, smarter AI-powered dating and messaging assistant capable of incorporating profile information, analyzing photos for personality insights, and modifying its message suggestions (&ldquo;spurs&rdquo;) so chatting with your connections feels more natural and matches communication styles. Spurly helps you find your own words, just faster.
         </h1>
-        <h1 className="text-lg font-normal mb-6 text-[#102A43]/80">Spurly is &ldquo;context aware&rdquo;, meaning that info about yourself or about your connection that you add is used for adapting the tone, word choice, content, etc. of message suggestions (&ldquo;spurs&rdquo;). You&apos;re in control of the context, and you can be as broad or as specific as you want. Spurly stands out from generic AI chat bots in the different types of info it can use for suggesting spurs. Spurly even works great without any context. With or without context though, Spurly can help you find your own words to start a conversation and keep up that conversation flow the whole time.</h1>
+        <h1 className="text-lg font-normal mb-6 text-[#102A43]/80">Spurly is &ldquo;context aware&rdquo;, meaning that info about yourself or about your connection that you add can be used to adapt the tone, word choice, content, etc. when suggesting spurs. You&apos;re in control of the context, and you can be as broad or as specific as you want. Spurly stands out from generic AI chat bots in the different types of info it can use for suggesting spurs, but Spurly works great even without any context too. In any situation, Spurly can help you find your own words to start a conversation and keep up that conversation flow the whole time.</h1>
 
         <h1 className="text-lg mb-6 text-[#102A43]/80">Everyone is different, so you connect with different people in different ways. Spurly is expertly designed to help you get there faster - less guessing, more connecting - so you don&apos;t have to miss out on another connection simply because you couldn&apos;t think of anything to say. For example, Spurly&apos;s context awareness can come from:</h1>
 
@@ -169,7 +169,7 @@ export default function SpurlyLandingPage() {
           <li className="flex items-start">
             <span className="mr-3 text-[#617D98]">•</span>
             <span className="text-[#617D98]">
-              Have Spurly check what&apos;s new in sports, entertainment, culture, and more, and you&apos;ll get fresh spurs based on the latest trends and topics — making your messages stand out from the usual &ldquo;how was your weekend?&rdquo; ones that everyone else is sending.
+              Have Spurly check what&apos;s new in entertainment, sports, viral social media, and more, and you&apos;ll get fresh spurs based on the latest trends and topics — making your messages stand out from the usual &ldquo;how was your weekend?&rdquo; that everyone else is sending.
             </span>
           </li>
         </ul>
