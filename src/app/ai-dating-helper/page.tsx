@@ -64,10 +64,10 @@ export default function Page() {
             {/* Copy */}
             <div className="md:pl-8 lg:pl-16">
               <h1 className="text-3xl font-bold tracking-tight sm:text-2xl">
-                A better, smarter AI-powered dating and messaging assistant. Spurly doesn’t replace your words, it helps you find your own words, just faster. Stop guessing, start connecting. 
+                A better, smarter AI-powered dating and messaging assistant. Spurly doesn’t replace your words, it helps you find your own words, just faster.
               </h1>
               <p className="mt-4 text-lg leading-relaxed text-gray-800">
-                Add up to six photos at a time showing your connection’s pics, profile, or socials, and get personality insights including their traits and communication style so you can better connect with them. Or add screenshots of a conversation to get up to four suggested messages that can be dropped straight into most dating and messaging apps with Spurly’s direct-messaging app integration feature. Less guessing, more connecting. 
+                Add up to six photos at a time showing your connection’s pics, profile, or socials, and get personality insights including their traits and communication style so you can better connect with them. Or add screenshots of a conversation to get up to four suggested messages (“spurs”) that can be dropped straight into most dating and messaging apps with Spurly’s direct-messaging app integration feature. Download Spurly on the App Store, and stop guessing, start connecting.
               </p>
 
               <div className="mt-6 flex w-full flex-col items-start gap-25 sm:flex-row sm:justify-center">
@@ -94,7 +94,7 @@ export default function Page() {
               </div>
               <br />
               <p className="mt-3 text-xs text-gray-700">
-                Spurly only collects the minimum amount of information necessary to provide app functionality. Your personal data will never be sold or shared by Spurly. Direct-messaging app integration functionality does not require linked accounts. <Link href="#privacy" className="underline">Privacy Policy</Link>.
+                Spurly only collects the minimum amount of personal data necessary to provide app functionality. Your data will never be sold or shared by Spurly or its parent company. Direct-messaging app integration functionality does not require linked accounts. <Link href="#privacy" className="underline">Privacy Policy</Link>.
               </p>
             </div>
 
@@ -140,15 +140,15 @@ export default function Page() {
             <ul className="grid grid-cols-1 gap-4 sm:grid-cols-3">
               <li className="rounded-2xl border border-gray-200 p-5">
                 <p className="text-sm font-semibold">Context-aware suggestions</p>
-                <p className="mt-1 text-sm text-gray-600">Introduce yourself and respond in ways that feel natural to you.</p>
+                <p className="mt-1 text-sm text-gray-600">Start chatting with spurs suggested to feel natural to you.</p>
               </li>
               <li className="rounded-2xl border border-gray-200 p-5">
                 <p className="text-sm font-semibold">Tone matching</p>
-                <p className="mt-1 text-sm text-gray-600">Get four spurs per request, each with a unique tone.</p>
+                <p className="mt-1 text-sm text-gray-600">Get four spurs per request, each with unique tone and content.</p>
               </li>
               <li className="rounded-2xl border border-gray-200 p-5">
                 <p className="text-sm font-semibold">Real-time learning</p>
-                <p className="mt-1 text-sm text-gray-600">Liking and disliking spurs adjusts Spurly&apos;s behavior.</p>
+                <p className="mt-1 text-sm text-gray-600">Spurly is constantly updating how it suggests spurs based on the context you provide.</p>
               </li>
             </ul>
           </div>
@@ -161,25 +161,25 @@ export default function Page() {
             <div className="rounded-2xl border border-gray-200 p-6">
               <p className="text-sm font-semibold">(1) Share some context with Spurly</p>
               <p className="mt-1 text-sm text-gray-700">
-                Add up to six photos of a conversation, connection and/or their socials, and anything else relevant.
+                Add up to six photos of a conversation, a connection, their socials, or other context photos.
               </p>
             </div>
             <div className="rounded-2xl border border-gray-200 p-6">
               <p className="text-sm font-semibold">(2) Focus Spurly for what you need</p>
               <p className="mt-1 text-sm text-gray-700">
-                Type in a topic and/or pick one of multiple situations (e.g., setup a date, recovery, cold intro).
+                Set the topic of conversation and the current type of situation (e.g., setup a date, start a conversation, recover from a bad message, and more).
               </p>
             </div>
             <div className="rounded-2xl border border-gray-200 p-6">
               <p className="text-sm font-semibold">(3) Pick a spur (edit) and send</p>
               <p className="mt-1 text-sm text-gray-700">
-                Get four unique spurs. Use direct-messaging app integration to drop one straight into the app you want.
+                Get four unique spurs. Edit them right in place. Then drop your favorite straight into the app you want with Spurly&apos;s direct-messaging app integration.
               </p>
             </div>
           </div>
           <br />
           <p className="mt-3 text-md text-gray-700">
-                Or see what Spurly comes up with without much direction -- just tap the &ldquo;Get Spurs&rdquo; button and go straight to step 3.
+                Or see what Spurly suggests without much context - skip straight to step 3 by tapping the &ldquo;Get Spurs&rdquo; button.
               </p>
 
         </section>
@@ -190,16 +190,16 @@ export default function Page() {
             <h2 className="text-2xl font-bold">Real Examples</h2>
             <div className="mt-6 grid gap-6 md:grid-cols-2">
               <div className="rounded-2xl border border-gray-200 p-6">
-                <p className="text-sm font-semibold">Opener (from Hinge prompt &apos;Two truths and a lie&apos;)</p>
+                <p className="text-sm font-semibold">Main Spur (using prompt from profile: &apos;Two truths and a lie&apos;)</p>
                 <div className="mt-3 rounded-xl bg-white p-4 shadow">
                   <p className="text-sm text-gray-800">
-                  &ldquo;Okay, calling it: you&apos;ve for sure gone skydiving, prob hate olives, and the lie is owning
+                  &ldquo;Okay, calling it: you&apos;ve for sure gone skydiving and you hate olives, right? So the lie is owning
                   three cats. If I&apos;m wrong, I owe you a drink. If I&apos;m right, you have to let me buy you a drink.&rdquo;
                   </p>
                 </div>
               </div>
               <div className="rounded-2xl border border-gray-200 p-6">
-                <p className="text-sm font-semibold">Reply (banter to Tinder message &apos;wyd&apos;)</p>
+                <p className="text-sm font-semibold">Banter Spur (responding to &ldqos;wyd tn&rdqos; message)</p>
                 <div className="mt-3 rounded-xl bg-white p-4 shadow">
                   <p className="text-sm text-gray-800">
                   &ldquo;Considering two options: 1) perfecting my breakfast tacos before tmw morning, 2) convincing you to try option 1.&rdquo;
@@ -207,23 +207,23 @@ export default function Page() {
                 </div>
               </div>
               <div className="rounded-2xl border border-gray-200 p-6">
-                <p className="text-sm font-semibold">Ask out (Bumble shared foodie interest)</p>
+                <p className="text-sm font-semibold">Warm Spur (using interests from Bumble profile)</p>
                 <div className="mt-3 rounded-xl bg-white p-4 shadow">
                   <p className="text-sm text-gray-800">
-                  &ldquo;Into spots with with some awards to back up their claims? Great, same. I&apos;ll take you to my favorite if you&apos;ll tell me yours, deal?&rdquo;
+                  &ldquo;Looks like you&apos;re a fan of places with some awards to back up their claims. Great, same. I&apos;ll take you to my favorite if you&apos;ll tell me yours, deal?&rdquo;
                   </p>
                 </div>
               </div>
               <div className="rounded-2xl border border-gray-200 p-6">
-                <p className="text-sm font-semibold">Recovery (declined to give number until after meeting)</p>
+                <p className="text-sm font-semibold">Cool Spur (responding to &ldqos;don&apos;t give out my # until meeting in person&rdqos; message)</p>
                 <div className="mt-3 rounded-xl bg-white p-4 shadow">
                   <p className="text-sm text-gray-800">
-                  &ldquo;Lil trad values? I respect that. We&apos;ll keep it classy like they did on those 1950s dating apps. Are you free Thurs or Fri?&rdquo;
+                  &ldquo;Trad values? I respect that. We&apos;ll keep it classy like they did on those 1950s dating apps. Are you free Thurs or Fri?&rdquo;
                   </p>
                 </div>
               </div>
             </div>
-            <p className="mt-4 text-xs text-gray-500">Examples are illustrative; Spurly adapts to your context and tone, as well as your connection&apos;s.</p>
+            <p className="mt-4 text-xs text-gray-500">Examples are illustrative; Spurly adapts to individual contexts, and each one is unique.</p>
           </div>
         </section>
 
@@ -231,10 +231,10 @@ export default function Page() {
         <section className="mx-auto w-full max-w-6xl px-6 py-16">
           <h2 className="text-2xl font-bold">What sets Spurly apart from AI chatbot apps</h2>
           <ul className="mt-6 grid list-disc gap-3 pl-6 text-sm text-gray-800">
-            <li>Understanding of full conversations, and considering it all leading up to the most recent messages being responded to. </li>
+            <li>Understanding full conversations, and using conversation history to suggest spurs. </li>
             <li>Get multiple spurs at once, each with a unique vibe and approach, not just the same message with slightly different wording.</li>
             <li>Direct-messaging app integrations. Tap to copy, and then pick from a list of just ones you have on your device.</li>
-            <li>Spurly is designed to be unobtrusive and to work <i>with</i> you in your conversations, instead of just speaking for you.</li>
+            <li>Spurly adapts to work with you specifically, instead of giving everyone the same cringy messages with too many emojis.</li>
           </ul>
         </section>
 
