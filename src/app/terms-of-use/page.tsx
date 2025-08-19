@@ -1,5 +1,11 @@
 import Image from 'next/image'
 import Link from 'next/link'
+import { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Spurly™ – Terms of Use',
+  description: 'Terms of Use for Spurly™: The Terms of Use and End User License Agreement governing access and use of Spurly (spurly.ai), the context-aware AI dating and messaging assistant available on iOS.',
+}
 
 export default function TermsOfUse() {
   const currentYear = new Date().getFullYear()
@@ -301,10 +307,4 @@ export default function TermsOfUse() {
         </footer>
     </div>
   )
-}
-
-// Add metadata for SEO
-export const metadata = {
-  title: 'Spurly – Terms of Use',
-  description: 'Terms of Use for Spurly: Get AI-powered, context-informed message suggestions and personality insights for dating and messaging apps. Less guessing, more connecting with Spurly.',
 }
