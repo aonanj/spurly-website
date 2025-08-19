@@ -48,8 +48,7 @@ export default function PrivacyPolicy() {
             <p className="leading-relaxed text-[#102A43]/90">
               We are committed to protecting your privacy and ensuring you have a positive experience 
               when using our App. This policy applies to all users of our Services and forms part of 
-              our Terms of Use.
-            </p>
+              the Spurly <Link href="https://www.spurly.io/terms-of-use" className="text-[#3A506B] underline hover:text-[#9BC7FF] transition-colors hover:no-underline">Terms of Use</Link>.</p>
           </section>
 
           <section className="animate-slide-up" style={{ animationDelay: '0.1s' }}>
