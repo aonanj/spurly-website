@@ -4,7 +4,7 @@ import { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Spurly™ – Terms of Use',
-  description: 'Terms of Use for Spurly™: The Terms of Use and End User License Agreement governing access and use of Spurly (spurly.ai), the context-aware AI dating and messaging assistant available on iOS.',
+  description: 'Terms of Use (EULA) governing use of the Spurly (spurly.ai) mobile app, the context-aware AI dating and messaging assistant available on iOS.',
 }
 
 export default function TermsOfUse() {
