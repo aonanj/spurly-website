@@ -59,7 +59,7 @@ export const seoConfig = {
     sameAs: [
       'https://x.com/spurlyApp',
       'https://www.facebook.com/spurlyApp',
-      'https://www.instagram.com/spurlyApp'
+      'https://www.instagram.com/spurly.ai'
     ],
     contactPoint: {
       '@type': 'ContactPoint',
