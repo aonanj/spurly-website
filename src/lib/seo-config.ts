@@ -53,10 +53,13 @@ export const seoConfig = {
     '@context': 'https://schema.org',
     '@type': 'Organization',
     name: 'Phaethon Order LLC',
+    description: 'Spurly: context-aware AI assistant for dating and messaging apps, providing personality insights and message suggestions. Owned and operated by Phaethon Order LLC.',
     url: 'https://www.spurly.io',
     logo: 'https://www.spurly.io/SpurlyAppIcon.png',
     sameAs: [
-      // Add your social media URLs here
+      'https://x.com/spurlyApp',
+      'https://www.facebook.com/spurlyApp',
+      'https://www.instagram.com/spurlyApp'
     ],
     contactPoint: {
       '@type': 'ContactPoint',
@@ -69,7 +72,7 @@ export const seoConfig = {
     '@context': 'https://schema.org',
     '@type': 'MobileApplication',
     name: 'Spurly',
-    description: 'AI-powered messaging assistant for dating apps and conversations',
+    description: 'Spurly: context-aware AI assistant for dating and messaging apps, providing personality insights and message suggestions. Less guessing, more connecting with Spurly.',
     applicationCategory: 'LifestyleApplication',
     operatingSystem: 'iOS, Android',
     offers: {
